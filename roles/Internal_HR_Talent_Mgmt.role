@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Internal HR Talent Mgmt</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>Internal HR Talent Mgmt</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Executive</parentRole>
+</Role>

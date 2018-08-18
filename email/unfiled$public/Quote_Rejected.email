@@ -1,0 +1,9 @@
+{!SBQQ__Quote__c.Pricing_Owner__c},
+
+The Quote for {!SBQQ__Quote__c.Opportunity_Name__c} has been rejected.
+
+Rejection Reason:
+{!ApprovalRequest.Comments}
+
+Please take the necessary corrective actions.
+{!SBQQ__Quote__c.Link}

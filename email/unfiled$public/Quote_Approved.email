@@ -1,0 +1,9 @@
+{!SBQQ__Quote__c.Sales_Op_Owner__c},
+
+The Quote for {!SBQQ__Quote__c.Opportunity_Name__c} has been approved.
+
+Approver Comments:
+{!ApprovalRequest.Comments}
+
+Link to the quote below.
+{!SBQQ__Quote__c.Link}

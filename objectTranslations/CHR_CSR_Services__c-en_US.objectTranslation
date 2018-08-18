@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Attendee List --></label>
+        <name>Attendee_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address --></label>
+        <name>Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 1 --></label>
+        <name>CL_Feedback_Recc_Response_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSA/SLA Review --></label>
+        <name>CSA_SLA_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- CHR/CSR Name --></label>
+        <name>CSR_Name__c</name>
+        <picklistValues>
+            <masterLabel>Amy Teeter</masterLabel>
+            <translation><!-- Amy Teeter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Donna Jones</masterLabel>
+            <translation><!-- Donna Jones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evan Bennett</masterLabel>
+            <translation><!-- Evan Bennett --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heather Wiley</masterLabel>
+            <translation><!-- Heather Wiley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jo Ann Kaita</masterLabel>
+            <translation><!-- Jo Ann Kaita --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kim Gould</masterLabel>
+            <translation><!-- Kim Gould --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oahu - Other</masterLabel>
+            <translation><!-- Oahu - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pam Shepard-Henderson</masterLabel>
+            <translation><!-- Pam Shepard-Henderson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pansy Mendez</masterLabel>
+            <translation><!-- Pansy Mendez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tennille Kephart</masterLabel>
+            <translation><!-- Tennille Kephart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theresa Menke</masterLabel>
+            <translation><!-- Theresa Menke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tina LePage</masterLabel>
+            <translation><!-- Tina LePage --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Class Name --></label>
+        <name>Class_Name__c</name>
+        <picklistValues>
+            <masterLabel>DISCRM101</masterLabel>
+            <translation><!-- DISCRM101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSCTERM101</masterLabel>
+            <translation><!-- DSCTERM101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMPHIR101</masterLabel>
+            <translation><!-- EMPHIR101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR 202-Employees</masterLabel>
+            <translation><!-- HR 202-Employees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR 202-Management</masterLabel>
+            <translation><!-- HR 202-Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR 303</masterLabel>
+            <translation><!-- HR 303 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR 404</masterLabel>
+            <translation><!-- HR 404 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SEXHAR101</masterLabel>
+            <translation><!-- SEXHAR101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SPV101</masterLabel>
+            <translation><!-- SPV101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WGHR101</masterLabel>
+            <translation><!-- WGHR101 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WPV101</masterLabel>
+            <translation><!-- WPV101 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client Congratulatory &amp; Milestone --></label>
+        <name>Client_Congratulatory_Milestone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Guidebook Training --></label>
+        <name>Client_Guidebook_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Name --></label>
+        <name>Client_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Referral Program --></label>
+        <name>Client_Referral_Program__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Requested Visit --></label>
+        <name>Client_Requested_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Rescue Support --></label>
+        <name>Client_Rescue_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Review --></label>
+        <name>Client_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Visit Notes --></label>
+        <name>Client_Visit_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <relationshipLabel><!-- CHR/CSR Services --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select once the necessary collateral has been ordered for the client touch. --></help>
+        <label><!-- Collateral Ordered --></label>
+        <name>Collateral_Ordered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Constructive Feedback --></label>
+        <name>Constructive_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact 1 --></label>
+        <name>Contact_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Center --></label>
+        <name>Cost_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria/Request --></label>
+        <name>Criteria__c</name>
+        <picklistValues>
+            <masterLabel>CLIENT VOL</masterLabel>
+            <translation><!-- CLIENT VOL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Growth</masterLabel>
+            <translation><!-- Client Growth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Request</masterLabel>
+            <translation><!-- Client Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Service Request</masterLabel>
+            <translation><!-- Client Service Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR COMP</masterLabel>
+            <translation><!-- HR COMP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR/Compliance Request</masterLabel>
+            <translation><!-- HR/Compliance Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Client</masterLabel>
+            <translation><!-- New Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OnBoarding Request</masterLabel>
+            <translation><!-- OnBoarding Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover</masterLabel>
+            <translation><!-- Rollover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SVC TEAM</masterLabel>
+            <translation><!-- SVC TEAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier 1</masterLabel>
+            <translation><!-- Tier 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volume/Size</masterLabel>
+            <translation><!-- Volume/Size --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Disciplinary Action Training --></label>
+        <name>Disciplinary_Action_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discrimination Training --></label>
+        <name>Discrimination_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- E-mail --></label>
+        <name>E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Hiring Training --></label>
+        <name>Employee_Hiring_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employees --></label>
+        <name>Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Evaluation --></label>
+        <name>Evaluation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <picklistValues>
+            <masterLabel>Healthcare Seminar</masterLabel>
+            <translation><!-- Healthcare Seminar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-client Session</masterLabel>
+            <translation><!-- Multi-client Session --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 10 --></label>
+        <name>Feedback_Response_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 2 --></label>
+        <name>Feedback_Response_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 3 --></label>
+        <name>Feedback_Response_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 4 --></label>
+        <name>Feedback_Response_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 5 --></label>
+        <name>Feedback_Response_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 6 --></label>
+        <name>Feedback_Response_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 7 --></label>
+        <name>Feedback_Response_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 8 --></label>
+        <name>Feedback_Response_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Feedback/Response 9 --></label>
+        <name>Feedback_Response_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Future Visit/Training Opportunities --></label>
+        <name>Future_Visit_Training_Opportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Compliance Introduction --></label>
+        <name>HR_Compliance_Introduction__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Compliance OnBoarding --></label>
+        <name>HR_Compliance_OnBoarding__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR OBservation 8 --></label>
+        <name>HR_OBservation_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 10 --></label>
+        <name>HR_Observation_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 1 --></label>
+        <name>HR_Observation_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 2 --></label>
+        <name>HR_Observation_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 3 --></label>
+        <name>HR_Observation_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 4 --></label>
+        <name>HR_Observation_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 5 --></label>
+        <name>HR_Observation_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 6 --></label>
+        <name>HR_Observation_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 7 --></label>
+        <name>HR_Observation_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Observation 9 --></label>
+        <name>HR_Observation_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Island --></label>
+        <name>Island__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager&apos;s Guide Training --></label>
+        <name>Manager_s_Guide_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Client Manager Introduction --></label>
+        <name>New_Client_Manager_Introduction__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Attendees --></label>
+        <name>No_of_Attendees__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Client Meeting --></label>
+        <name>OE_Client_Meeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Notes/HR Issues --></label>
+        <name>Other_Notes_HR_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Overall Rating --></label>
+        <name>Overall_Rating__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Participant Certificate --></label>
+        <name>Participant_Certificate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payroll/Invoice Delivery --></label>
+        <name>Payroll_Invoice_Delivery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personal Evaluation &amp; Learning --></label>
+        <name>Personal_Evaluation_Learning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Feedback/Comments --></label>
+        <name>Positive_Feedback__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post-Visit Follow-up --></label>
+        <name>Post_Visit_Follow_up__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post-Visit Notes --></label>
+        <name>Post_Visit_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-Visit Communication --></label>
+        <name>Pre_Visit_Communication__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-Visit Notes --></label>
+        <name>Pre_Visit_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unique</masterLabel>
+            <translation><!-- Unique --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ProService Core Services Review --></label>
+        <name>ProService_Core_Serivces_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProService Forms Library --></label>
+        <name>ProService_Forms_Library__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regulatory/Industry Update Notification --></label>
+        <name>Regulatory_Industry_Update_Notification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Accounts --></label>
+        <name>Related_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Visit --></label>
+        <name>Scheduled_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sensitivity/Diversity Training --></label>
+        <name>Sensitivity_Diversity_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set Appointment --></label>
+        <name>Set_Appointment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sexual Harassment Training --></label>
+        <name>Sexual_Harassment_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled</masterLabel>
+            <translation><!-- Scheduled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visit Declined</masterLabel>
+            <translation><!-- Visit Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Supervisory Training --></label>
+        <name>Supervisory_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Thank You Letter --></label>
+        <name>Thank_You_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visit Flag --></label>
+        <name>Visit_Flag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visit Length --></label>
+        <name>Visit_Length__c</name>
+        <picklistValues>
+            <masterLabel>105</masterLabel>
+            <translation><!-- 105 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>120</masterLabel>
+            <translation><!-- 120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>135</masterLabel>
+            <translation><!-- 135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>165</masterLabel>
+            <translation><!-- 165 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180</masterLabel>
+            <translation><!-- 180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>210</masterLabel>
+            <translation><!-- 210 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>240</masterLabel>
+            <translation><!-- 240 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>270</masterLabel>
+            <translation><!-- 270 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>330</masterLabel>
+            <translation><!-- 330 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>360</masterLabel>
+            <translation><!-- 360 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>390</masterLabel>
+            <translation><!-- 390 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45</masterLabel>
+            <translation><!-- 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>510</masterLabel>
+            <translation><!-- 510 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75</masterLabel>
+            <translation><!-- 75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Visit Quarter --></label>
+        <name>Visit_Quarter__c</name>
+        <picklistValues>
+            <masterLabel>1st Quarter - 2010</masterLabel>
+            <translation><!-- 1st Quarter - 2010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1st Quarter - 2011</masterLabel>
+            <translation><!-- 1st Quarter - 2011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1st Quarter - 2012</masterLabel>
+            <translation><!-- 1st Quarter - 2012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Quarter - 2010</masterLabel>
+            <translation><!-- 2nd Quarter - 2010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Quarter - 2011</masterLabel>
+            <translation><!-- 2nd Quarter - 2011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Quarter - 2012</masterLabel>
+            <translation><!-- 2nd Quarter - 2012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd Quarter - 2009</masterLabel>
+            <translation><!-- 3rd Quarter - 2009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd Quarter - 2010</masterLabel>
+            <translation><!-- 3rd Quarter - 2010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd Quarter - 2011</masterLabel>
+            <translation><!-- 3rd Quarter - 2011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd Quarter - 2012</masterLabel>
+            <translation><!-- 3rd Quarter - 2012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4th Quarter - 2009</masterLabel>
+            <translation><!-- 4th Quarter - 2009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4th Quarter - 2010</masterLabel>
+            <translation><!-- 4th Quarter - 2010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4th Quarter - 2011</masterLabel>
+            <translation><!-- 4th Quarter - 2011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4th Quarter - 2012</masterLabel>
+            <translation><!-- 4th Quarter - 2012 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Visit Score --></label>
+        <name>Visit_Score__c</name>
+        <picklistValues>
+            <masterLabel>Acceptance</masterLabel>
+            <translation><!-- Acceptance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Acknowledged</masterLabel>
+            <translation><!-- Acknowledged --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agreement</masterLabel>
+            <translation><!-- Agreement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Wage &amp; Hour Training --></label>
+        <name>Wage_Hour_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web-Based Resources Training --></label>
+        <name>Web_Based_Resources_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workplace Violence Training --></label>
+        <name>Workplace_Violence_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- 4-in-1 Card --></label>
+        <name>X4_in_1_Card__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Modules --></label>
+        <name>of_Modules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upcoming Call Campaign Notification --></label>
+        <name>upcoming_Call_Campaign_Notification__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>CHR/CSR Services</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CHR/CSR Services</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>CSR Services Layout</layout>
+        <sections>
+            <label><!-- Additional Notes --></label>
+            <section>Additional Notes</section>
+        </sections>
+        <sections>
+            <label><!-- CHR/CSR Services Visit Checklist --></label>
+            <section>CHR/CSR Services Visit Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Client Visit Observations --></label>
+            <section>Client Visit Observations</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Process Elements --></label>
+            <section>Process Elements</section>
+        </sections>
+        <sections>
+            <label><!-- Visit Topics --></label>
+            <section>Visit Topics</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

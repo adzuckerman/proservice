@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alert For Healthcare Pricing</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Alert For Healthcare Pricing</name>
+    <style>none</style>
+    <subject>Opportunity {!Opportunity.Name} is now ready for Healthcare pricing</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

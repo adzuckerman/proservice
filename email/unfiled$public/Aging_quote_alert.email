@@ -1,0 +1,5 @@
+{!SBQQ__Quote__c.OwnerFullName},
+
+A quote for "{!SBQQ__Quote__c.Opportunity_Name__c}" is pending issuance for more than 5 days. 
+
+Please follow the link to take the necessary actions: {!SBQQ__Quote__c.Link}

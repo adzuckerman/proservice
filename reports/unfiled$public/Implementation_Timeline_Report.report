@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Implementation_Coord__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Date_Contract_Received__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Team_Transition_Date__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.of_Employees__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Implementation Timeline Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Implementation__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Implementation__c.Contract_Start_Date__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

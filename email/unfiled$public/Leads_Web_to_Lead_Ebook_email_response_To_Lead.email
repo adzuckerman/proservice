@@ -1,0 +1,11 @@
+Thank you for downloading our free Employee Retention in Hawaii ebook.
+
+Company: {!Lead.Company} 
+Name: {!Lead.FirstName} {!Lead.LastName} 
+Role: {!Lead.Lead_Role__c}
+Phone: {!Lead.Phone} 
+Email: {!Lead.Email} 
+
+
+Sincerely, 
+The Team at ProService

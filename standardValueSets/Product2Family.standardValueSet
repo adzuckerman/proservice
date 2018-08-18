@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Healthcare</fullName>
+        <default>false</default>
+        <label>Healthcare</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Work Comp</fullName>
+        <default>false</default>
+        <label>Work Comp</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Configuration</fullName>
+        <default>false</default>
+        <label>Configuration</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Soft Cost</fullName>
+        <default>false</default>
+        <label>Soft Cost</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Surcharge</fullName>
+        <default>false</default>
+        <label>Surcharge</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dental</fullName>
+        <default>false</default>
+        <label>Dental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Chiro</fullName>
+        <default>false</default>
+        <label>Chiro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Drug/Vision</fullName>
+        <default>false</default>
+        <label>Drug/Vision</label>
+    </standardValue>
+</StandardValueSet>

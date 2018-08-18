@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Healthcare Campaign (send prior to OE for HC)   With the trend of rising healthcare costs showing no signs of slowing down in Hawaii, finding an affordable way to provide competitive, attractive benefit options has never been more challenging. ProService Hawaii can help you take the guesswork out of employee benefits to provide competitive, attractive benefit options for your business.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Rising employee health insurance premiums got you down?</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>Rising employee health insurance premiums got you down?</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

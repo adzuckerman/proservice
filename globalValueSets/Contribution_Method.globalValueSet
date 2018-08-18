@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Manually Set Amount</fullName>
+        <default>false</default>
+        <label>Manually Set Amount</label>
+    </customValue>
+    <customValue>
+        <fullName>Contribute EO Premium</fullName>
+        <default>false</default>
+        <label>Contribute EO Premium</label>
+    </customValue>
+    <customValue>
+        <fullName>Match EO Contribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Match EO Contribution</label>
+    </customValue>
+    <customValue>
+        <fullName>Manually Set Percentages</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Manually Set Percentages</label>
+    </customValue>
+    <customValue>
+        <fullName>Combine EO and Dependent</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Combine EO and Dependent</label>
+    </customValue>
+    <masterLabel>Contribution Method</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Closed - Client Satisfied</fullName>
+        <default>false</default>
+        <label>Closed - Client Satisfied</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Client - Unsatisfied</fullName>
+        <default>false</default>
+        <label>Client - Unsatisfied</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

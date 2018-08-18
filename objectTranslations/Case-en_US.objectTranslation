@@ -1,0 +1,2197 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- ACE Account Manager --></label>
+        <name>ACE_Account_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE BDM --></label>
+        <name>ACE_BDM__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Close Date --></label>
+        <name>ACE_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Cost Center --></label>
+        <name>ACE_Cost_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Description --></label>
+        <name>ACE_Description__c</name>
+    </fields>
+    <fields>
+        <help><!-- KARS Admin at the time of Opp creation --></help>
+        <label><!-- ACE KARS Admin --></label>
+        <name>ACE_KARS_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Open Date --></label>
+        <name>ACE_Open_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Owner --></label>
+        <name>ACE_Owner__c</name>
+        <picklistValues>
+            <masterLabel>Angie Nakasone</masterLabel>
+            <translation><!-- Angie Nakasone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brittany Quigg</masterLabel>
+            <translation><!-- Brittany Quigg --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Relations Specialist</masterLabel>
+            <translation><!-- Client Relations Specialist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Darren Ebisu</masterLabel>
+            <translation><!-- Darren Ebisu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deb Galvez</masterLabel>
+            <translation><!-- Deb Galvez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dianna McGraw</masterLabel>
+            <translation><!-- Dianna McGraw --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Erik De Ryke</masterLabel>
+            <translation><!-- Erik De Ryke --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Compliance Team</masterLabel>
+            <translation><!-- HR Compliance Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hannah Brandon</masterLabel>
+            <translation><!-- Hannah Brandon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harry Byerly</masterLabel>
+            <translation><!-- Harry Byerly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation><!-- Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>James Idemoto</masterLabel>
+            <translation><!-- James Idemoto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>John DeMarco</masterLabel>
+            <translation><!-- John DeMarco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan Cripps</masterLabel>
+            <translation><!-- Jordan Cripps --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan Wong</masterLabel>
+            <translation><!-- Jordan Wong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kevin Yamada</masterLabel>
+            <translation><!-- Kevin Yamada --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Larry Hubbell</masterLabel>
+            <translation><!-- Larry Hubbell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark Shiman</masterLabel>
+            <translation><!-- Mark Shiman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Natalie Spencer</masterLabel>
+            <translation><!-- Natalie Spencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paul Clark</masterLabel>
+            <translation><!-- Paul Clark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Services Team</masterLabel>
+            <translation><!-- Professional Services Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rob Gallo</masterLabel>
+            <translation><!-- Rob Gallo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stacy Casco</masterLabel>
+            <translation><!-- Stacy Casco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tony Guzzardo</masterLabel>
+            <translation><!-- Tony Guzzardo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ACE Primary Competitor --></label>
+        <name>ACE_Primary_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accountant/CPA/Consultant</masterLabel>
+            <translation><!-- Accountant/CPA/Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advantage Total Solutions</masterLabel>
+            <translation><!-- Advantage Total Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Support Services/Kevin Hurst</masterLabel>
+            <translation><!-- Business Support Services/Kevin Hurst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Options</masterLabel>
+            <translation><!-- Employer Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Pipeline, Inc.</masterLabel>
+            <translation><!-- Employer Pipeline, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FHB Payroll Service</masterLabel>
+            <translation><!-- FHB Payroll Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gusto Payroll</masterLabel>
+            <translation><!-- Gusto Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Benefix</masterLabel>
+            <translation><!-- HR Benefix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii Human Resources, Inc (HiHR)</masterLabel>
+            <translation><!-- Hawaii Human Resources, Inc (HiHR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii Workplace</masterLabel>
+            <translation><!-- Hawaii Workplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heartland Payroll Service</masterLabel>
+            <translation><!-- Heartland Payroll Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiLevel Advisory, LLC</masterLabel>
+            <translation><!-- HiLevel Advisory, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources Administration of Hawaii</masterLabel>
+            <translation><!-- Human Resources Administration of Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICON Employer Services of Hawaii</masterLabel>
+            <translation><!-- ICON Employer Services of Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kila Kila</masterLabel>
+            <translation><!-- Kila Kila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makai HR</masterLabel>
+            <translation><!-- Makai HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NorthWest Payroll Solutions, Inc.</masterLabel>
+            <translation><!-- NorthWest Payroll Solutions, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Source</masterLabel>
+            <translation><!-- One Source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Data Services</masterLabel>
+            <translation><!-- Pacific Data Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paychex</masterLabel>
+            <translation><!-- Paychex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staffing Solutions</masterLabel>
+            <translation><!-- Staffing Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent HR</masterLabel>
+            <translation><!-- Talent HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ACE Reason Details --></label>
+        <name>ACE_Reason_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Reason --></label>
+        <name>ACE_Reason__c</name>
+        <picklistValues>
+            <masterLabel>ACA</masterLabel>
+            <translation><!-- ACA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add/Drop Service(s)</masterLabel>
+            <translation><!-- Add/Drop Service(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation><!-- Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost</masterLabel>
+            <translation><!-- Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entity/Name/Signatory Change(s)</masterLabel>
+            <translation><!-- Entity/Name/Signatory Change(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Key Contact/Internal Change(s)</masterLabel>
+            <translation><!-- Key Contact/Internal Change(s) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If AM thinks that we might be at risk of losing the account, set to At Risk. Opps that are originally put as Not At Risk can be switched to At Risk should the situation change; however, once given the At Risk designation, the opp stays there. --></help>
+        <label><!-- ACE Risk Status --></label>
+        <name>ACE_Risk_Status__c</name>
+        <picklistValues>
+            <masterLabel>At Risk</masterLabel>
+            <translation><!-- At Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not At Risk</masterLabel>
+            <translation><!-- Not At Risk --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ACE Service Type --></label>
+        <name>ACE_Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Stage --></label>
+        <name>ACE_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Collateral Prep Requested</masterLabel>
+            <translation><!-- Collateral Prep Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Final Pricing Approved</masterLabel>
+            <translation><!-- Final Pricing Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost - Client Terming</masterLabel>
+            <translation><!-- Lost - Client Terming --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Negotiation</masterLabel>
+            <translation><!-- Negotiation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opp Opened w/No Action Requested</masterLabel>
+            <translation><!-- Opp Opened w/No Action Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Preliminary Pricing Back</masterLabel>
+            <translation><!-- Preliminary Pricing Back --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing Request Pending More Information</masterLabel>
+            <translation><!-- Pricing Request Pending More Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing Requested</masterLabel>
+            <translation><!-- Pricing Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time &amp; Attendance Go Live Pending</masterLabel>
+            <translation><!-- Time &amp; Attendance Go Live Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Underwriting</masterLabel>
+            <translation><!-- Underwriting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won - Adjustment w/Contract</masterLabel>
+            <translation><!-- Won - Adjustment w/Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won - Adjustment w/o Contract</masterLabel>
+            <translation><!-- Won - Adjustment w/o Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won - Entity/Name Change</masterLabel>
+            <translation><!-- Won - Entity/Name Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won - Letting Client Go/DNM</masterLabel>
+            <translation><!-- Won - Letting Client Go/DNM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won - No Action Taken</masterLabel>
+            <translation><!-- Won - No Action Taken --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ACE Team --></label>
+        <name>ACE_Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Termination Competitor --></label>
+        <name>ACE_Termination_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>ACW/Vensure Inc.</masterLabel>
+            <translation><!-- ACW/Vensure Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accountant/CPA/Consultant</masterLabel>
+            <translation><!-- Accountant/CPA/Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Support Services/Kevin Hurst</masterLabel>
+            <translation><!-- Business Support Services/Kevin Hurst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Options</masterLabel>
+            <translation><!-- Employer Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Pipeline, Inc.</masterLabel>
+            <translation><!-- Employer Pipeline, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FHB Payroll Service</masterLabel>
+            <translation><!-- FHB Payroll Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gusto Payroll</masterLabel>
+            <translation><!-- Gusto Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Benefix</masterLabel>
+            <translation><!-- HR Benefix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii Human Resources, Inc (HiHR)</masterLabel>
+            <translation><!-- Hawaii Human Resources, Inc (HiHR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii Workplace</masterLabel>
+            <translation><!-- Hawaii Workplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heartland Payroll Service</masterLabel>
+            <translation><!-- Heartland Payroll Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiLevel Advisory, LLC</masterLabel>
+            <translation><!-- HiLevel Advisory, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources Administration of Hawaii</masterLabel>
+            <translation><!-- Human Resources Administration of Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICON Employer Services of Hawaii</masterLabel>
+            <translation><!-- ICON Employer Services of Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kila Kila</masterLabel>
+            <translation><!-- Kila Kila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makai HR</masterLabel>
+            <translation><!-- Makai HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NorthWest Payroll Solutions, Inc.</masterLabel>
+            <translation><!-- NorthWest Payroll Solutions, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Source</masterLabel>
+            <translation><!-- One Source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Data Services</masterLabel>
+            <translation><!-- Pacific Data Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Northwest</masterLabel>
+            <translation><!-- Pay Northwest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paychex</masterLabel>
+            <translation><!-- Paychex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNT Payroll</masterLabel>
+            <translation><!-- TNT Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent HR</masterLabel>
+            <translation><!-- Talent HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ACE Termination Report Date --></label>
+        <name>ACE_Termination_Report_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the client tier. If the client has a related account tier (i.e. 1.1) you can just select 1. --></help>
+        <label><!-- ACE Tier --></label>
+        <name>ACE_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Type --></label>
+        <name>ACE_Type__c</name>
+        <picklistValues>
+            <masterLabel>Client Initiated</masterLabel>
+            <translation><!-- Client Initiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation Initiated</masterLabel>
+            <translation><!-- Implementation Initiated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Initiated</masterLabel>
+            <translation><!-- ProService Initiated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- ADP --></label>
+        <name>ADP__c</name>
+    </fields>
+    <fields>
+        <label><!-- ASB Audit Work --></label>
+        <name>ASB_Audit_Work__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Original Start Date --></label>
+        <name>Account_Original_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accountant/CPA/Consultant --></label>
+        <name>Accountant_CPA_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Plan --></label>
+        <name>Action_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active EEs at Termination --></label>
+        <name>Active_EEs_at_Termination__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin Discount % --></label>
+        <name>Admin_Discount_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin Discount $ --></label>
+        <name>Admin_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin Increase % --></label>
+        <name>Admin_Increase_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin Increase $ --></label>
+        <name>Admin_Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin Rates --></label>
+        <name>Admin_Rates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Altres --></label>
+        <name>Altres__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amendment/Attachment/Exhibit --></label>
+        <name>Amendment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applicant Tracking System --></label>
+        <name>Applicant_Tracking_System__c</name>
+    </fields>
+    <fields>
+        <help><!-- The pricing approved by either the Client Relations Manager or the Director of Account Management. --></help>
+        <label><!-- Approved Pricing --></label>
+        <name>Approved_Pricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Model After Revisions --></label>
+        <name>Billing_Model_After_Revisions__c</name>
+        <picklistValues>
+            <masterLabel>Blended-1</masterLabel>
+            <translation><!-- Blended-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blended-2</masterLabel>
+            <translation><!-- Blended-2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retainer-1</masterLabel>
+            <translation><!-- Retainer-1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retainer-2</masterLabel>
+            <translation><!-- Retainer-2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retainer-4</masterLabel>
+            <translation><!-- Retainer-4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Model --></label>
+        <name>Billing_Model__c</name>
+    </fields>
+    <fields>
+        <label><!-- Book --></label>
+        <name>Book__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker (Please Specify Below) --></label>
+        <name>Broker__c</name>
+    </fields>
+    <fields>
+        <label><!-- CIS Notes --></label>
+        <name>CIS_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Date --></label>
+        <name>CRMG_WF__ActivityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Description --></label>
+        <name>CRMG_WF__ActivityDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Subject --></label>
+        <name>CRMG_WF__ActivitySubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today --></label>
+        <name>CRMG_WF__Today__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calendar Year Discount Total --></label>
+        <name>Calendar_Year_Discount_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calendar Year Increase Total --></label>
+        <name>Calendar_Year_Increase_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Can? --></label>
+        <name>Can__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Insurance</masterLabel>
+            <translation><!-- Client Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRO</masterLabel>
+            <translation><!-- HRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Insurance</masterLabel>
+            <translation><!-- Health Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Onboarding</masterLabel>
+            <translation><!-- Onboarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supplemental Benefits</masterLabel>
+            <translation><!-- Supplemental Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tax</masterLabel>
+            <translation><!-- Tax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voice of Customer</masterLabel>
+            <translation><!-- Voice of Customer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ceridian --></label>
+        <name>Ceridian__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change 1st Payroll Date --></label>
+        <name>Change_1st_Payroll_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Effective Date --></label>
+        <name>Change_Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Collateral Request Summary --></label>
+        <name>Client_Collateral_Request_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Financial Issues --></label>
+        <name>Client_Financial_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Services Report --></label>
+        <name>Client_Services_Report__c</name>
+    </fields>
+    <fields>
+        <help><!-- Red - Client leaning toward leaving 
+Yellow - Good outcome expected but more work to be done 
+Green - Good outcome is a foregone conclusion --></help>
+        <label><!-- Client Temperature --></label>
+        <name>Client_Temperature__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Collateral Prep Requested Date End --></label>
+        <name>Collateral_Prep_Requested_Date_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collateral Prep Requested Date Start --></label>
+        <name>Collateral_Prep_Requested_Date_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Specified --></label>
+        <name>Competitor_Specified__c</name>
+    </fields>
+    <fields>
+        <label><!-- ACE Competitors --></label>
+        <name>Competitors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Confirmation of DBA Name Change Letter --></label>
+        <name>Confirmation_of_DBA_Name_Change_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Type --></label>
+        <name>Contact_Type__c</name>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation><!-- Employee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Custom Details --></label>
+        <name>Custom_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom --></label>
+        <name>Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Migration ID --></label>
+        <name>Data_Migration_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Due --></label>
+        <name>Date_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Detailed Termination Notes --></label>
+        <name>Detailed_Termination_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Total --></label>
+        <name>Discount_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Drug &amp;/or Pre-Employment --></label>
+        <name>Drug_or_Pre_Employment__c</name>
+    </fields>
+    <fields>
+        <label><!-- EPLI Add/Drop --></label>
+        <name>EPLI_Add_Drop__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity/Name/Signatory Change(s) --></label>
+        <name>Entity_Name_Signatory_Change_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exclude from KPI Report --></label>
+        <name>Exclude_from_KPI_Report__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Payroll Date --></label>
+        <name>Final_Payroll_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final WC Deductible --></label>
+        <name>Final_WC_Deductible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final WC Policy Year --></label>
+        <name>Final_WC_Policy_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Contract --></label>
+        <name>Full_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- HC Special --></label>
+        <name>HC_Special__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hawaii Human Resources, Inc (HiHR) --></label>
+        <name>Hawaii_Human_Resources_Inc_HiHR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Care Add/Drop/Change --></label>
+        <name>Health_Care_Add_Drop_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Care Rates --></label>
+        <name>Health_Care_Rates__c</name>
+    </fields>
+    <fields>
+        <label><!-- In-House --></label>
+        <name>In_House__c</name>
+    </fields>
+    <fields>
+        <label><!-- Increase Total --></label>
+        <name>Increase_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Fee Dis % --></label>
+        <name>Labor_Fee_Dis_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Fee Dis $ --></label>
+        <name>Labor_Fee_Dis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Fee Inc % --></label>
+        <name>Labor_Fee_Inc_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Fee Inc $ --></label>
+        <name>Labor_Fee_Inc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Labor Fee Rates --></label>
+        <name>Labor_Fee_Rates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Day of Benefits Coverage --></label>
+        <name>Last_Day_of_Benefits_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Day of Binding Coverage --></label>
+        <name>Last_Day_of_Binding_Coverage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Makai HR --></label>
+        <name>Makai_HR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Misc. Credit Amount --></label>
+        <name>Misc_Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Calendar Year Total Inc/Decrease --></label>
+        <name>Net_Calendar_Year_Total_Inc_Decrease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Admin Increase/Decrease --></label>
+        <name>Net_Total_Admin_Increase_Decrease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Increase/Decrease --></label>
+        <name>Net_Total_Increase_Decrease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total Labor Fee Increase/Decrease --></label>
+        <name>Net_Total_Labor_Fee_Increase_Decrease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Total WC Increase/Decrease --></label>
+        <name>Net_Total_WC_Increase_Decrease__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes on Final Revisions To Account --></label>
+        <name>Notes_on_Final_Revisions_To_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Competitor (Please Specify Below) --></label>
+        <name>Other_Competitor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post PSH Rate Increase Repercussions --></label>
+        <name>Post_PSH_Rate_Increase_Repercussions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Power of One --></label>
+        <name>Power_of_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preliminary Pricing --></label>
+        <name>Preliminary_Pricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Needed --></label>
+        <name>Pricing_Needed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- High – Pricing (3 bus. days) &amp; Collateral (4 bus. Days) 
+Medium – Pricing (5 bus. Days) &amp; Collateral (5 bus. Days) 
+Low – Pricing (7 bus. Days) &amp; Collateral (7 bus. Days) --></help>
+        <label><!-- Pricing Urgency --></label>
+        <name>Pricing_Urgency__c</name>
+        <picklistValues>
+            <masterLabel>1-High</masterLabel>
+            <translation><!-- 1-High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2-Med</masterLabel>
+            <translation><!-- 2-Med --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3-Low</masterLabel>
+            <translation><!-- 3-Low --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pricing in General --></label>
+        <name>Pricing_in_General__c</name>
+    </fields>
+    <fields>
+        <label><!-- Regarding EE 1 --></label>
+        <name>Regarding_EE_1__c</name>
+        <relationshipLabel><!-- Issues Reference 1 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regarding EE 2 --></label>
+        <name>Regarding_EE_2__c</name>
+        <relationshipLabel><!-- Issues Reference 2 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regarding EE 3 --></label>
+        <name>Regarding_EE_3__c</name>
+        <relationshipLabel><!-- Issues Reference 3 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regarding EE 4 --></label>
+        <name>Regarding_EE_4__c</name>
+        <relationshipLabel><!-- Issues Reference 4 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Regarding EE 5 --></label>
+        <name>Regarding_EE_5__c</name>
+        <relationshipLabel><!-- Issues Reference 5 --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Savings Summary/Pricing Summary --></label>
+        <name>Savings_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Deficiency --></label>
+        <name>Service_Deficiency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type After Revisions --></label>
+        <name>Service_Type_After_Revisions__c</name>
+        <picklistValues>
+            <masterLabel>HRO</masterLabel>
+            <translation><!-- HRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEO</masterLabel>
+            <translation><!-- PEO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Years --></label>
+        <name>Service_Years__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub-Category 1 --></label>
+        <name>Sub_Category_1__c</name>
+        <picklistValues>
+            <masterLabel>1.5%</masterLabel>
+            <translation><!-- 1.5% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>401(k)</masterLabel>
+            <translation><!-- 401(k) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AFLAC</masterLabel>
+            <translation><!-- AFLAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AM Call Down</masterLabel>
+            <translation><!-- AM Call Down --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASH (Chiro)</masterLabel>
+            <translation><!-- ASH (Chiro) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COBRA</masterLabel>
+            <translation><!-- COBRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Recontracting</masterLabel>
+            <translation><!-- Client Recontracting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Report</masterLabel>
+            <translation><!-- Client Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Terms</masterLabel>
+            <translation><!-- Client Terms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Update</masterLabel>
+            <translation><!-- Client Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consult</masterLabel>
+            <translation><!-- Consult --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EE Changes</masterLabel>
+            <translation><!-- EE Changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment</masterLabel>
+            <translation><!-- Employment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enrollment</masterLabel>
+            <translation><!-- Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Flex Spending</masterLabel>
+            <translation><!-- Flex Spending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forms</masterLabel>
+            <translation><!-- Forms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HDS</masterLabel>
+            <translation><!-- HDS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMSA</masterLabel>
+            <translation><!-- HMSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRO New Client</masterLabel>
+            <translation><!-- HRO New Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Report</masterLabel>
+            <translation><!-- Internal Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoice</masterLabel>
+            <translation><!-- Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiser</masterLabel>
+            <translation><!-- Kaiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Life Insurance</masterLabel>
+            <translation><!-- Life Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nat'l Medical</masterLabel>
+            <translation><!-- Nat&apos;l Medical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Client Setup</masterLabel>
+            <translation><!-- New Client Setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hire</masterLabel>
+            <translation><!-- New Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OnBoarding</masterLabel>
+            <translation><!-- OnBoarding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEO to HRO Conversion</masterLabel>
+            <translation><!-- PEO to HRO Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTO</masterLabel>
+            <translation><!-- PTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Inquiry</masterLabel>
+            <translation><!-- Pay Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Physical File Request</masterLabel>
+            <translation><!-- Physical File Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Report Request</masterLabel>
+            <translation><!-- Report Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reports</masterLabel>
+            <translation><!-- Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety</masterLabel>
+            <translation><!-- Safety --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup</masterLabel>
+            <translation><!-- Setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TDI</masterLabel>
+            <translation><!-- TDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timesheet</masterLabel>
+            <translation><!-- Timesheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UI</masterLabel>
+            <translation><!-- UI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC</masterLabel>
+            <translation><!-- WC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WHI</masterLabel>
+            <translation><!-- WHI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Payroll</masterLabel>
+            <translation><!-- Web Payroll --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-Category 2 --></label>
+        <name>Sub_Category_2__c</name>
+        <picklistValues>
+            <masterLabel>2010 UI Rates</masterLabel>
+            <translation><!-- 2010 UI Rates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACH Change</masterLabel>
+            <translation><!-- ACH Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accident Notification</masterLabel>
+            <translation><!-- Accident Notification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accrual Error</masterLabel>
+            <translation><!-- Accrual Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ad Hoc Reports</masterLabel>
+            <translation><!-- Ad Hoc Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add/drop Dedpendents</masterLabel>
+            <translation><!-- Add/drop Dedpendents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Address Change</masterLabel>
+            <translation><!-- Address Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Admin Repricing</masterLabel>
+            <translation><!-- Admin Repricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Audits</masterLabel>
+            <translation><!-- Audits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto Enrollment</masterLabel>
+            <translation><!-- Auto Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Error</masterLabel>
+            <translation><!-- Billing Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Issue</masterLabel>
+            <translation><!-- Billing Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bonus</masterLabel>
+            <translation><!-- Bonus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cards</masterLabel>
+            <translation><!-- Cards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Census</masterLabel>
+            <translation><!-- Census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Certified Payroll</masterLabel>
+            <translation><!-- Certified Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Pay Schedule</masterLabel>
+            <translation><!-- Change Pay Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change of Status</masterLabel>
+            <translation><!-- Change of Status --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims</masterLabel>
+            <translation><!-- Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Set-Up</masterLabel>
+            <translation><!-- Client Set-Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Column Adjustment</masterLabel>
+            <translation><!-- Column Adjustment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confidential Matter</masterLabel>
+            <translation><!-- Confidential Matter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contact Change</masterLabel>
+            <translation><!-- Contact Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deduction Issue</masterLabel>
+            <translation><!-- Deduction Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deduction Schedule</masterLabel>
+            <translation><!-- Deduction Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deductions</masterLabel>
+            <translation><!-- Deductions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deductions Issue</masterLabel>
+            <translation><!-- Deductions Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deposit Return</masterLabel>
+            <translation><!-- Deposit Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Deposit</masterLabel>
+            <translation><!-- Direct Deposit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Deposit Issue</masterLabel>
+            <translation><!-- Direct Deposit Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution</masterLabel>
+            <translation><!-- Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Double Billing</masterLabel>
+            <translation><!-- Double Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Drug Testing</masterLabel>
+            <translation><!-- Drug Testing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eligibility</masterLabel>
+            <translation><!-- Eligibility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email Submission</masterLabel>
+            <translation><!-- Email Submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Verification</masterLabel>
+            <translation><!-- Employment Verification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enrollment</masterLabel>
+            <translation><!-- Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entity Change</masterLabel>
+            <translation><!-- Entity Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entry Error</masterLabel>
+            <translation><!-- Entry Error --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experience Mod Rating Request</masterLabel>
+            <translation><!-- Experience Mod Rating Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Garnishment</masterLabel>
+            <translation><!-- Garnishment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gov't Tax Requests</masterLabel>
+            <translation><!-- Gov&apos;t Tax Requests --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HC Eligibility Report</masterLabel>
+            <translation><!-- HC Eligibility Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HC-5 Compliance</masterLabel>
+            <translation><!-- HC-5 Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HC5 Waivers</masterLabel>
+            <translation><!-- HC5 Waivers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Handbook Addendum</masterLabel>
+            <translation><!-- Handbook Addendum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I9 Incomplete</masterLabel>
+            <translation><!-- I9 Incomplete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incomplete Packet</masterLabel>
+            <translation><!-- Incomplete Packet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inquiry</masterLabel>
+            <translation><!-- Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late Submission</masterLabel>
+            <translation><!-- Late Submission --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Late Timesheet</masterLabel>
+            <translation><!-- Late Timesheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loans</masterLabel>
+            <translation><!-- Loans --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost Checks</masterLabel>
+            <translation><!-- Lost Checks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manual Adjustments</masterLabel>
+            <translation><!-- Manual Adjustments --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military Leave/Return</masterLabel>
+            <translation><!-- Military Leave/Return --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Missing New Hire</masterLabel>
+            <translation><!-- Missing New Hire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NSF</masterLabel>
+            <translation><!-- NSF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Entity</masterLabel>
+            <translation><!-- New Entity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Hire not Appearing</masterLabel>
+            <translation><!-- New Hire not Appearing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Job Codes</masterLabel>
+            <translation><!-- New Job Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Location</masterLabel>
+            <translation><!-- New Location --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Pay Codes</masterLabel>
+            <translation><!-- New Pay Codes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New User</masterLabel>
+            <translation><!-- New User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Call Active/Inactive</masterLabel>
+            <translation><!-- On Call Active/Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Enrollment</masterLabel>
+            <translation><!-- Open Enrollment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partial</masterLabel>
+            <translation><!-- Partial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Change</masterLabel>
+            <translation><!-- Pay Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Issue</masterLabel>
+            <translation><!-- Pay Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pay Register</masterLabel>
+            <translation><!-- Pay Register --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Issues</masterLabel>
+            <translation><!-- Payment Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paystub Request</masterLabel>
+            <translation><!-- Paystub Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Accident Drug Test</masterLabel>
+            <translation><!-- Post Accident Drug Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Employment Screening</masterLabel>
+            <translation><!-- Pre-Employment Screening --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Program Setup</masterLabel>
+            <translation><!-- Program Setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables</masterLabel>
+            <translation><!-- Receivables --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request Excel Version</masterLabel>
+            <translation><!-- Request Excel Version --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request for Restart</masterLabel>
+            <translation><!-- Request for Restart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request for Term</masterLabel>
+            <translation><!-- Request for Term --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request for Training</masterLabel>
+            <translation><!-- Request for Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Request for Visit</masterLabel>
+            <translation><!-- Request for Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rescue</masterLabel>
+            <translation><!-- Rescue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Work</masterLabel>
+            <translation><!-- Return to Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSN Mismatch</masterLabel>
+            <translation><!-- SSN Mismatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Fees</masterLabel>
+            <translation><!-- Service Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup</masterLabel>
+            <translation><!-- Setup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Client Instructions</masterLabel>
+            <translation><!-- Special Client Instructions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supp. Payroll</masterLabel>
+            <translation><!-- Supp. Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Taxes</masterLabel>
+            <translation><!-- Taxes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time and Attendance</masterLabel>
+            <translation><!-- Time and Attendance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Timeout/Repost to Web</masterLabel>
+            <translation><!-- Timeout/Repost to Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VOC Follow-Up</masterLabel>
+            <translation><!-- VOC Follow-Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>W2 Request</masterLabel>
+            <translation><!-- W2 Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Cert Request</masterLabel>
+            <translation><!-- WC Cert Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Code Request</masterLabel>
+            <translation><!-- WC Code Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Loss Run</masterLabel>
+            <translation><!-- WC Loss Run --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Loss Run Request</masterLabel>
+            <translation><!-- WC Loss Run Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Rate Inquiry</masterLabel>
+            <translation><!-- WC Rate Inquiry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Repricing</masterLabel>
+            <translation><!-- WC Repricing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Support for Out of State PEO Employees --></label>
+        <name>Support_for_Out_of_State_PEO_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- TDI Add/Drop --></label>
+        <name>TDI_Add_Drop__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTM Lost Admin Fee --></label>
+        <name>TTM_Lost_Admin_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Competitor --></label>
+        <name>Termination_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>ACW/Vensure Inc.</masterLabel>
+            <translation><!-- ACW/Vensure Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accountant/CPA</masterLabel>
+            <translation><!-- Accountant/CPA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdminiStaff</masterLabel>
+            <translation><!-- AdminiStaff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advantage</masterLabel>
+            <translation><!-- Advantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colliers International</masterLabel>
+            <translation><!-- Colliers International --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employer Options</masterLabel>
+            <translation><!-- Employer Options --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gusto Payroll</masterLabel>
+            <translation><!-- Gusto Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Benefix</masterLabel>
+            <translation><!-- HR Benefix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii Human Resources, Inc (HiHR)</masterLabel>
+            <translation><!-- Hawaii Human Resources, Inc (HiHR) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heartland Payroll Service</masterLabel>
+            <translation><!-- Heartland Payroll Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Human Resources Administration of Hawaii</masterLabel>
+            <translation><!-- Human Resources Administration of Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICON Employer Services of Hawaii</masterLabel>
+            <translation><!-- ICON Employer Services of Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kila Kila</masterLabel>
+            <translation><!-- Kila Kila --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makai HR</masterLabel>
+            <translation><!-- Makai HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>One Source</masterLabel>
+            <translation><!-- One Source --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PUC</masterLabel>
+            <translation><!-- PUC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Advantage Unlimited (PAU)</masterLabel>
+            <translation><!-- Pacific Advantage Unlimited (PAU) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pacific Data Services</masterLabel>
+            <translation><!-- Pacific Data Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paychex</masterLabel>
+            <translation><!-- Paychex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>People of Integrity (POI)</masterLabel>
+            <translation><!-- People of Integrity (POI) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staffing Solutions</masterLabel>
+            <translation><!-- Staffing Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNT Payroll</masterLabel>
+            <translation><!-- TNT Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent HR</masterLabel>
+            <translation><!-- Talent HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Termination Description --></label>
+        <name>Termination_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Fees Applied --></label>
+        <name>Termination_Fees_Applied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Initiated By --></label>
+        <name>Termination_Initiated_By__c</name>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entity Change</masterLabel>
+            <translation><!-- Entity Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService</masterLabel>
+            <translation><!-- ProService --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Termination Initiation Date --></label>
+        <name>Termination_Initiation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Status --></label>
+        <name>Termination_Status__c</name>
+        <picklistValues>
+            <masterLabel>Anticipated Term</masterLabel>
+            <translation><!-- Anticipated Term --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed (Filed)</masterLabel>
+            <translation><!-- Completed (Filed) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Termination Submitted By --></label>
+        <name>Termination_Submitted_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Type --></label>
+        <name>Termination_Type__c</name>
+        <picklistValues>
+            <masterLabel>Breach of Contract</masterLabel>
+            <translation><!-- Breach of Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Closure</masterLabel>
+            <translation><!-- Business Closure --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cost Issues</masterLabel>
+            <translation><!-- Cost Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entity Change or Other Internal Issue</masterLabel>
+            <translation><!-- Entity Change or Other Internal Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Risk</masterLabel>
+            <translation><!-- HR Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Handling Own HR</masterLabel>
+            <translation><!-- Handling Own HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care Issues</masterLabel>
+            <translation><!-- Health Care Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insurance Services Risk</masterLabel>
+            <translation><!-- Insurance Services Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Receivables/NSFs</masterLabel>
+            <translation><!-- Receivables/NSFs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Issues</masterLabel>
+            <translation><!-- Service Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Slowdown</masterLabel>
+            <translation><!-- Slowdown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sold Business</masterLabel>
+            <translation><!-- Sold Business --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Switch to Competitor</masterLabel>
+            <translation><!-- Switch to Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Z Pay/No EEs</masterLabel>
+            <translation><!-- Z Pay/No EEs --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Time &amp; Attendance --></label>
+        <name>Time_Attendance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time In Collateral Prep Status --></label>
+        <name>Time_In_Collateral_Prep_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost Trending --></label>
+        <name>Total_Cost_Trending__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Days with ProService --></label>
+        <name>Total_Days_with_ProService__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Years with ProService --></label>
+        <name>Total_Years_with_ProService__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unknown --></label>
+        <name>Unknown__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ursula Opportunity Salesforce ID --></label>
+        <name>Ursula_Opportunity_Salesforce_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ursula Termination Salesforce ID --></label>
+        <name>Ursula_Termination_Salesforce_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Add/Drop --></label>
+        <name>WC_Add_Drop__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Deductible Discount % --></label>
+        <name>WC_Deductible_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Deductible Increase % --></label>
+        <name>WC_Deductible_Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Discount % --></label>
+        <name>WC_Discount_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Discount $ --></label>
+        <name>WC_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Increase % --></label>
+        <name>WC_Increase_P__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Increase $ --></label>
+        <name>WC_Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Special --></label>
+        <name>WC_Special__c</name>
+    </fields>
+    <fields>
+        <label><!-- Withhold from W-2 Processing --></label>
+        <name>Withhold_from_W_2_Processing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Won --></label>
+        <name>Won__c</name>
+    </fields>
+    <fields>
+        <label><!-- Workers&apos; Comp Rates --></label>
+        <name>Workers_Comp_Rates__c</name>
+    </fields>
+    <fields>
+        <label><!-- 401K --></label>
+        <name>X401K__c</name>
+    </fields>
+    <layouts>
+        <layout>Case Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Layout - CIS</layout>
+        <sections>
+            <label><!-- ACE Case Account Details --></label>
+            <section>ACE Case Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Case Details --></label>
+            <section>ACE Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Case Pricing Details --></label>
+            <section>ACE Case Pricing Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Reason Details - Select All That Apply --></label>
+            <section>ACE Reason Details - Select All That Apply</section>
+        </sections>
+        <sections>
+            <label><!-- Account Manager ACE Update --></label>
+            <section>Account Manager ACE Update</section>
+        </sections>
+        <sections>
+            <label><!-- Account Manager ACE Update - Competitor Details - Select All That Apply --></label>
+            <section>Account Manager ACE Update - Competitor Details - Select All That Apply</section>
+        </sections>
+        <sections>
+            <label><!-- Collateral Needed - ONLY CIS UPDATES --></label>
+            <section>Collateral Needed - ONLY CIS UPDATES</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields not required for ACE --></label>
+            <section>Fields not required for ACE</section>
+        </sections>
+        <sections>
+            <label><!-- Final Revisions To Account - ONLY CIS UPDATES --></label>
+            <section>Final Revisions To Account - ONLY CIS UPDATES</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Layout - CIS w Term</layout>
+        <sections>
+            <label><!-- ACE Case Account Details --></label>
+            <section>ACE Case Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Case Details --></label>
+            <section>ACE Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Case Pricing Details --></label>
+            <section>ACE Case Pricing Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Reason Details - Select All That Apply --></label>
+            <section>ACE Reason Details - Select All That Apply</section>
+        </sections>
+        <sections>
+            <label><!-- Account Manager ACE Update --></label>
+            <section>Account Manager ACE Update</section>
+        </sections>
+        <sections>
+            <label><!-- Account Manager ACE Update - Competitor Details - Select All That Apply --></label>
+            <section>Account Manager ACE Update - Competitor Details - Select All That Apply</section>
+        </sections>
+        <sections>
+            <label><!-- Collateral Needed - ONLY CIS UPDATES --></label>
+            <section>Collateral Needed - ONLY CIS UPDATES</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields not required for ACE --></label>
+            <section>Fields not required for ACE</section>
+        </sections>
+        <sections>
+            <label><!-- Final Revisions To Account - ONLY CIS UPDATES --></label>
+            <section>Final Revisions To Account - ONLY CIS UPDATES</section>
+        </sections>
+        <sections>
+            <label><!-- Termination Details --></label>
+            <section>Termination Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Close Case Layout - CIS</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- ACE Case Account Details --></label>
+            <section>ACE Case Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Case Details --></label>
+            <section>ACE Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Case Pricing Details --></label>
+            <section>ACE Case Pricing Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Reason Details - Select All That Apply --></label>
+            <section>ACE Reason Details - Select All That Apply</section>
+        </sections>
+        <sections>
+            <label><!-- Account Manager ACE Update --></label>
+            <section>Account Manager ACE Update</section>
+        </sections>
+        <sections>
+            <label><!-- Account Manager ACE Update - Competitor Details - Select All That Apply --></label>
+            <section>Account Manager ACE Update - Competitor Details - Select All That Apply</section>
+        </sections>
+        <sections>
+            <label><!-- Collateral Needed - ONLY CIS UPDATES --></label>
+            <section>Collateral Needed - ONLY CIS UPDATES</section>
+        </sections>
+        <sections>
+            <label><!-- Final Revisions To Account - ONLY CIS UPDATES --></label>
+            <section>Final Revisions To Account - ONLY CIS UPDATES</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Close Case Layout - CIS w Term</layout>
+        <layoutType>CaseClose</layoutType>
+        <sections>
+            <label><!-- ACE Case Account Details --></label>
+            <section>ACE Case Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Case Details --></label>
+            <section>ACE Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Case Pricing Details --></label>
+            <section>ACE Case Pricing Details</section>
+        </sections>
+        <sections>
+            <label><!-- ACE Reason Details - Select All That Apply --></label>
+            <section>ACE Reason Details - Select All That Apply</section>
+        </sections>
+        <sections>
+            <label><!-- Account Manager ACE Update --></label>
+            <section>Account Manager ACE Update</section>
+        </sections>
+        <sections>
+            <label><!-- Account Manager ACE Update - Competitor Details - Select All That Apply --></label>
+            <section>Account Manager ACE Update - Competitor Details - Select All That Apply</section>
+        </sections>
+        <sections>
+            <label><!-- Collateral Needed - ONLY CIS UPDATES --></label>
+            <section>Collateral Needed - ONLY CIS UPDATES</section>
+        </sections>
+        <sections>
+            <label><!-- Final Revisions To Account - ONLY CIS UPDATES --></label>
+            <section>Final Revisions To Account - ONLY CIS UPDATES</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+        <sections>
+            <label><!-- Termination Details --></label>
+            <section>Termination Details</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <recordTypes>
+        <description><!-- Advanced Client Escalation - Standard (Ursula Opportunity) - for CIS and AM only --></description>
+        <label><!-- ACE --></label>
+        <name>ACE</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Advanced Client Escalation - Terming (Ursula Termination) - for CIS and AM only --></description>
+        <label><!-- ACE - Terming --></label>
+        <name>ACE_Terming</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Standard Case --></description>
+        <label><!-- Standard Case --></label>
+        <name>Standard_Case</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- When this Status is selected, must enter ACE Close Date. --></errorMessage>
+        <name>ACE_Close_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE&quot; or &quot;ACE - Terming&quot;, ACE Open Date must be selected. --></errorMessage>
+        <name>ACE_Open_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE&quot; or &quot;ACE - Terming&quot;, ACE Owner must be selected. --></errorMessage>
+        <name>ACE_Owner_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE&quot;, ACE Reason must be selected. --></errorMessage>
+        <name>ACE_Reason_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE&quot;, ACE Risk Status must be selected. --></errorMessage>
+        <name>ACE_Risk_Status_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE&quot;, ACE Type must be selected. --></errorMessage>
+        <name>ACE_Type_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Active EEs at Termination Required must be entered. --></errorMessage>
+        <name>Active_EEs_at_Termination_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE&quot;, CIS Notes must be entered. --></errorMessage>
+        <name>CIS_Notes_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Final Payroll Date must be selected. --></errorMessage>
+        <name>Final_Payroll_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Last Day of Binding Coverage must be selected. --></errorMessage>
+        <name>Last_Day_of_Binding_Coverage_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, TTM Lost Admin Fee must be entered. --></errorMessage>
+        <name>TTM_Lost_Admin_Fee_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Termination Description must be entered. --></errorMessage>
+        <name>Termination_Description_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Termination Initiated By must be selected. --></errorMessage>
+        <name>Termination_Initiated_By_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Termination Initiation Date must be selected. --></errorMessage>
+        <name>Termination_Intitiation_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Termination Status must be selected. --></errorMessage>
+        <name>Termination_Status_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Termination Submitted By must be selected. --></errorMessage>
+        <name>Termination_Submitted_By_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Record Type is &quot;ACE - Terming&quot;, Termination Type must be selected. --></errorMessage>
+        <name>Termination_Type_Required</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Cases --></label>
+        <name>activities__Create_Tasks_Cases</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+</CustomObjectTranslation>

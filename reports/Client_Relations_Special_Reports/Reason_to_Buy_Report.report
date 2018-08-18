@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Client_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Status__c</field>
+    </columns>
+    <columns>
+        <field>Account.Status_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Implementation_Specialist__c</field>
+    </columns>
+    <columns>
+        <field>Account.Reason_s_For_Buying__c</field>
+    </columns>
+    <columns>
+        <field>Account.Reasons_to_Buy_OTHER__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>Reason to Buy Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account.Status_Date__c</dateColumn>
+        <endDate>2031-12-31</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>1978-01-01</startDate>
+    </timeFrameFilter>
+</Report>

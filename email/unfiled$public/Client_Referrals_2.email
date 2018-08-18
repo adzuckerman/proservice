@@ -1,0 +1,14 @@
+ProService client name:  {!Lead.00N800000059NAP}
+Client contact:  {!Lead.00N800000059Nj5}
+Relationship between existing client contact and referred contact:  {!Lead.00N800000059NjF}
+
+Referred business name:  {!Lead.Company}
+Type of business:  {!Lead.00N800000059NjU}
+Name of contact:  {!Lead.Name_of_Business_Contact__c}
+Contact's title:  {!Lead.Title}
+Contact phone:  {!Lead.Phone}
+Contact Email:  {!Lead.Email}
+Island:  {!Lead.00N800000059NjK}
+# of employees:  {!Lead.NumberOfEmployees}
+
+Notes:  {!Lead.Description}

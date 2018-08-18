@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Response to PSH Client and Employee Lead Submissions</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PSH Cust. Svc. #</name>
+    <relatedEntityType>Lead</relatedEntityType>
+    <style>none</style>
+    <subject>ProService Customer Service #: (808) 394-8878</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

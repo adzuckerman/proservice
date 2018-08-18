@@ -1,0 +1,2712 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Other names the account/client may go by.  To add to this list, please create a task and assign to Client Information Services. --></help>
+        <label><!-- Account Aliases --></label>
+        <name>AccountAliases__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Manager Lookup --></label>
+        <lookupFilter>
+            <errorMessage><!-- Assigned user must be part of the Account Management Team. --></errorMessage>
+        </lookupFilter>
+        <name>Account_Manager_Lookup__c</name>
+        <relationshipLabel><!-- Accounts (Account Manager Lookup) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Manager__c</name>
+        <picklistValues>
+            <masterLabel>AM TEAM (ESCALATION ONLY)</masterLabel>
+            <translation><!-- AM TEAM (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANGIE NAKASONE</masterLabel>
+            <translation><!-- ANGIE NAKASONE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANGIE NAKASONE (ESCALATION ONLY)</masterLabel>
+            <translation><!-- ANGIE NAKASONE (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRITTANY QUIGG</masterLabel>
+            <translation><!-- BRITTANY QUIGG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRITTANY QUIGG (ESCALATION ONLY)</masterLabel>
+            <translation><!-- BRITTANY QUIGG (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DARREN EBISU</masterLabel>
+            <translation><!-- DARREN EBISU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DARREN EBISU (ESCALATION ONLY)</masterLabel>
+            <translation><!-- DARREN EBISU (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAVID MCKALE</masterLabel>
+            <translation><!-- DAVID MCKALE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEB GALVEZ</masterLabel>
+            <translation><!-- DEB GALVEZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DEB GALVEZ (ESCALATION ONLY)</masterLabel>
+            <translation><!-- DEB GALVEZ (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIANNA MCGRAW</masterLabel>
+            <translation><!-- DIANNA MCGRAW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIANNA MCGRAW (ESCALATION ONLY)</masterLabel>
+            <translation><!-- DIANNA MCGRAW (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DONNA JONES</masterLabel>
+            <translation><!-- DONNA JONES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HANNAH BRANDON</masterLabel>
+            <translation><!-- HANNAH BRANDON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HANNAH BRANDON (ESCALATION ONLY)</masterLabel>
+            <translation><!-- HANNAH BRANDON (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARRY BYERLY</masterLabel>
+            <translation><!-- HARRY BYERLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARRY BYERLY (ESCALATION ONLY)</masterLabel>
+            <translation><!-- HARRY BYERLY (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOOKELA TEAM</masterLabel>
+            <translation><!-- HOOKELA TEAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HOOMAU TEAM</masterLabel>
+            <translation><!-- HOOMAU TEAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOHN DEMARCO</masterLabel>
+            <translation><!-- JOHN DEMARCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOHN DEMARCO (ESCALATION ONLY)</masterLabel>
+            <translation><!-- JOHN DEMARCO (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JORDAN WONG</masterLabel>
+            <translation><!-- JORDAN WONG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JORDAN WONG (ESCALATION ONLY)</masterLabel>
+            <translation><!-- JORDAN WONG (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KEVIN YAMADA</masterLabel>
+            <translation><!-- KEVIN YAMADA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KEVIN YAMADA (ESCALATION ONLY)</masterLabel>
+            <translation><!-- KEVIN YAMADA (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KOKUA TEAM</masterLabel>
+            <translation><!-- KOKUA TEAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARRY HUBBELL</masterLabel>
+            <translation><!-- LARRY HUBBELL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARRY HUBBELL (ESCALATION ONLY)</masterLabel>
+            <translation><!-- LARRY HUBBELL (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LOKAHI TEAM</masterLabel>
+            <translation><!-- LOKAHI TEAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MARK SHIMAN</masterLabel>
+            <translation><!-- MARK SHIMAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MARK SHIMAN (ESCALATION ONLY)</masterLabel>
+            <translation><!-- MARK SHIMAN (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NATALIE SPENCER</masterLabel>
+            <translation><!-- NATALIE SPENCER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NATALIE SPENCER (ESCALATION ONLY)</masterLabel>
+            <translation><!-- NATALIE SPENCER (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NON ACCOUNT</masterLabel>
+            <translation><!-- NON ACCOUNT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROB GALLO</masterLabel>
+            <translation><!-- ROB GALLO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROB GALLO (ESCALATION ONLY)</masterLabel>
+            <translation><!-- ROB GALLO (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROY LACISTE</masterLabel>
+            <translation><!-- ROY LACISTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STACY CASCO</masterLabel>
+            <translation><!-- STACY CASCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STACY CASCO (ESCALATION ONLY)</masterLabel>
+            <translation><!-- STACY CASCO (ESCALATION ONLY) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TONY GUZZARDO</masterLabel>
+            <translation><!-- TONY GUZZARDO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TONY GUZZARDO (ESCALATION ONLY)</masterLabel>
+            <translation><!-- TONY GUZZARDO (ESCALATION ONLY) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Montiros Days since last activity on Account
+1-31 days = RED
+31-60 = YELLOW
+61-90 and over = GREEN
+No activity = GREEN --></help>
+        <label><!-- Activity Indicator --></label>
+        <name>Activity_Indicator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aligned HC Pricing Accounts --></label>
+        <name>Aligned_HC_Pricing_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Already Referred Prior to 07/01 --></label>
+        <name>Already_Referred_Prior_to_07_01__c</name>
+    </fields>
+    <fields>
+        <label><!-- Applicant Tracking System --></label>
+        <name>Applicant_Tracking_System__c</name>
+        <picklistValues>
+            <masterLabel>Efficient Apply</masterLabel>
+            <translation><!-- Efficient Apply --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Read-only populated from Opportunity - Date when OPEN opportunity status was updated to &quot;Application.&quot; --></help>
+        <label><!-- Application Date --></label>
+        <name>Application_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- At Risk --></label>
+        <name>At_Risk__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attended CL HR Training in Current Year --></label>
+        <name>Attended_CL_HR_Training_in_Current_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDM --></label>
+        <name>BDM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Background Check --></label>
+        <name>Background_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefit Coordinator --></label>
+        <name>Benefit_Coordinator__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefits Administration Exception --></label>
+        <name>BenefitsAdministrationException__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefits Specialist --></label>
+        <name>Benefits_Specialist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill Template Code --></label>
+        <name>Bill_Template_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Model --></label>
+        <name>Bill_Template__c</name>
+    </fields>
+    <fields>
+        <label><!-- COBRA Eligible --></label>
+        <name>COBRA_Eligible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Date --></label>
+        <name>CRMG_WF__ActivityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Description --></label>
+        <name>CRMG_WF__ActivityDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Subject --></label>
+        <name>CRMG_WF__ActivitySubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today --></label>
+        <name>CRMG_WF__Today__c</name>
+    </fields>
+    <fields>
+        <label><!-- CXI Activity Date --></label>
+        <name>CXI_Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Next 2 months CXI Touched --></label>
+        <name>CXI_Touched__c</name>
+    </fields>
+    <fields>
+        <help><!-- This number is autogenerated in ClientSpace when a new workspace is created. Implementation team is manually inputting this ID until a automated process is devised by IT. This needs to be a unique number.  Added on 06/15/16. --></help>
+        <label><!-- ClientSpace Sales ID --></label>
+        <name>ClientSpace_Sales_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Fiscal Year Start --></label>
+        <name>Client_Fiscal_Year_Start__c</name>
+        <picklistValues>
+            <masterLabel>1 - January</masterLabel>
+            <translation><!-- 1 - January --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10 - October</masterLabel>
+            <translation><!-- 10 - October --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11 - November</masterLabel>
+            <translation><!-- 11 - November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12 - December</masterLabel>
+            <translation><!-- 12 - December --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - February</masterLabel>
+            <translation><!-- 2 - February --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - March</masterLabel>
+            <translation><!-- 3 - March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - April</masterLabel>
+            <translation><!-- 4 - April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - May</masterLabel>
+            <translation><!-- 5 - May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 - June</masterLabel>
+            <translation><!-- 6 - June --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 - July</masterLabel>
+            <translation><!-- 7 - July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 - August</masterLabel>
+            <translation><!-- 8 - August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9 - September</masterLabel>
+            <translation><!-- 9 - September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client ID Text --></label>
+        <name>Client_ID_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Client ID from HRP --></help>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Legal Name --></label>
+        <name>Client_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the list of Officer/Owner names needed for reporting to our banking partner. --></help>
+        <label><!-- Client Officers/Owners --></label>
+        <name>Client_Officers_Owners__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Relations Account Notes --></label>
+        <name>Client_Relations_Account_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Selection Received? --></label>
+        <name>Client_Selection_Received__c</name>
+        <picklistValues>
+            <masterLabel>Rollover</masterLabel>
+            <translation><!-- Rollover --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- viewable by Sysadmins only (via FLS) --></help>
+        <label><!-- Client Space GUID --></label>
+        <name>Client_Space_GUID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only populated from Opportunity - Date when OPEN opportunity status was updated to &quot;Close Date.&quot; --></help>
+        <label><!-- Close Date --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Communication Exceptions - General --></label>
+        <name>Communication_Exceptions_General__c</name>
+    </fields>
+    <fields>
+        <label><!-- Communication Exceptions - HR Training --></label>
+        <name>Communication_Exceptions_HR_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- Communication Exceptions - Health CareOE --></label>
+        <name>Communication_Exceptions_Health_CareOE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Communication Exceptions - Tax Pkg Dist --></label>
+        <name>Communication_Exceptions_Tax_Pkg_Dist__c</name>
+    </fields>
+    <fields>
+        <label><!-- Communication Exceptions - Tax Pkg Email --></label>
+        <name>Communication_Exceptions_Tax_Pkg_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Ops Email --></label>
+        <name>Contact_1_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Ops Phone --></label>
+        <name>Contact_1_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Ops Title --></label>
+        <name>Contact_1_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Ops --></label>
+        <name>Contact_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Ops Email --></label>
+        <name>Contact_2_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Ops Phone --></label>
+        <name>Contact_2_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Ops Title --></label>
+        <name>Contact_2_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Ops --></label>
+        <name>Contact_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the contract is expected to end. --></help>
+        <label><!-- Contract End Date --></label>
+        <name>Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only because populated from Opportunity (if not Opp, fields from CS Import). --></help>
+        <label><!-- Contract Remarks/Kill Reason --></label>
+        <name>Contract_Remarks_Kill_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Renewal Term --></label>
+        <name>Contract_Renewal_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Signatory Email --></label>
+        <name>Contract_Signatory_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Signatory Phone --></label>
+        <name>Contract_Signatory_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Signatory --></label>
+        <name>Contract_Signatory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Entity Type --></label>
+        <name>Corporation_Type_Description__c</name>
+        <picklistValues>
+            <masterLabel>C-Corporation</masterLabel>
+            <translation><!-- C-Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Partnership</masterLabel>
+            <translation><!-- General Partnership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Company (LLC)</masterLabel>
+            <translation><!-- Limited Liability Company (LLC) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Limited Partnership (LLLP)</masterLabel>
+            <translation><!-- Limited Liability Limited Partnership (LLLP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Liability Partnership (LLP)</masterLabel>
+            <translation><!-- Limited Liability Partnership (LLP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Limited Partnership (LP)</masterLabel>
+            <translation><!-- Limited Partnership (LP) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Profit Corporation</masterLabel>
+            <translation><!-- Non-Profit Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S-Corporation</masterLabel>
+            <translation><!-- S-Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole Proprietorship</masterLabel>
+            <translation><!-- Sole Proprietorship --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost Center Description --></label>
+        <name>Cost_Center_Description__c</name>
+        <picklistValues>
+            <masterLabel>CALIFORNIA</masterLabel>
+            <translation><!-- CALIFORNIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAWAII</masterLabel>
+            <translation><!-- HAWAII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HILO - HAWAII</masterLabel>
+            <translation><!-- HILO - HAWAII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HONOLULU - OAHU</masterLabel>
+            <translation><!-- HONOLULU - OAHU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAHULUI - MAUI</masterLabel>
+            <translation><!-- KAHULUI - MAUI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAILUA-KONA - HAWAII</masterLabel>
+            <translation><!-- KAILUA-KONA - HAWAII --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KAPAA - KAUAI</masterLabel>
+            <translation><!-- KAPAA - KAUAI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LANAI</masterLabel>
+            <translation><!-- LANAI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MAINLAND</masterLabel>
+            <translation><!-- MAINLAND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MOLOKAI</masterLabel>
+            <translation><!-- MOLOKAI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Cost Center --></label>
+        <name>Cost_Center__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current benefits carrier 1 renewal date. QMI info used during prospecting potential client Should be POPULATED in Opportunity (originally CS Import) --></help>
+        <label><!-- Current Benefits Carrier 1 Renewal Date --></label>
+        <name>Current_Benefits_Carrier_1_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current benefits carrier. QMI info used during prospecting potential client. --></help>
+        <label><!-- Current Benefits Carrier 1 --></label>
+        <name>Current_Benefits_Carrier_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current benefits carrier 2 renewal date. QMI info used during prospecting potential client. Should be POPULATED in Opportunity (originally CS Import) --></help>
+        <label><!-- Current Benefits Carrier 2 Renewal Date --></label>
+        <name>Current_Benefits_Carrier_2_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current benefits carrier 2.QMI info used during prospecting potential client. Should be POPULATED in Opportunity (originally CS Import) --></help>
+        <label><!-- Current Benefits Carrier 2 --></label>
+        <name>Current_Benefits_Carrier_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s Dental Carrier. QMI info used during prospecting potential client. Should be POPULATED in Opportunity (originally CS Import) --></help>
+        <label><!-- Current Dental Carrier --></label>
+        <name>Current_Dental_Carrier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current payroll method. QMI info used during prospecting potential client. Should be POPULATED in Opportunity (originally CS Import) --></help>
+        <label><!-- Current Payroll Method --></label>
+        <name>Current_Payroll_Method__c</name>
+        <picklistValues>
+            <masterLabel>In House</masterLabel>
+            <translation><!-- In House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEO</masterLabel>
+            <translation><!-- PEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Company</masterLabel>
+            <translation><!-- Payroll Company --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current payroll provider. QMI info used during prospecting potential client.. Should be POPULATED in Opportunity (originally CS Import) --></help>
+        <label><!-- Current Payroll Provider --></label>
+        <name>Current_Payroll_Provider__c</name>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administaff</masterLabel>
+            <translation><!-- Administaff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advantech</masterLabel>
+            <translation><!-- Advantech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AlohaBusinessServices</masterLabel>
+            <translation><!-- AlohaBusinessServices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alphastaff</masterLabel>
+            <translation><!-- Alphastaff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CoAdvantage</masterLabel>
+            <translation><!-- CoAdvantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELS</masterLabel>
+            <translation><!-- ELS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Experts</masterLabel>
+            <translation><!-- Employment Experts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FrankCrum</masterLabel>
+            <translation><!-- FrankCrum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gevity</masterLabel>
+            <translation><!-- Gevity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRAH</masterLabel>
+            <translation><!-- HRAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRBenefix</masterLabel>
+            <translation><!-- HRBenefix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HawaiiWorkplace</masterLabel>
+            <translation><!-- HawaiiWorkplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heartland</masterLabel>
+            <translation><!-- Heartland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiHR</masterLabel>
+            <translation><!-- HiHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InSource</masterLabel>
+            <translation><!-- InSource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IntuitPayroll</masterLabel>
+            <translation><!-- IntuitPayroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBA</masterLabel>
+            <translation><!-- MBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NELCO</masterLabel>
+            <translation><!-- NELCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oasis</masterLabel>
+            <translation><!-- Oasis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAU</masterLabel>
+            <translation><!-- PAU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PaySmart</masterLabel>
+            <translation><!-- PaySmart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Progressive</masterLabel>
+            <translation><!-- Progressive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeastern</masterLabel>
+            <translation><!-- Southeastern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNT Payroll Services</masterLabel>
+            <translation><!-- TNT Payroll Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent HR Solutions</masterLabel>
+            <translation><!-- Talent HR Solutions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Quarter AM F2F --></label>
+        <name>Current_Quarter_AM_F2F__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s Current WC Carrier Renewal Date. QMI info used during prospecting potential client. . Should be POPULATED in Opportunity (originally CS Import) --></help>
+        <label><!-- Current WC Carrier Renewal Date --></label>
+        <name>Current_WC_Carrier_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s Current WC Carrier. QMI info used during prospecting potential client. . Should be POPULATED in Opportunity (originally CS Import) --></help>
+        <label><!-- Current WC Carrier --></label>
+        <name>Current_WC_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Last Referral --></label>
+        <name>Date_of_Last_Referral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Since Last Activity --></label>
+        <name>Days_Since_Last_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days between conversion to 1st activity --></label>
+        <name>Days_between_conversion_to_1st_activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Delivery Instructions for EE Packets --></label>
+        <name>Delivery_Instructions_for_EE_Packets__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit on File --></label>
+        <name>Deposit_on_FIle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description of Business (Long Text) --></label>
+        <name>Description_of_Business_Long_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description of Business --></label>
+        <name>Description_of_Business__c</name>
+    </fields>
+    <fields>
+        <help><!-- Description of Operations --></help>
+        <label><!-- Description of Operations --></label>
+        <name>Description_of_Operations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do Not Survey Reason --></label>
+        <name>Do_Not_Survey_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Client Requested Removal</masterLabel>
+            <translation><!-- Client Requested Removal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JS5 Union Account</masterLabel>
+            <translation><!-- JS5 Union Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of State Account</masterLabel>
+            <translation><!-- Out of State Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Owner/Exec Only Account</masterLabel>
+            <translation><!-- Special Owner/Exec Only Account --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Drug Testing --></label>
+        <name>Drug_Testing__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Call --></label>
+        <name>EE_Call__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Packets Mailed? --></label>
+        <name>EE_Packets_Mailed__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Pkt Mail Date --></label>
+        <name>EE_Pkt_Mail_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- EPLI Carve Out --></label>
+        <name>EPLI_Carve_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- E-Verify --></label>
+        <name>EVerify__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMail --></label>
+        <name>E_Mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electronic Onboarding System --></label>
+        <name>Electronic_Onboarding_System__c</name>
+        <picklistValues>
+            <masterLabel>Efficient Hire</masterLabel>
+            <translation><!-- Efficient Hire --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employer Id --></label>
+        <name>Employer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Name --></label>
+        <name>Employer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity Professional License Exp Date --></label>
+        <name>Entity_Professional_License_Exp_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity Professional License Legal Name --></label>
+        <name>Entity_Professional_License_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity Professional License Trade Name --></label>
+        <name>Entity_Professional_License_Trade_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entity Professional License # --></label>
+        <name>Entity_Professional_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Annual Admin --></label>
+        <name>Estimated_Annual_Admin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimated close date rolled up from Opportunity --></help>
+        <label><!-- Estimated Close Date --></label>
+        <name>Estimated_Close_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Estimated # of EEs --></label>
+        <name>Estimated_number_of_EEs_c__c</name>
+    </fields>
+    <fields>
+        <help><!-- Federal Employer Identification Number --></help>
+        <label><!-- FEIN --></label>
+        <name>FEIN__c</name>
+    </fields>
+    <fields>
+        <help><!-- The internal ProService team member assigned to help this client with any questions regarding the FLSA changes  or the issues around the nationwide injunction of the 12/01/16 increase in the salary annual pay minimum. --></help>
+        <label><!-- FLSA Campaign Client Consultant --></label>
+        <name>FLSA_Campaign_Client_Consultant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Federal Contractor --></label>
+        <name>Federal_Contractor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tracks first activity date. Will get updated when Last Activity Date is empty --></help>
+        <label><!-- First Activity --></label>
+        <name>First_Activity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flag Reason(s): --></label>
+        <name>Flag_Reason_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- Government Subsidy Call – Routing 2 --></label>
+        <name>Goverment_Subsidy_Call_Routing_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Government Subsidy Call – Routing 3 --></label>
+        <name>Government_Subsidy_Call_Routing_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Government Subsidy Call – Routing 1 --></label>
+        <name>Government_Subsidy_Client_Call_Routi__c</name>
+    </fields>
+    <fields>
+        <label><!-- HRP Self Service --></label>
+        <name>HRP_Self_Service__c</name>
+    </fields>
+    <fields>
+        <help><!-- HR Consultant Assignment Methodology:
+
+Hookela - Serena Puaokalani / Jennifer McNamara
+Hoomau - Erin Hisano
+Kokua - Janelle Leong / Janell Daniels 
+Laulima - Erin Hisano 
+Lokahi - Janelle Leong 
+Pono - Amy Hudson / Jennifer McNamara --></help>
+        <label><!-- HR Consultant --></label>
+        <name>HR_Consultant__c</name>
+        <picklistValues>
+            <masterLabel>AMY HUDSON</masterLabel>
+            <translation><!-- AMY HUDSON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMY HUDSON / TIFFANY DONNELLY</masterLabel>
+            <translation><!-- AMY HUDSON / TIFFANY DONNELLY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DAVID MCKALE</masterLabel>
+            <translation><!-- DAVID MCKALE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DONNA JONES</masterLabel>
+            <translation><!-- DONNA JONES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERIN HISANO</masterLabel>
+            <translation><!-- ERIN HISANO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JANELLE LEONG</masterLabel>
+            <translation><!-- JANELLE LEONG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JENELL DANIELS</masterLabel>
+            <translation><!-- JENELL DANIELS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JENNIFER MCNAMARA</masterLabel>
+            <translation><!-- JENNIFER MCNAMARA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JENNIFER MCNAMARA / KIMBERLY IWAO</masterLabel>
+            <translation><!-- JENNIFER MCNAMARA / KIMBERLY IWAO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KIMBERLY IWAO</masterLabel>
+            <translation><!-- KIMBERLY IWAO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NON ACCOUNT</masterLabel>
+            <translation><!-- NON ACCOUNT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SERENA PUAOKALANI</masterLabel>
+            <translation><!-- SERENA PUAOKALANI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TIFFANY DONNELLY</masterLabel>
+            <translation><!-- TIFFANY DONNELLY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HR Associate --></label>
+        <name>HR__c</name>
+        <picklistValues>
+            <masterLabel>ANY AVAILABLE DT HRA</masterLabel>
+            <translation><!-- ANY AVAILABLE DT HRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ANY AVAILABLE HRA</masterLabel>
+            <translation><!-- ANY AVAILABLE HRA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CALEE GOYA</masterLabel>
+            <translation><!-- CALEE GOYA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JORDAN KAHAHAWAI-WELCH</masterLabel>
+            <translation><!-- JORDAN KAHAHAWAI-WELCH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SAMANTHA CATALDO</masterLabel>
+            <translation><!-- SAMANTHA CATALDO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TONI MITSUMOTO</masterLabel>
+            <translation><!-- TONI MITSUMOTO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VILI HAU</masterLabel>
+            <translation><!-- VILI HAU --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Type of Handbook that client/account is utilizing --></help>
+        <label><!-- Handbook Type --></label>
+        <name>Handbook_Type__c</name>
+        <picklistValues>
+            <masterLabel>Custom Handbook</masterLabel>
+            <translation><!-- Custom Handbook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService HRO</masterLabel>
+            <translation><!-- ProService HRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService HRO + Addendum</masterLabel>
+            <translation><!-- ProService HRO + Addendum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService PEO</masterLabel>
+            <translation><!-- ProService PEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService PEO + Addendum</masterLabel>
+            <translation><!-- ProService PEO + Addendum --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implementation Specialist --></label>
+        <name>Implementation_Specialist__c</name>
+    </fields>
+    <fields>
+        <help><!-- AGRICUL/NAT RES - BLUE 
+ENTERTAINMENT - WHITE 
+MANUFACTURING - BLUE 
+TRANSPORT - BLUE 
+HEALTH/EDU - WHITE 
+FOOD/BEV - WHITE 
+MAINTENANCE - BLUE 
+RETAIL - WHITE 
+PROFESSIONAL - WHITE 
+CONSTRUCTION - BLUE --></help>
+        <label><!-- Industry Type --></label>
+        <name>Industry_Type__c</name>
+        <picklistValues>
+            <masterLabel>Blue Collar</masterLabel>
+            <translation><!-- Blue Collar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>White Collar</masterLabel>
+            <translation><!-- White Collar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Read-only populated from Opportunity - Date when OPEN opportunity status was updated to &quot;Info Gathering.&quot; --></help>
+        <label><!-- Info Gathering Date --></label>
+        <name>Info_Gathering_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only populated from Opportunity - Date when OPEN opportunity field &quot;Intake meeting Date&quot; was updated. --></help>
+        <label><!-- Intake Meeting Date --></label>
+        <name>Intake_Meeting_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s main office location --></help>
+        <label><!-- Island(s) --></label>
+        <name>Island_s__c</name>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kauai</masterLabel>
+            <translation><!-- Kauai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lanai</masterLabel>
+            <translation><!-- Lanai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maui</masterLabel>
+            <translation><!-- Maui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molokai</masterLabel>
+            <translation><!-- Molokai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple Locations</masterLabel>
+            <translation><!-- Multiple Locations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oahu</masterLabel>
+            <translation><!-- Oahu --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- KAISER --></label>
+        <name>KAISER__c</name>
+    </fields>
+    <fields>
+        <label><!-- KARS Admin --></label>
+        <name>KARS_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- KARS Grouped Admin --></label>
+        <name>KARS_Grouped_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kaiser Notes --></label>
+        <name>Kaiser_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last 12 Months AM F2F --></label>
+        <name>Last_12_Months_AM_F2F__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last F2F Meeting Date --></label>
+        <name>Last_F2F_Meeting_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this in reports to display &quot;DNR&quot; if the client has not taken the survey. Otherwise, it will display a &quot;0&quot; --></help>
+        <label><!-- Last NPS Score (FOR REPORTS) --></label>
+        <name>Last_NPS_Score_FOR_REPORTS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last NPS Score --></label>
+        <name>Last_NPS_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of lead read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Lead Date --></label>
+        <name>Lead_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Not being used. --></help>
+        <label><!-- Lead Source --></label>
+        <name>Lead_Source_CS__c</name>
+        <picklistValues>
+            <masterLabel>BDM: Self Gen - BDM</masterLabel>
+            <translation><!-- BDM: Self Gen - BDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call-In Front Office</masterLabel>
+            <translation><!-- Call-In Front Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Referral - AM</masterLabel>
+            <translation><!-- Client Referral - AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Referral - Call In</masterLabel>
+            <translation><!-- Client Referral - Call In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Referral - HR Training</masterLabel>
+            <translation><!-- Client Referral - HR Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Referral - Internal EE</masterLabel>
+            <translation><!-- Client Referral - Internal EE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Referral - Web</masterLabel>
+            <translation><!-- Client Referral - Web --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Referral - Winback</masterLabel>
+            <translation><!-- Client Referral - Winback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiHR-PS Merger Client</masterLabel>
+            <translation><!-- HiHR-PS Merger Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Lead</masterLabel>
+            <translation><!-- Internal Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing - Campaign</masterLabel>
+            <translation><!-- Marketing - Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing - Event</masterLabel>
+            <translation><!-- Marketing - Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing - JA</masterLabel>
+            <translation><!-- Marketing - JA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing - Web/Call in</masterLabel>
+            <translation><!-- Marketing - Web/Call in --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Partner - AIS</masterLabel>
+            <translation><!-- Referral Partner - AIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral Partner - HIIFS</masterLabel>
+            <translation><!-- Referral Partner - HIIFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk-In Front Office</masterLabel>
+            <translation><!-- Walk-In Front Office --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date of lead read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Marketing Campaign --></label>
+        <name>Marketing_Campaign__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- NAICS Code --></label>
+        <name>NAICS_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- NAICS Description --></label>
+        <name>NAICS_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Survey Month (Date2) --></label>
+        <name>NPS_Survey_Month_Date2__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Survey Month (Date3) --></label>
+        <name>NPS_Survey_Month_Date3__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Survey Month (Date) --></label>
+        <name>NPS_Survey_Month_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only populated from Opportunity - Date when OPEN opportunity status was updated to &quot;Negotiation.&quot; --></help>
+        <label><!-- Negotiate/Review Date --></label>
+        <name>Negotiate_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Referrer in Q3 --></label>
+        <name>New_Referrer_in_Q3__c</name>
+    </fields>
+    <fields>
+        <help><!-- Field is imported from Payroll Systems daily --></help>
+        <label><!-- Next Pay Date --></label>
+        <name>Next_Pay_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- NumOpportunities --></label>
+        <name>NumOpportunities__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Address --></label>
+        <name>OE_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Call Routing Option 1 --></label>
+        <name>OE_Call_Routing_Option_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Call Routing Option 2 --></label>
+        <name>OE_Call_Routing_Option_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Client Materials --></label>
+        <name>OE_Client_Materials__c</name>
+    </fields>
+    <fields>
+        <help><!-- OE Client Packet Deployment Status --></help>
+        <label><!-- OE Client Packet Deployment Status --></label>
+        <name>OE_Client_Packet_Deployment_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- OE Client Selection Due Date --></help>
+        <label><!-- OE Client Selection Due Date --></label>
+        <name>OE_Client_Selection_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Contact --></label>
+        <name>OE_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Mailing - Client Address --></label>
+        <name>OE_EE_Mailing_Client_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Mailing - Client Contact --></label>
+        <name>OE_EE_Mailing_Client_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Mailing Date --></label>
+        <name>OE_EE_Mailing_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Engagement Client Temp --></label>
+        <name>OE_First_Engagement_Client_Temp__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- First Engagement Completed Date --></label>
+        <name>OE_First_Engagement_Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Engagement Completed --></label>
+        <name>OE_First_Engagement_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Engagement Owner --></label>
+        <name>OE_First_Engagement_Owner__c</name>
+        <relationshipLabel><!-- Accounts (First Engagement Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- First Engagement Wave --></label>
+        <name>OE_First_Engagement_Wave__c</name>
+    </fields>
+    <fields>
+        <label><!-- OE Mailing Notes --></label>
+        <name>OE_Mailing_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Open Opportunity Status --></help>
+        <label><!-- Current Opportunity Status --></label>
+        <name>Open_Opportunity_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunities Not Closed --></label>
+        <name>Opportunities_Not_Closed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expected start date for group rolled up from Opportunity.  Should be at least 3 weeks out from estimated close date. --></help>
+        <label><!-- Contract Start Date --></label>
+        <name>Original_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Email --></label>
+        <name>Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Phone --></label>
+        <name>Owner_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Title --></label>
+        <name>Owner_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hack hyperlink to server directory --></help>
+        <label><!-- psfil01/Company-Content-INTERNAL --></label>
+        <name>Path__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payroll Cycle --></label>
+        <name>Payroll_Cycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payroll Processor Lookup --></label>
+        <lookupFilter>
+            <errorMessage><!-- Assigned user must be part of the Payroll Analyst Team. --></errorMessage>
+        </lookupFilter>
+        <name>Payroll_Processor_Lookup__c</name>
+        <relationshipLabel><!-- Accounts (Payroll Processor Lookup) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Payroll Processor --></label>
+        <name>Payroll_Processor__c</name>
+    </fields>
+    <fields>
+        <help><!-- If a client&apos;s contract has a Personal Guarantor(s), this field will list out the names of those individuals. --></help>
+        <label><!-- Personal Guarantor Name(s) --></label>
+        <name>Personal_Guarantor_Name_s__c</name>
+    </fields>
+    <fields>
+        <help><!-- This identifies whether or not a client&apos;s contract does or does not have a Personal Guarantor. This is used primarily for reporting to our banking partner. --></help>
+        <label><!-- Personal Guarantor Status --></label>
+        <name>Personal_Guarantor_Status__c</name>
+        <picklistValues>
+            <masterLabel>No PG</masterLabel>
+            <translation><!-- No PG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PG</masterLabel>
+            <translation><!-- PG --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Play For Keeps? --></label>
+        <name>Play_For_Keeps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Power of One --></label>
+        <name>Power_of_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-OE Call Routing --></label>
+        <name>Pre_OE_Call_Routing__c</name>
+        <picklistValues>
+            <masterLabel>ANGIE NAKASONE - EXT 3145</masterLabel>
+            <translation><!-- ANGIE NAKASONE - EXT 3145 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BRITTANY QUIGG - EXT 6951</masterLabel>
+            <translation><!-- BRITTANY QUIGG - EXT 6951 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DARREN EBISU - EXT 4153</masterLabel>
+            <translation><!-- DARREN EBISU - EXT 4153 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIANNA MCGRAW - EXT 3146</masterLabel>
+            <translation><!-- DIANNA MCGRAW - EXT 3146 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HARRY BYERLY - EXT 6953990</masterLabel>
+            <translation><!-- HARRY BYERLY - EXT 6953990 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JOHN DEMARCO - EXT 6775</masterLabel>
+            <translation><!-- JOHN DEMARCO - EXT 6775 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JORDAN WONG - EXT 4128</masterLabel>
+            <translation><!-- JORDAN WONG - EXT 4128 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KEVIN YAMADA - EXT 4155</masterLabel>
+            <translation><!-- KEVIN YAMADA - EXT 4155 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LARRY HUBBELL - EXT 3196</masterLabel>
+            <translation><!-- LARRY HUBBELL - EXT 3196 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MARK SHIMAN - EXT 4435425</masterLabel>
+            <translation><!-- MARK SHIMAN - EXT 4435425 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NATALIE SPENCER - EXT 6791</masterLabel>
+            <translation><!-- NATALIE SPENCER - EXT 6791 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ROB GALLO - EXT 6954233</masterLabel>
+            <translation><!-- ROB GALLO - EXT 6954233 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STACY CASCO - EXT 4428562</masterLabel>
+            <translation><!-- STACY CASCO - EXT 4428562 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TONY GUZZARDO - EXT 6771</masterLabel>
+            <translation><!-- TONY GUZZARDO - EXT 6771 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pricing Group --></label>
+        <name>Pricing_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only populated from Opportunity - Date when OPEN opportunity status was updated to &quot;Pricing.&quot; --></help>
+        <label><!-- Pricing Submit Date --></label>
+        <name>Pricing_Submit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Cell Phone --></label>
+        <name>Primary_Contact_Cell_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProAccounting Client --></label>
+        <name>ProAccounting_Client__c</name>
+    </fields>
+    <fields>
+        <help><!-- Standard Picklist Dependent upon Service Type --></help>
+        <label><!-- ProService Legal Entity --></label>
+        <name>ProService_LegalEntity__c</name>
+        <picklistValues>
+            <masterLabel>HRO Client</masterLabel>
+            <translation><!-- HRO Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Advantage Inc.</masterLabel>
+            <translation><!-- ProService Advantage Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Connect, Inc.</masterLabel>
+            <translation><!-- ProService Connect, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Elite</masterLabel>
+            <translation><!-- ProService Elite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Focus, Inc.</masterLabel>
+            <translation><!-- ProService Focus, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService HR</masterLabel>
+            <translation><!-- ProService HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService HRO, Inc.</masterLabel>
+            <translation><!-- ProService HRO, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Hawaii BDC</masterLabel>
+            <translation><!-- ProService Hawaii BDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Human Resource, Inc.</masterLabel>
+            <translation><!-- ProService Human Resource, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Innovation, Inc.</masterLabel>
+            <translation><!-- ProService Innovation, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService National</masterLabel>
+            <translation><!-- ProService National --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Optimum Inc.</masterLabel>
+            <translation><!-- ProService Optimum Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Pacific</masterLabel>
+            <translation><!-- ProService Pacific --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Solutions Inc.</masterLabel>
+            <translation><!-- ProService Solutions Inc. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proferral Profile --></label>
+        <name>Proferral_Profile__c</name>
+        <picklistValues>
+            <masterLabel>Highly Likely to Refer</masterLabel>
+            <translation><!-- Highly Likely to Refer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Likely to Refer</masterLabel>
+            <translation><!-- Likely to Refer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Somewhat Likely to Refer</masterLabel>
+            <translation><!-- Somewhat Likely to Refer --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Read-only populated from Opportunity - Date when OPEN opportunity status was updated to &quot;Proposal.&quot; --></help>
+        <label><!-- Proposal Date --></label>
+        <name>Proposal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 1 - License Exp Date --></label>
+        <name>RME_1_License_Exp_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 1 - License # --></label>
+        <name>RME_1_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 1 - Name --></label>
+        <name>RME_1_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 2 - License Exp Date --></label>
+        <name>RME_2_License_Exp_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 2 - License # --></label>
+        <name>RME_2_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 2 - Name --></label>
+        <name>RME_2_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 3 - License Exp Date --></label>
+        <name>RME_3_License_Exp_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 3 - License # --></label>
+        <name>RME_3_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 3 - Name --></label>
+        <name>RME_3_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 4 - License Exp Date --></label>
+        <name>RME_4_License_Exp_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 4 - License # --></label>
+        <name>RME_4_License__c</name>
+    </fields>
+    <fields>
+        <label><!-- RME 4 - Name --></label>
+        <name>RME_4_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- These reasons the client cited during the sales process for coming onboard with ProService. --></help>
+        <label><!-- Reason(s) For Buying --></label>
+        <name>Reason_s_For_Buying__c</name>
+        <picklistValues>
+            <masterLabel>HR Services, Support &amp; Compliance</masterLabel>
+            <translation><!-- HR Services, Support &amp; Compliance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare Savings</masterLabel>
+            <translation><!-- Healthcare Savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OTHER</masterLabel>
+            <translation><!-- OTHER --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEO Bundle</masterLabel>
+            <translation><!-- PEO Bundle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Services</masterLabel>
+            <translation><!-- Payroll Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Previously with PSH</masterLabel>
+            <translation><!-- Previously with PSH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Referral</masterLabel>
+            <translation><!-- Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsatisfied with previous PEO</masterLabel>
+            <translation><!-- Unsatisfied with previous PEO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- These reasons the client cited during the sales process for coming onboard with ProService that are not listed already. --></help>
+        <label><!-- Reasons to Buy (OTHER) --></label>
+        <name>Reasons_to_Buy_OTHER__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Referee&apos;s Name --></label>
+        <name>Referees_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Referred by Client/Partner --></label>
+        <name>Referred_by_Client_Partner__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Referred by Department --></label>
+        <name>Referred_by_Department__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation><!-- Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation><!-- Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS</masterLabel>
+            <translation><!-- CIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims</masterLabel>
+            <translation><!-- Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client HR</masterLabel>
+            <translation><!-- Client HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Front Office</masterLabel>
+            <translation><!-- Front Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Associates</masterLabel>
+            <translation><!-- HR Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation><!-- Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Audit Team</masterLabel>
+            <translation><!-- Internal Audit Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal HR</masterLabel>
+            <translation><!-- Internal HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing &amp; Analytics</masterLabel>
+            <translation><!-- Pricing &amp; Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Control</masterLabel>
+            <translation><!-- Risk Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Operations</masterLabel>
+            <translation><!-- Sales Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solutions</masterLabel>
+            <translation><!-- Solutions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Referred by EE --></label>
+        <name>Referred_by_EE__c</name>
+        <relationshipLabel><!-- Accounts (Referred by EE) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Referrer&apos;s Name --></label>
+        <name>Referrer_s_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Client ID&apos;s for related accounts --></help>
+        <label><!-- Related Accounts --></label>
+        <name>Related_Accounts__c</name>
+    </fields>
+    <fields>
+        <help><!-- If no assigned Risk Control Consultant, see Allan Yokoyama or Jason Collins.
+Overall safety needs are handled by the Risk Control Consultants.  Most safety training needs are handled by the Risk Control Coordinator. --></help>
+        <label><!-- Risk Control Consultant --></label>
+        <name>Risk_Control_Consultant__c</name>
+    </fields>
+    <fields>
+        <help><!-- Overall safety needs are handled by the Risk Control Consultants. 
+Most safety training needs are handled by the Risk Control Coordinator.
+
+CRAIG OKUTANI - Lokahi, Hookela, Kokua
+MHYRA CARMONA - Pono, Lauli, Hoomau --></help>
+        <label><!-- Risk Control Coordinator --></label>
+        <name>Risk_Control_Coordinator__c</name>
+    </fields>
+    <fields>
+        <help>Opção para combinar as quantidades de vários ativos para o mesmo produto em uma linha quando a cotação de renovação é gerada.</help>
+        <label><!-- Combine Asset Quantities --></label>
+        <name>SBQQ__AssetQuantitiesCombined__c</name>
+    </fields>
+    <fields>
+        <help>Permita combinar ativos e assinaturas a partir de vários contratos com termo combinado. Por padrão, cada contrato com termo combinado gera um grupo separado na cotação de renovação.</help>
+        <label><!-- Combine Co-Termed Contracts --></label>
+        <name>SBQQ__CoTermedContractsCombined__c</name>
+    </fields>
+    <fields>
+        <help>Determina quando os contratos são encerrados de modo combinado.</help>
+        <label><!-- Co-Termination Event --></label>
+        <name>SBQQ__CoTerminationEvent__c</name>
+        <picklistValues>
+            <masterLabel>Add-on</masterLabel>
+            <translation>Complemento</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation>Renovação</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Determina como os contratos de serviço e as assinaturas para esse cliente são encerrados de modo combinado.</help>
+        <label><!-- Contract Co-Termination --></label>
+        <name>SBQQ__ContractCoTermination__c</name>
+        <picklistValues>
+            <masterLabel>Always</masterLabel>
+            <translation>Sempre</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Never</masterLabel>
+            <translation>Nunca</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prompt</masterLabel>
+            <translation>Avisar</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Oportunidade padrão para essa conta usada por um módulo de comércio eletrônico para obter o catálogo de preços do cliente e associar a cotações do "carrinho de compras".</help>
+        <label><!-- Default Opportunity --></label>
+        <name>SBQQ__DefaultOpportunity__c</name>
+        <relationshipLabel><!-- Accounts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Selecione se os preços contratados não devam ser herdados da conta pai.</help>
+        <label><!-- Ignore Parent Contracted Prices --></label>
+        <name>SBQQ__IgnoreParentContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help>Selecione a caixa de seleção para manter a hierarquia de pacotes em cotações de renovação e alterações.</help>
+        <label><!-- Preserve Bundle Structure --></label>
+        <name>SBQQ__PreserveBundle__c</name>
+    </fields>
+    <fields>
+        <help>Insira a data até a qual os preços devem ser retidos.</help>
+        <label><!-- Price Hold End --></label>
+        <name>SBQQ__PriceHoldEnd__c</name>
+    </fields>
+    <fields>
+        <help>Escolha Baseado em ativo para tornar as renovações baseadas nos Ativos da conta ou escolha Baseado em assinatura para tornar as renovações baseadas em assinaturas criadas a partir de uma cotação.</help>
+        <label><!-- Renewal Model --></label>
+        <name>SBQQ__RenewalModel__c</name>
+        <picklistValues>
+            <masterLabel>Asset Based</masterLabel>
+            <translation>Baseado em ativo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Based</masterLabel>
+            <translation>Baseado em contrato</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Use "Mesmo" para manter o mesmo preço pago na última vez. Use "Lista" para usar o preço de lista atual. Use "Aumento" para usar o preço pago na última vez mais algum aumento.</help>
+        <label><!-- Renewal Pricing Method --></label>
+        <name>SBQQ__RenewalPricingMethod__c</name>
+        <picklistValues>
+            <masterLabel>List</masterLabel>
+            <translation>Lista</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Same</masterLabel>
+            <translation>Mesmo</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Uplift</masterLabel>
+            <translation>Aumento</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help>Selecione se essa conta tiver certificados ativos</help>
+        <label><!-- Tax-Exempt --></label>
+        <name>SBQQ__TaxExempt__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation>Não</translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation>Sim</translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Flags --></label>
+        <name>SD_Formula_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- SF Account ID --></label>
+        <name>SFAccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales (BDM) --></label>
+        <name>Sales_BDM__c</name>
+        <relationshipLabel><!-- Accounts (Sales (BDM)) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Read only. Update in Opportunity. Lookup to the User that is the Sales Ops Owner --></help>
+        <label><!-- Sales Ops Owner --></label>
+        <name>Sales_Ops_Owner__c</name>
+        <relationshipLabel><!-- Accounts (Sales Ops Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Read-only because updated from open Opportunity --></help>
+        <label><!-- Service Type Picklist --></label>
+        <name>ServiceType_Picklist__c</name>
+        <picklistValues>
+            <masterLabel>HRO-HRP</masterLabel>
+            <translation><!-- HRO-HRP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRO-Ultipro</masterLabel>
+            <translation><!-- HRO-Ultipro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEO</masterLabel>
+            <translation><!-- PEO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Service_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Model --></label>
+        <name>Service_Model__c</name>
+        <picklistValues>
+            <masterLabel>ASO</masterLabel>
+            <translation><!-- ASO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRO</masterLabel>
+            <translation><!-- HRO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEO</masterLabel>
+            <translation><!-- PEO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Service team manager for teams --></help>
+        <label><!-- Service Team Manager --></label>
+        <name>Service_Team_Manager__c</name>
+        <relationshipLabel><!-- Accounts (Service Team Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Service Type --></label>
+        <name>Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Years --></label>
+        <name>Service_Years__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Account Designation --></label>
+        <name>Special_Account_Designation__c</name>
+        <picklistValues>
+            <masterLabel>TESTIMONIAL</masterLabel>
+            <translation><!-- TESTIMONIAL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TROPHY</masterLabel>
+            <translation><!-- TROPHY --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Special Account Notes --></label>
+        <name>Special_Account_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Considerations --></label>
+        <name>Special_Considerations__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed for future review</masterLabel>
+            <translation><!-- Closed for future review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OpenCold</masterLabel>
+            <translation><!-- OpenCold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OpenWarm</masterLabel>
+            <translation><!-- OpenWarm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term</masterLabel>
+            <translation><!-- Term --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start-up --></label>
+        <name>Start_up__c</name>
+    </fields>
+    <fields>
+        <help><!-- Effective date of the Status --></help>
+        <label><!-- Status Date --></label>
+        <name>Status_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Description --></label>
+        <name>Status_Description__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did Not Materialize</masterLabel>
+            <translation><!-- Did Not Materialize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Termination</masterLabel>
+            <translation><!-- Pending Termination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term In Process</masterLabel>
+            <translation><!-- Term In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termed</masterLabel>
+            <translation><!-- Termed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated</masterLabel>
+            <translation><!-- Terminated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dead</masterLabel>
+            <translation><!-- Dead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Did Not Materialize</masterLabel>
+            <translation><!-- Did Not Materialize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Cold</masterLabel>
+            <translation><!-- Open Cold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open Warm</masterLabel>
+            <translation><!-- Open Warm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recently Closed</masterLabel>
+            <translation><!-- Recently Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Term In Process</masterLabel>
+            <translation><!-- Term In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termed</masterLabel>
+            <translation><!-- Termed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Surge --></label>
+        <name>Surge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application --></label>
+        <name>System__c</name>
+        <picklistValues>
+            <masterLabel>HRP</masterLabel>
+            <translation><!-- HRP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRP CLOUD</masterLabel>
+            <translation><!-- HRP CLOUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PRISM CLOUD</masterLabel>
+            <translation><!-- PRISM CLOUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ULTI</masterLabel>
+            <translation><!-- ULTI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- TASC ID for Supplemental Benefits --></help>
+        <label><!-- TASC ID --></label>
+        <name>TASCID__c</name>
+    </fields>
+    <fields>
+        <label><!-- T&amp;A Single Sign-On --></label>
+        <name>TA_Single_Sign_On__c</name>
+        <picklistValues>
+            <masterLabel>SSO Enabled</masterLabel>
+            <translation><!-- SSO Enabled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSO Only</masterLabel>
+            <translation><!-- SSO Only --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TDI Carve Out --></label>
+        <name>TDI_Carve_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTM Admin Fee --></label>
+        <name>TTM_Admin_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTM Gross Payroll --></label>
+        <name>TTM_Gross_Payroll__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the system name generated by Master Tax when the quarterly tax packages are created for HRO client. DO NOT edit this field. This field is maintained by Client Relations. --></help>
+        <label><!-- Tax Package File Name --></label>
+        <name>Tax_Package_File_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Team Alaka&apos;i (Client HR and Safety) training held during current year. --></help>
+        <label><!-- Team Alakai - Training Held Current Year --></label>
+        <name>Team_Alakai_Training_Current_Year__c</name>
+    </fields>
+    <fields>
+        <help><!-- Team Alaka&apos;i (Client HR and Safety) first training date held this year. --></help>
+        <label><!-- Team Alakai - First Training Date --></label>
+        <name>Team_Alakai_Training_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Test --></help>
+        <label><!-- Team Email --></label>
+        <name>Team_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Fax --></label>
+        <name>Team_Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team Phone --></label>
+        <name>Team_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Initiation --></label>
+        <name>Term_Initiation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time &amp; Attendance --></label>
+        <name>Time_Attendance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Length of Service --></label>
+        <name>Total_Length_of_Service__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total On Benefits --></label>
+        <name>Total_On_Benefits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Paid EE --></label>
+        <name>Total_Paid_EE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ultipro Client --></label>
+        <name>Ulipro_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Survey Month --></label>
+        <name>VOC_Survey_Month__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation><!-- April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation><!-- August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation><!-- December --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Do Not Survey</masterLabel>
+            <translation><!-- Do Not Survey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation><!-- February --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation><!-- January --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation><!-- July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation><!-- June --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation><!-- March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation><!-- November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation><!-- September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WC Carrier --></label>
+        <name>WC_Carrier__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is a direct feed from HRP or the Ulti User Database and contains either a client&apos;s workers&apos; comp deductible ro an indicaiton of the carve out status of their workers&apos; comp. --></help>
+        <label><!-- WC Deductible/Carve Out Status --></label>
+        <name>WC_Deductible_Carve_Out_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Service Type --></label>
+        <name>WC_Service_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Welcome Packet Exceptions --></label>
+        <name>WelcomePacketExceptions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of lead read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- 1st Meeting Date --></label>
+        <name>X1st_Meeting_Date_CS__c</name>
+    </fields>
+    <fields>
+        <label><!-- XXOpp External ID --></label>
+        <name>XXOpp_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year of Establishment --></label>
+        <name>Year_of_Establishment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Index --></label>
+        <name>dupcheck__dc3Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- eOnboarding Segment --></label>
+        <name>eOnboarding_Segment__c</name>
+    </fields>
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Open Enrollment --></label>
+            <section>Open Enrollment</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout with Carol's changes</layout>
+        <sections>
+            <label><!-- Awareness Items --></label>
+            <section>Awareness Items</section>
+        </sections>
+        <sections>
+            <label><!-- Basic Account Info --></label>
+            <section>Basic Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed Account Info --></label>
+            <section>Detailed Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed System Info --></label>
+            <section>Detailed System Info</section>
+        </sections>
+        <sections>
+            <label><!-- Open Enrollment --></label>
+            <section>Open Enrollment</section>
+        </sections>
+        <sections>
+            <label><!-- Sale &amp; Implementation Info --></label>
+            <section>Sale &amp; Implementation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Service Team --></label>
+            <section>Service Team</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout with Carol's changes for HRA w/buttons w/SOR</layout>
+        <sections>
+            <label><!-- Awareness Items --></label>
+            <section>Awareness Items</section>
+        </sections>
+        <sections>
+            <label><!-- Basic Account Info --></label>
+            <section>Basic Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- CIS Communication Information --></label>
+            <section>CIS Communication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed Account Info --></label>
+            <section>Detailed Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed System Info --></label>
+            <section>Detailed System Info</section>
+        </sections>
+        <sections>
+            <label><!-- Open Enrollment --></label>
+            <section>Open Enrollment</section>
+        </sections>
+        <sections>
+            <label><!-- Professional License Information --></label>
+            <section>Professional License Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sale &amp; Implementation Info --></label>
+            <section>Sale &amp; Implementation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Service Team --></label>
+            <section>Service Team</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout with Carol's changes w/SOR - Admin</layout>
+        <sections>
+            <label><!-- Awareness Items --></label>
+            <section>Awareness Items</section>
+        </sections>
+        <sections>
+            <label><!-- Basic Account Info --></label>
+            <section>Basic Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- CIS Communication Information --></label>
+            <section>CIS Communication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Client Specific Exceptions --></label>
+            <section>Client Specific Exceptions</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed Account Info --></label>
+            <section>Detailed Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed System Info --></label>
+            <section>Detailed System Info</section>
+        </sections>
+        <sections>
+            <label><!-- Open Enrollment --></label>
+            <section>Open Enrollment</section>
+        </sections>
+        <sections>
+            <label><!-- Professional License Information --></label>
+            <section>Professional License Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sale &amp; Implementation Info --></label>
+            <section>Sale &amp; Implementation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Service Team --></label>
+            <section>Service Team</section>
+        </sections>
+        <sections>
+            <label><!-- Testing Section --></label>
+            <section>Testing Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Layout with Carol's changes w/SOR - Standard</layout>
+        <sections>
+            <label><!-- Awareness Items --></label>
+            <section>Awareness Items</section>
+        </sections>
+        <sections>
+            <label><!-- Basic Account Info --></label>
+            <section>Basic Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- CIS Communication Information --></label>
+            <section>CIS Communication Information</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed Account Info --></label>
+            <section>Detailed Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed System Info --></label>
+            <section>Detailed System Info</section>
+        </sections>
+        <sections>
+            <label><!-- Open Enrollment --></label>
+            <section>Open Enrollment</section>
+        </sections>
+        <sections>
+            <label><!-- Professional License Information --></label>
+            <section>Professional License Information</section>
+        </sections>
+        <sections>
+            <label><!-- Sale &amp; Implementation Info --></label>
+            <section>Sale &amp; Implementation Info</section>
+        </sections>
+        <sections>
+            <label><!-- Service Team --></label>
+            <section>Service Team</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>CPQ Account Layout</layout>
+        <sections>
+            <label>Informações adicionais</label>
+            <section>Additional Information</section>
+        </sections>
+        <sections>
+            <label>Links personalizados</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Informações de renovação/encerramento combinado</label>
+            <section>Renewal/Co-Term Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospect Layout</layout>
+        <sections>
+            <label><!-- Basic Account Info --></label>
+            <section>Basic Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed Account Info --></label>
+            <section>Detailed Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed System Info --></label>
+            <section>Detailed System Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Prospect Layout for CIS</layout>
+        <sections>
+            <label><!-- Basic Account Info --></label>
+            <section>Basic Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- CIS/System Admin Fields --></label>
+            <section>CIS/System Admin Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed Account Info --></label>
+            <section>Detailed Account Info</section>
+        </sections>
+        <sections>
+            <label><!-- Detailed System Info --></label>
+            <section>Detailed System Info</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Accounts that are clients --></description>
+        <label><!-- Account (Clients) --></label>
+        <name>Account_Clients</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Prospect accounts in the Salespipeline - Does not have a record in Salesforce --></description>
+        <label><!-- Account (Prospects) --></label>
+        <name>Account_Prospects</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot have more than one open Opportunity at a time. Please check account for other open Opportunities. --></errorMessage>
+        <name>Limit_open_Opportunities_to_one_per_Acct</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ACH_Kickback --></label>
+        <name>ACH_Kickback</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CLIENT_FORMS --></label>
+        <name>CLIENT_FORMS</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Client_OE_Mailings --></label>
+        <name>Client_OE_Mailings</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EESelectionForms --></label>
+        <name>EESelectionForms</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HR_Consult --></label>
+        <name>HR_Consult</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HR_Error --></label>
+        <name>HR_Error</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HR_Training_Invite --></label>
+        <name>HR_Training_Invite</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- INTERNAL_Client_Forms --></label>
+        <name>INTERNAL_Client_Forms</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- I_9_Non_Compliance --></label>
+        <name>I_9_Non_Compliance</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- I_Own_the_Client_Experience --></label>
+        <name>I_Own_the_Client_Experience</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Inc_NHP --></label>
+        <name>Inc_NHP</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Log_CSR_Service --></label>
+        <name>Log_CSR_Service</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Log_NSF --></label>
+        <name>Log_NSF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- OE_Client_Materials --></label>
+        <name>OE_Client_Materials</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- OE_EE_Materials --></label>
+        <name>OE_EE_Materials</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Renew_Assets --></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SSN_Verification --></label>
+        <name>SSN_Verification</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Site_Visit --></label>
+        <name>Site_Visit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- VOE --></label>
+        <name>VOE</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Accounts --></label>
+        <name>activities__Create_Tasks_Accounts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verify_with_DNB --></label>
+        <name>dsfs__Verify_with_DNB</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Check --></label>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Merge --></label>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,15 @@
+{!Task.LastModifiedBy} has assigned you the following task:
+
+Subject: {!Task.Subject}
+Phone: {!Account.Phone}
+Email: {!Task.Contact_Email__c}
+Client: {!Account.Name}
+Client ID: {!Account.Client_ID__c}
+Application: {!Account.System__c}
+Due Date: {!Task.ActivityDate}
+Priority: {!Task.Priority}
+Comments: {!Task.Description}
+
+For more details, click the following link:
+
+https://na29.salesforce.com/{!Task.Id}

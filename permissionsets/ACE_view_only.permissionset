@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>ACE view only access</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>ACE view only</label>
+    <license>Salesforce</license>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Case.ACE_KARS_Admin__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <recordTypeVisibilities>
+        <recordType>Case.Standard_Case</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+</PermissionSet>

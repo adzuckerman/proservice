@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Lead Application Request Email_Startup</name>
+    <style>none</style>
+    <subject>ProService Request for Proposal</subject>
+    <textOnly>Aloha,
+
+Thank you for your interest in ProService.  To prepare your customized proposal, please complete our online application. Please allow approximately 15 minutes for this process.
+
+[URL to the Application Record for the Opportunity]
+
+We recommend you begin by creating an account. You will be able to save your entry and complete the application at a later time if needed.
+
+If you have any questions about this application, please contact your Business Development Manager: {!Opportunity.00N34000005kti0}, at {!if(Opportunity.00N34000005kthz=&apos;&apos;,&quot;&quot;,Opportunity.00N34000005kthz&amp;&quot; or &quot;)} {!Opportunity.00N34000005kthy}.
+
+If you experience any issues with the online application, email our Sales Operations Department at salesoperations@proservice.com.
+
+We look forward to partnering with you and your business.
+
+
+Mahalo,
+
+
+ProService Hawaii
+
+Address: 6600 Kalanianaole Highway
+Suite 200
+Honolulu, HI 96825
+Website: http://www.proservice.com/
+Phone: 808-394-8878</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

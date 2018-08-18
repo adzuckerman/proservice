@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Billing Address --></label>
+        <name>Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing City --></label>
+        <name>Billing_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing State --></label>
+        <name>Billing_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Street --></label>
+        <name>Billing_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing ZIP --></label>
+        <name>Billing_ZIP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Legal Name --></label>
+        <name>Client_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Name --></label>
+        <name>Client_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Status of Overall Account (Active/Termed) --></help>
+        <label><!-- Client Status --></label>
+        <name>Client_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <relationshipLabel><!-- NSFs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Date the total amount was collected --></help>
+        <label><!-- Collection Complete --></label>
+        <name>Collection_Complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Amount sent to collections --></help>
+        <label><!-- Collections Balance --></label>
+        <name>Collections_Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the file was sent to collections --></help>
+        <label><!-- Collections Date --></label>
+        <name>Collections_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Collections Notes --></label>
+        <name>Collections_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Direct Line to Contact --></help>
+        <label><!-- Contact Phone --></label>
+        <name>Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact 1 from main client page --></help>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Check Comments --></label>
+        <name>Credit_Check_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the credit score was checked --></help>
+        <label><!-- Credit Check Date --></label>
+        <name>Credit_Check_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if credit was checked --></help>
+        <label><!-- Credit Check --></label>
+        <name>Credit_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Score --></label>
+        <name>Credit_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- NSF Amount less Total Paid --></help>
+        <label><!-- Current Total Due --></label>
+        <name>Current_Total_Due__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the default notice was sent to client. --></help>
+        <label><!-- Default Notice Sent --></label>
+        <name>Default_Notice_Sent__c</name>
+    </fields>
+    <fields>
+        <help><!-- Deposit amount currently on file. --></help>
+        <label><!-- Deposit Amount --></label>
+        <name>Deposit_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Amount of deposit to be billed to the client. --></help>
+        <label><!-- Deposit Billed --></label>
+        <name>Deposit_Billed__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date we expect NSF to be cleared/paid in full --></help>
+        <label><!-- Due Date --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finance Chg Date --></label>
+        <name>Finance_Chg_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up Date --></label>
+        <name>Follow_up_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total $$ Amount of the NSF --></help>
+        <label><!-- NSF Amount --></label>
+        <name>NSF_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Payroll period that NSF&apos;d --></help>
+        <label><!-- NSF PayPeriod --></label>
+        <name>NSF_PayPeriod__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date the NSF notice was rec&apos;d from the bank. --></help>
+        <label><!-- Notice Date --></label>
+        <name>Notice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occurrence w/in 12 months --></label>
+        <name>Occurrence__c</name>
+        <picklistValues>
+            <masterLabel>1st Occurrence</masterLabel>
+            <translation><!-- 1st Occurrence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Occurrence</masterLabel>
+            <translation><!-- 2nd Occurrence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd Occurrence</masterLabel>
+            <translation><!-- 3rd Occurrence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Occurrence</masterLabel>
+            <translation><!-- Additional Occurrence --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Expected date payment plan is to be paid in full. --></help>
+        <label><!-- Paid in Full --></label>
+        <name>Paid_in_Full__c</name>
+    </fields>
+    <fields>
+        <help><!-- # of Days Past Due --></help>
+        <label><!-- Past Due Days --></label>
+        <name>Past_Due_Days__c</name>
+    </fields>
+    <fields>
+        <help><!-- How often payment is required. --></help>
+        <label><!-- Payment Cycle --></label>
+        <name>Payment_Cycle__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expected Payment per month/payperiod required --></help>
+        <label><!-- Payment Plan Amount --></label>
+        <name>Payment_Plan_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payroll Cycle --></label>
+        <name>Payroll_Cycle__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check if payroll hold has been placed. --></help>
+        <label><!-- Payroll Hold --></label>
+        <name>Payroll_Hold__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checked to indicate that payroll is ok to release. --></help>
+        <label><!-- Ok to Release Payroll --></label>
+        <name>Payroll_released__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>ACH Reprocessed</masterLabel>
+            <translation><!-- ACH Reprocessed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COD</masterLabel>
+            <translation><!-- COD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cashier's Check Rec'd</masterLabel>
+            <translation><!-- Cashier&apos;s Check Rec&apos;d --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Call - A/R</masterLabel>
+            <translation><!-- Client Call - A/R --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Call - AM</masterLabel>
+            <translation><!-- Client Call - AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Termed</masterLabel>
+            <translation><!-- Client Termed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Inquiries in Progress</masterLabel>
+            <translation><!-- Internal Inquiries in Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Plan</masterLabel>
+            <translation><!-- Payment Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payment Promised</masterLabel>
+            <translation><!-- Payment Promised --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <picklistValues>
+            <masterLabel>Kokua</masterLabel>
+            <translation><!-- Kokua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lokahi</masterLabel>
+            <translation><!-- Lokahi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pono</masterLabel>
+            <translation><!-- Pono --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Total amount paid towards NSF --></help>
+        <label><!-- Total Paid --></label>
+        <name>Total_Paid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of 1st invoice to receive billed deposit --></help>
+        <label><!-- 1st Installment Invoice --></label>
+        <name>X1st_Installment_Invoice__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>NSF</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>NSFs</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>NSF Layout</layout>
+        <sections>
+            <label><!-- Collections --></label>
+            <section>Collections</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Plan --></label>
+            <section>Payment Plan</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

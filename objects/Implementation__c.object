@@ -1,0 +1,2510 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>Actual_of_Employees__c</fullName>
+        <externalId>false</externalId>
+        <label>Actual # of Employees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Additional_Paycycle__c</fullName>
+        <externalId>false</externalId>
+        <label>Additional Paycycle</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Bi-weekly</fullName>
+                    <default>false</default>
+                    <label>Bi-weekly</label>
+                </value>
+                <value>
+                    <fullName>Semi-monthly 5/20</fullName>
+                    <default>false</default>
+                    <label>Semi-monthly 5/20</label>
+                </value>
+                <value>
+                    <fullName>Semi-monthly 7/22</fullName>
+                    <default>false</default>
+                    <label>Semi-monthly 7/22</label>
+                </value>
+                <value>
+                    <fullName>Semi-monthly 15/EOM</fullName>
+                    <default>false</default>
+                    <label>Semi-monthly 15/EOM</label>
+                </value>
+                <value>
+                    <fullName>Semi-monthly 1/15</fullName>
+                    <default>false</default>
+                    <label>Semi-monthly 1/15</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Admin_Fee_1_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Admin Fee #1 Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PEPM</fullName>
+                    <default>false</default>
+                    <label>PEPM</label>
+                </value>
+                <value>
+                    <fullName>%</fullName>
+                    <default>false</default>
+                    <label>%</label>
+                </value>
+                <value>
+                    <fullName>Retainer</fullName>
+                    <default>false</default>
+                    <label>Retainer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Admin_Fee_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Admin Fee #1</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Admin_Fee_2_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Admin Fee #2 Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PEPM</fullName>
+                    <default>false</default>
+                    <label>PEPM</label>
+                </value>
+                <value>
+                    <fullName>%</fullName>
+                    <default>false</default>
+                    <label>%</label>
+                </value>
+                <value>
+                    <fullName>Retainer</fullName>
+                    <default>false</default>
+                    <label>Retainer</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Admin_Fee_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Admin Fee #2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AgricultureEmployees__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Agriculture Employees</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Annualized_Admin_Fees__c</fullName>
+        <externalId>false</externalId>
+        <label>Annualized Admin Fees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Assigned_Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Assigned Team</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Laulima</fullName>
+                    <default>false</default>
+                    <label>Laulima</label>
+                </value>
+                <value>
+                    <fullName>Lokahi</fullName>
+                    <default>false</default>
+                    <label>Lokahi</label>
+                </value>
+                <value>
+                    <fullName>Ho'okela</fullName>
+                    <default>false</default>
+                    <label>Ho'okela</label>
+                </value>
+                <value>
+                    <fullName>Pono</fullName>
+                    <default>false</default>
+                    <label>Pono</label>
+                </value>
+                <value>
+                    <fullName>Kokua</fullName>
+                    <default>false</default>
+                    <label>Kokua</label>
+                </value>
+                <value>
+                    <fullName>Ho’omau</fullName>
+                    <default>false</default>
+                    <label>Ho’omau</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BDM__c</fullName>
+        <externalId>false</externalId>
+        <label>BDM</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Allison Galdeira</fullName>
+                    <default>false</default>
+                    <label>Allison Galdeira</label>
+                </value>
+                <value>
+                    <fullName>Amanda Lindley</fullName>
+                    <default>false</default>
+                    <label>Amanda Lindley</label>
+                </value>
+                <value>
+                    <fullName>Dale Yasunaga</fullName>
+                    <default>false</default>
+                    <label>Dale Yasunaga</label>
+                </value>
+                <value>
+                    <fullName>Dave Yarbrough</fullName>
+                    <default>false</default>
+                    <label>Dave Yarbrough</label>
+                </value>
+                <value>
+                    <fullName>Debbie Dudoit</fullName>
+                    <default>false</default>
+                    <label>Debbie Dudoit</label>
+                </value>
+                <value>
+                    <fullName>Esther Kim</fullName>
+                    <default>false</default>
+                    <label>Esther Kim</label>
+                </value>
+                <value>
+                    <fullName>Guy Tanioka</fullName>
+                    <default>false</default>
+                    <label>Guy Tanioka</label>
+                </value>
+                <value>
+                    <fullName>Heather Boudreau</fullName>
+                    <default>false</default>
+                    <label>Heather Boudreau</label>
+                </value>
+                <value>
+                    <fullName>Holly DeGeal</fullName>
+                    <default>false</default>
+                    <label>Holly DeGeal</label>
+                </value>
+                <value>
+                    <fullName>James Idemoto</fullName>
+                    <default>false</default>
+                    <label>James Idemoto</label>
+                </value>
+                <value>
+                    <fullName>Jared Furusho</fullName>
+                    <default>false</default>
+                    <label>Jared Furusho</label>
+                </value>
+                <value>
+                    <fullName>Jason Daley</fullName>
+                    <default>false</default>
+                    <label>Jason Daley</label>
+                </value>
+                <value>
+                    <fullName>Jill Eckart</fullName>
+                    <default>false</default>
+                    <label>Jill Eckart</label>
+                </value>
+                <value>
+                    <fullName>Jody Aadland</fullName>
+                    <default>false</default>
+                    <label>Jody Aadland</label>
+                </value>
+                <value>
+                    <fullName>John Demarco</fullName>
+                    <default>false</default>
+                    <label>John Demarco</label>
+                </value>
+                <value>
+                    <fullName>Kathy Bell</fullName>
+                    <default>false</default>
+                    <label>Kathy Bell</label>
+                </value>
+                <value>
+                    <fullName>Maile Jackson</fullName>
+                    <default>false</default>
+                    <label>Maile Jackson</label>
+                </value>
+                <value>
+                    <fullName>Matt Rosen</fullName>
+                    <default>false</default>
+                    <label>Matt Rosen</label>
+                </value>
+                <value>
+                    <fullName>Sandy Sanchez</fullName>
+                    <default>false</default>
+                    <label>Sandy Sanchez</label>
+                </value>
+                <value>
+                    <fullName>Stanton Saiki</fullName>
+                    <default>false</default>
+                    <label>Stanton Saiki</label>
+                </value>
+                <value>
+                    <fullName>Tawney Sablan</fullName>
+                    <default>false</default>
+                    <label>Tawney Sablan</label>
+                </value>
+                <value>
+                    <fullName>Weston Yap</fullName>
+                    <default>false</default>
+                    <label>Weston Yap</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BDM_lookup__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Salesperson that closed won the prospect</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Salesperson that closed won the prospect</inlineHelpText>
+        <label>BDM Lookup</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Implementation_PM</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>CPP__c</fullName>
+        <externalId>false</externalId>
+        <label>HC CPP</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Certified_Payroll__c</fullName>
+        <externalId>false</externalId>
+        <label>Certified Payroll</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DB</fullName>
+                    <default>false</default>
+                    <label>DB</label>
+                </value>
+                <value>
+                    <fullName>OCIP</fullName>
+                    <default>false</default>
+                    <label>OCIP</label>
+                </value>
+                <value>
+                    <fullName>NONE</fullName>
+                    <default>false</default>
+                    <label>NONE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Client_DBA__c</fullName>
+        <externalId>false</externalId>
+        <label>Client DBA</label>
+        <length>123</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Legal_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Legal Name</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Referral__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Referral</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>FF</fullName>
+                    <default>false</default>
+                    <label>FF</label>
+                </value>
+                <value>
+                    <fullName>Client</fullName>
+                    <default>false</default>
+                    <label>Client</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Client_Specific_Exceptions__c</fullName>
+        <description>Client Specific Exceptions (previously tracked in CS)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Client Specific Exceptions (previously tracked in CS)</inlineHelpText>
+        <label>Client Specific Exceptions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Previously labeled Client</description>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Implementation PM's</relationshipLabel>
+        <relationshipName>Implementation_PM_s</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Close_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Close Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Closed_Detail__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Detail</label>
+        <length>2500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Closed_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Service</fullName>
+                    <default>false</default>
+                    <label>Service</label>
+                </value>
+                <value>
+                    <fullName>Product</fullName>
+                    <default>false</default>
+                    <label>Product</label>
+                </value>
+                <value>
+                    <fullName>Relationship</fullName>
+                    <default>false</default>
+                    <label>Relationship</label>
+                </value>
+                <value>
+                    <fullName>Length of Process</fullName>
+                    <default>false</default>
+                    <label>Process</label>
+                </value>
+                <value>
+                    <fullName>Non-responsiveness</fullName>
+                    <default>false</default>
+                    <label>Prospect Non Responsiveness</label>
+                </value>
+                <value>
+                    <fullName>Bad Timing</fullName>
+                    <default>false</default>
+                    <label>Bad Timing</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Color__c</fullName>
+        <externalId>false</externalId>
+        <label>Color</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Red</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <color>#FFFF66</color>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Grey</fullName>
+                    <color>#BBBBBB</color>
+                    <default>false</default>
+                    <label>Grey</label>
+                </value>
+                <value>
+                    <fullName>Black</fullName>
+                    <color>#333333</color>
+                    <default>false</default>
+                    <label>Black</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Original_Start_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Original Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_Start_Date__c</fullName>
+        <description>Contract Start Date</description>
+        <externalId>false</externalId>
+        <label>Contract Start Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Contract_to_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract to Contact</label>
+        <length>10</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Create_Tasks__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Create Tasks</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Custom_Audit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Custom Audit changed to Priority Client. Requested by Keli'i on 4/12/18. Only changing label, not API. - 4/12/18 PIB</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Priority Client</inlineHelpText>
+        <label>Priority Client</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Custom_Timesheet__c</fullName>
+        <externalId>false</externalId>
+        <label>Custom Timesheet</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>DNM__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Checking this off means the client Did Not Materialize.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Checking this off means the client Did Not Materialize.</inlineHelpText>
+        <label>DNM</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Date_Contract_Received__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Contract Received</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Contract_Signed__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Contract Signed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Delivery_Method__c</fullName>
+        <externalId>false</externalId>
+        <label>Delivery Method</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>USPS</fullName>
+                    <default>false</default>
+                    <label>USPS</label>
+                </value>
+                <value>
+                    <fullName>CCH</fullName>
+                    <default>false</default>
+                    <label>CCH</label>
+                </value>
+                <value>
+                    <fullName>UPS</fullName>
+                    <default>false</default>
+                    <label>UPS</label>
+                </value>
+                <value>
+                    <fullName>FEDEX</fullName>
+                    <default>false</default>
+                    <label>FEDEX</label>
+                </value>
+                <value>
+                    <fullName>PRIORITY</fullName>
+                    <default>false</default>
+                    <label>PRIORITY</label>
+                </value>
+                <value>
+                    <fullName>OTHER</fullName>
+                    <default>false</default>
+                    <label>OTHER</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Deposit_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Deposit Required</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Employee_Orientation_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Employee Orientation Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Employment_Form_Employment_Packet_Except__c</fullName>
+        <description>Employment Form/Employment Packet Exceptions (Previously tracked in ClientSpace)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Employment Form/Employment Packet Exceptions (Previously tracked in ClientSpace)</inlineHelpText>
+        <label>Employment Form/Employment Packet Except</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Estimated_Transition_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Target Transition Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>FEIN__c</fullName>
+        <description>Federal Employer Identification Number</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Federal Employer Identification Number</inlineHelpText>
+        <label>FEIN</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Payroll_Date__c</fullName>
+        <description>First Payroll Date</description>
+        <externalId>false</externalId>
+        <label>First Payroll Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fourth_Payroll_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Fourth Payroll Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HC_Carve_Out__c</fullName>
+        <externalId>false</externalId>
+        <label>HC Carve Out</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Handbook_Info__c</fullName>
+        <externalId>false</externalId>
+        <label>Handbook Info</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PSH Standard</fullName>
+                    <default>false</default>
+                    <label>PSH Standard</label>
+                </value>
+                <value>
+                    <fullName>Addendum</fullName>
+                    <default>false</default>
+                    <label>Addendum</label>
+                </value>
+                <value>
+                    <fullName>Custom</fullName>
+                    <default>false</default>
+                    <label>Custom</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Handbook_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Handbook Notes</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>ImpPMBDMHandoverNotes__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.ImpPM_BDMHandoverNotes__c</formula>
+        <label>BDM Handover Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ImpPMHandoverProspectContactNotes__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.mpPM_HandoverProspectContactNotes__c</formula>
+        <label>Contact Handover Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ImpPMTAFee__c</fullName>
+        <description>Time &amp; Attendance Fee (Per EE Per Month)</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.SBQQ__PrimaryQuote__r.Time_Attendance_Fee_Per_EE_Per_Month__c</formula>
+        <inlineHelpText>Time &amp; Attendance Fee (Per EE Per Month)</inlineHelpText>
+        <label>Time &amp; Attendance Fee (Per EE Per Month)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ImpPMTAOption__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.SBQQ__PrimaryQuote__r.Time_Attendance_Option__c)</formula>
+        <label>TA Option</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ImpPM_DepositType__c</fullName>
+        <externalId>false</externalId>
+        <label>Deposit Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Check Included</fullName>
+                    <default>false</default>
+                    <label>Check Included</label>
+                </value>
+                <value>
+                    <fullName>Waived</fullName>
+                    <default>false</default>
+                    <label>Waived</label>
+                </value>
+                <value>
+                    <fullName>Spread Over 1</fullName>
+                    <default>false</default>
+                    <label>Spread Over 1</label>
+                </value>
+                <value>
+                    <fullName>2 Payroll</fullName>
+                    <default>false</default>
+                    <label>2 Payroll</label>
+                </value>
+                <value>
+                    <fullName>3 Payroll</fullName>
+                    <default>false</default>
+                    <label>3 Payroll</label>
+                </value>
+                <value>
+                    <fullName>4 Payroll</fullName>
+                    <default>false</default>
+                    <label>4 Payroll</label>
+                </value>
+                <value>
+                    <fullName>5 Payroll</fullName>
+                    <default>false</default>
+                    <label>5 Payroll</label>
+                </value>
+                <value>
+                    <fullName>6 Payroll</fullName>
+                    <default>false</default>
+                    <label>6 Payroll</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ImpPM_HandoverDTC__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Direct to Carrier</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ImpPM_HandoverDentalOnly__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Dental Only</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ImpPM_HandoverOutofStateEE__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Out of State Employee</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ImpPM_HandoverUnionEE__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Union Employees</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ImpPM_PrePaidHCDiscussed__c</fullName>
+        <externalId>false</externalId>
+        <label>Has Pre-Paid Health Care Been Discussed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Y_or_N</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ImpPM_Pricing_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Pricing Group</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ImpPM_Recent_Pay_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Recent Pay date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ImpPM_SalesOpsHandoverNotes__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.ImpPM_SalesOpsNotes__c</formula>
+        <label>SalesOps Handover Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ImpPM_Switching_Pay_Cycle__c</fullName>
+        <externalId>false</externalId>
+        <label>Switching Pay Cycle</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Y_or_N</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ImpPM_TAEffectiveDate__c</fullName>
+        <description>Time &amp; Attendance Effective Date</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.SBQQ__PrimaryQuote__r.ImpPM_TAEffectiveDate__c</formula>
+        <inlineHelpText>Time &amp; Attendance Effective Date</inlineHelpText>
+        <label>Time &amp; Attendance Effective Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>ImpPM_TASetupFee__c</fullName>
+        <description>Time &amp; Attendance Setup Fee</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.SBQQ__PrimaryQuote__r.ImpPM_SetupFee__c</formula>
+        <inlineHelpText>Time &amp; Attendance Setup Fee</inlineHelpText>
+        <label>Time &amp; Attendance Setup Fee</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ImpPM_WorkWeekSchedule__c</fullName>
+        <externalId>false</externalId>
+        <label>Work Week Schedule</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ImpP_HandoverBenAdmin__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Benefits Administration</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Imp_HandoverReady__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Implementation Handover Ready?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Implementation_Coord__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Implementation Consultant</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Implementation_PM_s</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Island__c</fullName>
+        <externalId>false</externalId>
+        <label>Island</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hawaii</fullName>
+                    <default>false</default>
+                    <label>Hawaii</label>
+                </value>
+                <value>
+                    <fullName>Kauai</fullName>
+                    <default>false</default>
+                    <label>Kauai</label>
+                </value>
+                <value>
+                    <fullName>Lanai</fullName>
+                    <default>false</default>
+                    <label>Lanai</label>
+                </value>
+                <value>
+                    <fullName>Maui</fullName>
+                    <default>false</default>
+                    <label>Maui</label>
+                </value>
+                <value>
+                    <fullName>Molokai</fullName>
+                    <default>false</default>
+                    <label>Molokai</label>
+                </value>
+                <value>
+                    <fullName>Oahu</fullName>
+                    <default>false</default>
+                    <label>Oahu</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Kaiser_Selection__c</fullName>
+        <externalId>false</externalId>
+        <label>Kaiser Selection</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>--None--</fullName>
+                    <default>true</default>
+                    <label>--None--</label>
+                </value>
+                <value>
+                    <fullName>Not Offering</fullName>
+                    <default>false</default>
+                    <label>Not Offering</label>
+                </value>
+                <value>
+                    <fullName>HC Carve Out</fullName>
+                    <default>false</default>
+                    <label>HC Carve Out</label>
+                </value>
+                <value>
+                    <fullName>KP 201</fullName>
+                    <default>false</default>
+                    <label>KP 201</label>
+                </value>
+                <value>
+                    <fullName>KP 301</fullName>
+                    <default>false</default>
+                    <label>KP 301</label>
+                </value>
+                <value>
+                    <fullName>KP 201 &amp; KP 301</fullName>
+                    <default>false</default>
+                    <label>KP 201 &amp; KP 301</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Lead_Time_Weeks__c</fullName>
+        <description>Length of time between when Implementation receives CSA and CSA start date</description>
+        <externalId>false</externalId>
+        <label>Lead Time (Weeks)</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Max_of_EE_s_at_any_given_time__c</fullName>
+        <externalId>false</externalId>
+        <label>Max # of EE's at any given time:</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Milestone_Tracking__c</fullName>
+        <externalId>false</externalId>
+        <label>Milestone Tracking</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discovery</fullName>
+                    <default>false</default>
+                    <label>Discovery</label>
+                </value>
+                <value>
+                    <fullName>HRP Setup Sent</fullName>
+                    <default>false</default>
+                    <label>HRP Setup Sent</label>
+                </value>
+                <value>
+                    <fullName>CAT Setup Sent</fullName>
+                    <default>false</default>
+                    <label>CAT Setup Sent</label>
+                </value>
+                <value>
+                    <fullName>Orientation Complete</fullName>
+                    <default>false</default>
+                    <label>Orientation Complete</label>
+                </value>
+                <value>
+                    <fullName>Test Payroll</fullName>
+                    <default>false</default>
+                    <label>Test Payroll</label>
+                </value>
+                <value>
+                    <fullName>1st Payroll</fullName>
+                    <default>false</default>
+                    <label>1st Payroll</label>
+                </value>
+                <value>
+                    <fullName>Ongoing</fullName>
+                    <default>false</default>
+                    <label>Ongoing</label>
+                </value>
+                <value>
+                    <fullName>Transitioned</fullName>
+                    <default>false</default>
+                    <label>Transitioned</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NPS__c</fullName>
+        <description>Net Promoter Score</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Net Promoter Score</inlineHelpText>
+        <label>NPS</label>
+        <length>3</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Net_Zero_WSE_Gain__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Net Zero WSE Gain</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Next_Action_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Action Owner</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Sales</fullName>
+                    <default>false</default>
+                    <label>Sales</label>
+                </value>
+                <value>
+                    <fullName>Implementation</fullName>
+                    <default>false</default>
+                    <label>Implementation</label>
+                </value>
+                <value>
+                    <fullName>Client</fullName>
+                    <default>false</default>
+                    <label>Client</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Number_of_Stories__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Stories</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OB__c</fullName>
+        <externalId>false</externalId>
+        <label>OB</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ongoing_Payroll_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Ongoing Payroll Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Opportunity related to imp PM</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Opportunity related to imp PM</inlineHelpText>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Implementation PM</relationshipLabel>
+        <relationshipName>Implementation_PM</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Oreo_NHP__c</fullName>
+        <externalId>false</externalId>
+        <label>Oreo NHP</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>PEO_HRO__c</fullName>
+        <externalId>false</externalId>
+        <label>PEO/HRO?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PEO</fullName>
+                    <default>false</default>
+                    <label>PEO</label>
+                </value>
+                <value>
+                    <fullName>HRO-HRP</fullName>
+                    <default>false</default>
+                    <label>HRO-HRP</label>
+                </value>
+                <value>
+                    <fullName>HRP-Ultipro</fullName>
+                    <default>false</default>
+                    <label>HRP-Ultipro</label>
+                </value>
+                <value>
+                    <fullName>HRO</fullName>
+                    <default>false</default>
+                    <label>HRO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>POS__c</fullName>
+        <externalId>false</externalId>
+        <label>POS</label>
+        <length>50</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PSC__c</fullName>
+        <externalId>false</externalId>
+        <label>PSC</label>
+        <length>175</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Paycycle__c</fullName>
+        <externalId>false</externalId>
+        <label>Paycycle</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Weekly</fullName>
+                    <default>false</default>
+                    <label>Weekly</label>
+                </value>
+                <value>
+                    <fullName>Bi-weekly</fullName>
+                    <default>false</default>
+                    <label>Bi-weekly</label>
+                </value>
+                <value>
+                    <fullName>Semi-monthly 5/20</fullName>
+                    <default>false</default>
+                    <label>Semi-monthly 5/20</label>
+                </value>
+                <value>
+                    <fullName>Semi-monthly 7/22</fullName>
+                    <default>false</default>
+                    <label>Semi-monthly 7/22</label>
+                </value>
+                <value>
+                    <fullName>Semi-monthly 15/EOM</fullName>
+                    <default>false</default>
+                    <label>Semi-monthly 15/EOM</label>
+                </value>
+                <value>
+                    <fullName>Semi-monthly 1/15</fullName>
+                    <default>false</default>
+                    <label>Semi-monthly 1/15</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Platform__c</fullName>
+        <externalId>false</externalId>
+        <label>Platform</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HRP</fullName>
+                    <default>false</default>
+                    <label>HRP-HK</label>
+                </value>
+                <value>
+                    <fullName>ULTI</fullName>
+                    <default>false</default>
+                    <label>UltiPro</label>
+                </value>
+                <value>
+                    <fullName>HRP-Prism</fullName>
+                    <default>false</default>
+                    <label>HRP-Prism</label>
+                </value>
+                <value>
+                    <fullName>HRP-Cloud</fullName>
+                    <default>false</default>
+                    <label>HRP-Cloud</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Previous_Payroll_Provider__c</fullName>
+        <externalId>false</externalId>
+        <label>Previous Payroll Provider</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Print_to__c</fullName>
+        <externalId>false</externalId>
+        <label>Print To</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hawaii</fullName>
+                    <default>false</default>
+                    <label>Hawaii</label>
+                </value>
+                <value>
+                    <fullName>Kauai</fullName>
+                    <default>false</default>
+                    <label>Kauai</label>
+                </value>
+                <value>
+                    <fullName>Maui</fullName>
+                    <default>false</default>
+                    <label>Maui</label>
+                </value>
+                <value>
+                    <fullName>Oahu</fullName>
+                    <default>false</default>
+                    <label>Oahu</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Projected_CXI__c</fullName>
+        <description>Your predictive score if the client was surveyed today</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Your predictive score if the client was surveyed today</inlineHelpText>
+        <label>Projected CXI Score</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Push_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Push Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Push__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Push</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RecordID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>RecordID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Referring_Client__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Referring Client</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Implementation PM's (Referring Client)</relationshipLabel>
+        <relationshipName>Implementation_PM_s1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Rush_Start__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Rush Start?</description>
+        <externalId>false</externalId>
+        <label>Rush Start?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Safety_HRC_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Safety/HRC Training</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Second_Payroll_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Second Payroll Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Start_Date_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Start Date Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PSH comfortable with no start date</fullName>
+                    <default>false</default>
+                    <label>PSH comfortable with no start date</label>
+                </value>
+                <value>
+                    <fullName>Pushing start date</fullName>
+                    <default>false</default>
+                    <label>Pushing start date</label>
+                </value>
+                <value>
+                    <fullName>Tentative start date</fullName>
+                    <default>false</default>
+                    <label>Tentative start date</label>
+                </value>
+                <value>
+                    <fullName>No start date</fullName>
+                    <default>false</default>
+                    <label>No start date</label>
+                </value>
+                <value>
+                    <fullName>Client went dark</fullName>
+                    <default>false</default>
+                    <label>Client went dark</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Closed_Reason_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Closed Reason 1</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>HC Savings</fullName>
+                    <default>false</default>
+                    <label>HC Savings</label>
+                </value>
+                <value>
+                    <fullName>WC Savings</fullName>
+                    <default>false</default>
+                    <label>WC Savings</label>
+                </value>
+                <value>
+                    <fullName>Price vs. Competitor</fullName>
+                    <default>false</default>
+                    <label>Price vs. Competitor</label>
+                </value>
+                <value>
+                    <fullName>Price vs. In-House</fullName>
+                    <default>false</default>
+                    <label>Price vs. In-House</label>
+                </value>
+                <value>
+                    <fullName>Service Level vs. Competitor</fullName>
+                    <default>false</default>
+                    <label>Service Level vs. Competitor</label>
+                </value>
+                <value>
+                    <fullName>Service Level Perception in Market</fullName>
+                    <default>false</default>
+                    <label>Service Level Perception in Market</label>
+                </value>
+                <value>
+                    <fullName>Service Level Appreciation During Sales Process</fullName>
+                    <default>false</default>
+                    <label>Service Level Appreciation During Sales Process</label>
+                </value>
+                <value>
+                    <fullName>Applicant Tracking System</fullName>
+                    <default>false</default>
+                    <label>Applicant Tracking System</label>
+                </value>
+                <value>
+                    <fullName>Benefits Administration</fullName>
+                    <default>false</default>
+                    <label>Benefits Administration</label>
+                </value>
+                <value>
+                    <fullName>Broker Relationship</fullName>
+                    <default>false</default>
+                    <label>Broker Relationship</label>
+                </value>
+                <value>
+                    <fullName>Compliance Support</fullName>
+                    <default>false</default>
+                    <label>Compliance Support</label>
+                </value>
+                <value>
+                    <fullName>Custom Reporting</fullName>
+                    <default>false</default>
+                    <label>Custom Reporting</label>
+                </value>
+                <value>
+                    <fullName>Direct to Carrier</fullName>
+                    <default>false</default>
+                    <label>Direct to Carrier</label>
+                </value>
+                <value>
+                    <fullName>eOnboarding</fullName>
+                    <default>false</default>
+                    <label>eOnboarding</label>
+                </value>
+                <value>
+                    <fullName>Payroll Only Alternative</fullName>
+                    <default>false</default>
+                    <label>Payroll Only Alternative</label>
+                </value>
+                <value>
+                    <fullName>Subject Matter Experts</fullName>
+                    <default>false</default>
+                    <label>Subject Matter Experts</label>
+                </value>
+                <value>
+                    <fullName>Time &amp; Attendance</fullName>
+                    <default>false</default>
+                    <label>Time &amp; Attendance</label>
+                </value>
+                <value>
+                    <fullName>UltiPro</fullName>
+                    <default>false</default>
+                    <label>UltiPro</label>
+                </value>
+                <value>
+                    <fullName>Internal PSH relationships</fullName>
+                    <default>false</default>
+                    <label>Internal PSH relationships</label>
+                </value>
+                <value>
+                    <fullName>PSH Client Referral</fullName>
+                    <default>false</default>
+                    <label>PSH Client Referral</label>
+                </value>
+                <value>
+                    <fullName>Common Ownership</fullName>
+                    <default>false</default>
+                    <label>Common Ownership</label>
+                </value>
+                <value>
+                    <fullName>Length of Process</fullName>
+                    <default>false</default>
+                    <label>Length of Process</label>
+                </value>
+                <value>
+                    <fullName>HC Underwriting Process</fullName>
+                    <default>false</default>
+                    <label>HC Underwriting Process</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supplemental_Benefits__c</fullName>
+        <externalId>false</externalId>
+        <label>Supplemental Benefits</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>PSH-FSA</fullName>
+                    <default>false</default>
+                    <label>PSH-FSA</label>
+                </value>
+                <value>
+                    <fullName>PSH-AFLAC</fullName>
+                    <default>false</default>
+                    <label>PSH-AFLAC</label>
+                </value>
+                <value>
+                    <fullName>PSH-TRS</fullName>
+                    <default>false</default>
+                    <label>PSH-TRS</label>
+                </value>
+                <value>
+                    <fullName>CLR-FSA</fullName>
+                    <default>false</default>
+                    <label>CLR-FSA</label>
+                </value>
+                <value>
+                    <fullName>CLR-AFLAC</fullName>
+                    <default>false</default>
+                    <label>CLR-AFLAC</label>
+                </value>
+                <value>
+                    <fullName>CLR-LIFE</fullName>
+                    <default>false</default>
+                    <label>CLR-LIFE</label>
+                </value>
+                <value>
+                    <fullName>CLR-OTH</fullName>
+                    <default>false</default>
+                    <label>CLR-OTH</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>7</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Team_Transition_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Team Transition Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Test_Payroll_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Payroll Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Test_Payroll__c</fullName>
+        <externalId>false</externalId>
+        <label>Test Payroll</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Third_Payroll_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Third Payroll Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Time_Clocks__c</fullName>
+        <externalId>false</externalId>
+        <label>Time Clocks</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Time_and_Attendance__c</fullName>
+        <externalId>false</externalId>
+        <label>Time and Attendance</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>NO</fullName>
+                    <default>false</default>
+                    <label>NO</label>
+                </value>
+                <value>
+                    <fullName>ENT</fullName>
+                    <default>false</default>
+                    <label>ENT</label>
+                </value>
+                <value>
+                    <fullName>SBE</fullName>
+                    <default>false</default>
+                    <label>SBE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Transition__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Transition &lt; 4th Payroll</description>
+        <externalId>false</externalId>
+        <label>Transition &lt; 4th Payroll</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Transitioned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Transitioned</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Type_of_Construction__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Construction:</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Steel Frame</fullName>
+                    <default>false</default>
+                    <label>Steel Frame</label>
+                </value>
+                <value>
+                    <fullName>Reinforced Masonry</fullName>
+                    <default>false</default>
+                    <label>Reinforced Masonry</label>
+                </value>
+                <value>
+                    <fullName>Concrete Tilt-up</fullName>
+                    <default>false</default>
+                    <label>Concrete Tilt-up</label>
+                </value>
+                <value>
+                    <fullName>Wood Frame</fullName>
+                    <default>false</default>
+                    <label>Wood Frame</label>
+                </value>
+                <value>
+                    <fullName>n/a</fullName>
+                    <default>false</default>
+                    <label>n/a</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WC_CPP__c</fullName>
+        <externalId>false</externalId>
+        <label>WC CPP</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Weight__c</fullName>
+        <externalId>false</externalId>
+        <label>Weight</label>
+        <length>123</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Welcome_Packet_Exceptions__c</fullName>
+        <description>Welcome Packet Exceptions (previously tracked in CS)</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Welcome Packet Exceptions (previously tracked in CS)</inlineHelpText>
+        <label>Welcome Packet Exceptions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>X1st_Payroll_Accuracy__c</fullName>
+        <externalId>false</externalId>
+        <label>1st Payroll Accuracy</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>X401K__c</fullName>
+        <externalId>false</externalId>
+        <label>401K</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CLR</fullName>
+                    <default>false</default>
+                    <label>CLR</label>
+                </value>
+                <value>
+                    <fullName>PSH</fullName>
+                    <default>false</default>
+                    <label>PSH</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Year_Built__c</fullName>
+        <externalId>false</externalId>
+        <label>Year Built</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Z401K__c</fullName>
+        <externalId>false</externalId>
+        <label>401K</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CLR</fullName>
+                    <default>false</default>
+                    <label>CLR</label>
+                </value>
+                <value>
+                    <fullName>PSH</fullName>
+                    <default>false</default>
+                    <label>PSH</label>
+                </value>
+                <value>
+                    <fullName>NONE</fullName>
+                    <default>false</default>
+                    <label>NONE</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>of_Employees__c</fullName>
+        <description># of Employees</description>
+        <externalId>false</externalId>
+        <label>Projected # of Employees</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Implementation PM</label>
+    <nameField>
+        <label>Implementation ID</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Implementation PM</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Implementation_Coord__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Client__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Opportunity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Implementation_Coord__c</columns>
+        <columns>Client__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Team_Transition_Date__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Joseph_Bangal</fullName>
+        <columns>NAME</columns>
+        <columns>Implementation_Coord__c</columns>
+        <columns>Client__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>Joseph Bangal</value>
+        </filters>
+        <label>Joseph Bangal</label>
+    </listViews>
+    <listViews>
+        <fullName>Kai_Adams</fullName>
+        <columns>NAME</columns>
+        <columns>Implementation_Coord__c</columns>
+        <columns>Client__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER</field>
+            <operation>equals</operation>
+            <value>Kai Adams</value>
+        </filters>
+        <label>Kai Adams</label>
+    </listViews>
+    <listViews>
+        <fullName>Kelii_Moreau</fullName>
+        <columns>NAME</columns>
+        <columns>Implementation_Coord__c</columns>
+        <columns>Client__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Implementation_Coord__c</field>
+            <operation>equals</operation>
+            <value>Kelii Moreau</value>
+        </filters>
+        <label>Keli'i Moreau</label>
+    </listViews>
+    <listViews>
+        <fullName>Rachel_Martin</fullName>
+        <columns>NAME</columns>
+        <columns>Implementation_Coord__c</columns>
+        <columns>Client__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>OWNER.ALIAS</columns>
+        <columns>Color__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Implementation_Coord__c</field>
+            <operation>equals</operation>
+            <value>Rachel Martin</value>
+        </filters>
+        <filters>
+            <field>Team_Transition_Date__c</field>
+            <operation>equals</operation>
+        </filters>
+        <label>Rachel Martin</label>
+    </listViews>
+</CustomObject>

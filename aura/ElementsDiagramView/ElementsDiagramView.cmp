@@ -1,0 +1,16 @@
+<aura:component access="global" implements="flexipage:availableForAllPageTypes,force:hasRecordId" controller="Q9.ElementsGenericExtensionController">
+    <aura:attribute type="String" name="diagramId" access="global"></aura:attribute>
+    <aura:attribute type="Integer" name="height" default="960" access="global"></aura:attribute>
+    <aura:attribute type="Id" name="recordId"></aura:attribute>
+    <aura:attribute type="String" name="urlWithAuth"></aura:attribute>
+    <aura:attribute type="String" name="message"></aura:attribute>
+    <aura:attribute type="Boolean" name="isSuccess" default="true"></aura:attribute>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+    
+    <aura:if isTrue="{!v.isSuccess}">
+        <iframe src="{!v.urlWithAuth}" width="100%" height="{!v.height}" aura:id="elementsIframe"></iframe>
+        <aura:set attribute="else">
+            <ui:message closable="false" title="Error" severity="error">{!v.message}</ui:message>
+        </aura:set>
+    </aura:if>
+</aura:component>

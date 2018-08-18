@@ -1,0 +1,23 @@
+.THIS {
+}
+
+.THIS .padding-0 {
+	padding: 0;
+}
+
+.THIS .pos-relative {
+	position: relative !important;
+}
+
+.THIS .header-title-container {
+	display: inline-flex;
+	max-width: 100%;
+	font-weight: 700;
+}
+
+.THIS .spinner-fixed {
+    top: auto !important;
+    left: auto !important;
+    position: static !important;
+    
+}

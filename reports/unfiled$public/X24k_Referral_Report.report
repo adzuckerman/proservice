@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_71029229</developerName>
+        <masterLabel>Lead Source Category</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>LEAD_SOURCE</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Internal Referral</sourceValue>
+            </sourceValues>
+            <value>Internal Lead</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Client Referral</sourceValue>
+            </sourceValues>
+            <value>Client Referral</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Marketing Lead</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Referring Partner</sourceValue>
+            </sourceValues>
+            <value>Marketing Lead</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>N/A</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>BDM</sourceValue>
+            </sourceValues>
+            <value>BDM Lead</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Lead.Referred_by_EE_Text__c</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>BucketField_71029229</field>
+    </columns>
+    <columns>
+        <field>COMPANY_ACCT</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>CONVERTED_DATE</field>
+    </columns>
+    <columns>
+        <field>STAGE_NAME</field>
+    </columns>
+    <columns>
+        <field>OPP_OWNER</field>
+    </columns>
+    <columns>
+        <field>LEAD_ID</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND (2 OR 3)</booleanFilter>
+        <criteriaItems>
+            <column>LEAD_SOURCE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Client Referral,Internal Referral</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.Referred_by_EE_Text__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Lead.Referred_by_EE__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>24k Referral Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>OpportunityLead</reportType>
+    <scope>org</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2018-07-16</startDate>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Client_Action_Plan__c.Client_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Client_Action_Plan__c.Clients_PSH_Value_Perception_Baseline__c</field>
+    </columns>
+    <columns>
+        <field>Client_Action_Plan__c.AMs_Connectivity_Baseline__c</field>
+    </columns>
+    <columns>
+        <field>Client_Action_Plan__c.AM_Last_Touch_with_Key_Decision_Maker__c</field>
+    </columns>
+    <columns>
+        <field>Client_Action_Plan__c.Notes_on_AM_Last_Touch_with_Key_DM__c</field>
+    </columns>
+    <format>Tabular</format>
+    <name>S&amp;D Action Plans</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$Client_Action_Plan__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

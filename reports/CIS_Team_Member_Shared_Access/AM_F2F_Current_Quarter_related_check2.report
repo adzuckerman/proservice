@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Client_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Client_Legal_Name__c</field>
+    </columns>
+    <columns>
+        <field>Account.Status__c</field>
+    </columns>
+    <columns>
+        <field>Account.Status_Description__c</field>
+    </columns>
+    <columns>
+        <field>Account.Last_F2F_Meeting_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Related_Accounts__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Account_Manager__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>NON ACCOUNT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Account.Account_Clients</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Account.Related_Accounts__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>&quot;13013, 13188&quot;,&quot;13129, 13585&quot;,&quot;1595, 1618, 1624, 1806, 1996, 3127, 3132, 3168, 3200, 3201&quot;,&quot;3204, 32042, 32043&quot;,&quot;3208, 32081&quot;,&quot;32671, 32673, 32674, 32675&quot;,&quot;32791, 32793, 32794&quot;,&quot;32871, 32872, 32873, 32874&quot;,&quot;32901, 32902, 32904&quot;,&quot;33101, 33102, 33103, 33104, 33105, 33106, 33107, 33108, 33112, 33113&quot;,&quot;5008, 13681, 13697&quot;</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>AM F2F Current Quarter - related check2</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account.Related_Accounts__c</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

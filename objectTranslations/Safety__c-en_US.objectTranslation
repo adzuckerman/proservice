@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Only if required --></help>
+        <label><!-- Additional Visit Date --></label>
+        <name>Additional_Visit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Visit Details --></label>
+        <name>Additional_Visit_Details__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 10. --></label>
+        <name>Area_for_Improvement_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 1. --></label>
+        <name>Area_for_Improvement_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 2. --></label>
+        <name>Area_for_Improvement_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 3. --></label>
+        <name>Area_for_Improvement_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 4. --></label>
+        <name>Area_for_Improvement_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 5. --></label>
+        <name>Area_for_Improvement_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 6. --></label>
+        <name>Area_for_Improvement_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 7. --></label>
+        <name>Area_for_Improvement_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 8. --></label>
+        <name>Area_for_Improvement_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Area for Improvement 9. --></label>
+        <name>Area_for_Improvement_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Address --></label>
+        <name>Billing_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Categorization --></label>
+        <name>Categorization__c</name>
+        <picklistValues>
+            <masterLabel>AED/CPR/First Aid Training/Certification</masterLabel>
+            <translation><!-- AED/CPR/First Aid Training/Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BBP/CPR/First Aid Training/Certification</masterLabel>
+            <translation><!-- BBP/CPR/First Aid Training/Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bloodborne Pathogens</masterLabel>
+            <translation><!-- Bloodborne Pathogens --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPR/First Aid Training/Certification</masterLabel>
+            <translation><!-- CPR/First Aid Training/Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Requested Site Visit</masterLabel>
+            <translation><!-- Client Requested Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Confined Space Training</masterLabel>
+            <translation><!-- Confined Space Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Excavation Training</masterLabel>
+            <translation><!-- Excavation Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fall Protection Training</masterLabel>
+            <translation><!-- Fall Protection Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Extinguisher Training</masterLabel>
+            <translation><!-- Fire Extinguisher Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forklift Training-Recertification</masterLabel>
+            <translation><!-- Forklift Training-Recertification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forklift Training/Certification</masterLabel>
+            <translation><!-- Forklift Training/Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAZWOPER 40HR</masterLabel>
+            <translation><!-- HAZWOPER 40HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAZWOPER 8HR</masterLabel>
+            <translation><!-- HAZWOPER 8HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSHA 10 &amp; 30 Hour Training/Certification</masterLabel>
+            <translation><!-- OSHA 10 &amp; 30 Hour Training/Certification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post Accident Phone Call</masterLabel>
+            <translation><!-- Post Accident Phone Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Post-Accident Site Visit</masterLabel>
+            <translation><!-- Post-Accident Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospective Client Insurance Services/BDM Site Visit</masterLabel>
+            <translation><!-- Prospective Client Insurance Services/BDM Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Random Site Visit</masterLabel>
+            <translation><!-- Random Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repiratory Protection Fit Testing/Program Assistance</masterLabel>
+            <translation><!-- Repiratory Protection Fit Testing/Program Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Performance Meeting</masterLabel>
+            <translation><!-- Safety Performance Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Program Assistance</masterLabel>
+            <translation><!-- Safety Program Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Program Manual</masterLabel>
+            <translation><!-- Safety Program Manual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safety Resources CD/Forms</masterLabel>
+            <translation><!-- Safety Resources CD/Forms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scaffolding Training</masterLabel>
+            <translation><!-- Scaffolding Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled Site Visit</masterLabel>
+            <translation><!-- Scheduled Site Visit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Site Safety Meeting</masterLabel>
+            <translation><!-- Site Safety Meeting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Substance Abuse Policy Acknowledgement</masterLabel>
+            <translation><!-- Substance Abuse Policy Acknowledgement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Letter --></label>
+        <name>Client_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Name --></label>
+        <name>Client_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <relationshipLabel><!-- Safety&apos;s --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact 1 --></label>
+        <name>Contact_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Actual contact worked with for the site visit --></help>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Safety --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cost Center --></label>
+        <name>Cost_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Criteria --></label>
+        <name>Criteria__c</name>
+        <picklistValues>
+            <masterLabel>AM Referral</masterLabel>
+            <translation><!-- AM Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accident Review</masterLabel>
+            <translation><!-- Accident Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Services Referral</masterLabel>
+            <translation><!-- Client Services Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Client 1</masterLabel>
+            <translation><!-- New Client 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Client 2</masterLabel>
+            <translation><!-- New Client 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Client 3</masterLabel>
+            <translation><!-- New Client 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Profiled 1</masterLabel>
+            <translation><!-- Risk Profiled 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Profiled 2</masterLabel>
+            <translation><!-- Risk Profiled 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rollover prior Qtr</masterLabel>
+            <translation><!-- Rollover prior Qtr --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Special Request</masterLabel>
+            <translation><!-- Special Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visits On Hold</masterLabel>
+            <translation><!-- Visits On Hold --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- E-mail --></label>
+        <name>E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employees --></label>
+        <name>Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event --></label>
+        <name>Event__c</name>
+        <picklistValues>
+            <masterLabel>Accident Follow Up</masterLabel>
+            <translation><!-- Accident Follow Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthcare Seminar</masterLabel>
+            <translation><!-- Healthcare Seminar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service fee applied</masterLabel>
+            <translation><!-- Service fee applied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sub contractor services</masterLabel>
+            <translation><!-- Sub contractor services --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Follow-up Notes/HR Issues --></label>
+        <name>Follow_up_Notes_HR_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inspector --></label>
+        <name>Inspector__c</name>
+        <picklistValues>
+            <masterLabel>Deb DiNardi</masterLabel>
+            <translation><!-- Deb DiNardi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intern</masterLabel>
+            <translation><!-- Intern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeff &amp; Joe</masterLabel>
+            <translation><!-- Jeff &amp; Joe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeff Matsumoto</masterLabel>
+            <translation><!-- Jeff Matsumoto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Joe Dumapit</masterLabel>
+            <translation><!-- Joe Dumapit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tom Ashe</masterLabel>
+            <translation><!-- Tom Ashe --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal E-mail --></label>
+        <name>Internal_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Island --></label>
+        <name>Island__c</name>
+    </fields>
+    <fields>
+        <label><!-- Phone --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of work being performed --></label>
+        <name>Positive_Safety_Practice_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Safety Practice 2. --></label>
+        <name>Positive_Safety_Practice_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Safety Practice 3. --></label>
+        <name>Positive_Safety_Practice_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Safety Practice 4. --></label>
+        <name>Positive_Safety_Practice_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Safety Practice 5. --></label>
+        <name>Positive_Safety_Practice_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Safety Practice 6. --></label>
+        <name>Positive_Safety_Practice_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Safety Practice 7. --></label>
+        <name>Positive_Safety_Practice_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Safety Practice 8. --></label>
+        <name>Positive_Safety_Practice_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of EE&apos;s on site --></label>
+        <name>Positive_Safety_Practice_9__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Safety Practice 1. --></label>
+        <name>Positive_Safety_Practice_X1__c</name>
+    </fields>
+    <fields>
+        <help><!-- HIOSH Rules --></help>
+        <label><!-- Possible Safety Violations 1. --></label>
+        <name>Possible_Safety_Violations_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- HIOSH Rules --></help>
+        <label><!-- Possible Safety Violations 2. --></label>
+        <name>Possible_Safety_Violations_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- HIOSH Rules --></help>
+        <label><!-- Possible Safety Violations 3. --></label>
+        <name>Possible_Safety_Violations_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post-Visit E-Mail Notes --></label>
+        <name>Post_Visit_E_Mail_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Visit E-mail --></label>
+        <name>Post_Visit_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-Visit E-mail Notes --></label>
+        <name>Pre_Visit_E_Mail_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-visit E-mail --></label>
+        <name>Pre_visit_E_mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Process Complete --></label>
+        <name>Process_Complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checked if selected for Quality Assurance Review --></help>
+        <label><!-- Quality Assurance Review --></label>
+        <name>Quality_Assurance_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Accounts --></label>
+        <name>Related_Accounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scheduled Visit --></label>
+        <name>Scheduled_Visit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Site Visit Notes --></label>
+        <name>Site_Visit_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visit Declined</masterLabel>
+            <translation><!-- Visit Declined --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tier --></label>
+        <name>Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Option - CPR --></label>
+        <name>Training_Option_CPR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Option - Fall Protection --></label>
+        <name>Training_Option_Fall_Protection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Option - Fire Safety --></label>
+        <name>Training_Option_Fire_Safety__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Option - Forklift --></label>
+        <name>Training_Option_Forklift__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Option - Safety Meeting --></label>
+        <name>Training_Option_Safety_Meeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visit Flag --></label>
+        <name>Visit_Flag__c</name>
+    </fields>
+    <fields>
+        <help><!-- Important notes from prior visits --></help>
+        <label><!-- Visit History/Concerns --></label>
+        <name>Visit_History_Concerns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Visit Length --></label>
+        <name>Visit_Length__c</name>
+        <picklistValues>
+            <masterLabel>105</masterLabel>
+            <translation><!-- 105 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>120</masterLabel>
+            <translation><!-- 120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>135</masterLabel>
+            <translation><!-- 135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>150</masterLabel>
+            <translation><!-- 150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>165</masterLabel>
+            <translation><!-- 165 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>180</masterLabel>
+            <translation><!-- 180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>195</masterLabel>
+            <translation><!-- 195 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>210</masterLabel>
+            <translation><!-- 210 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>225</masterLabel>
+            <translation><!-- 225 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>240</masterLabel>
+            <translation><!-- 240 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>300</masterLabel>
+            <translation><!-- 300 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>45</masterLabel>
+            <translation><!-- 45 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75</masterLabel>
+            <translation><!-- 75 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90</masterLabel>
+            <translation><!-- 90 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Quarter inwhich the visit took place. --></help>
+        <label><!-- Visit Quarter --></label>
+        <name>Visit_Quarter__c</name>
+        <picklistValues>
+            <masterLabel>1st Quarter</masterLabel>
+            <translation><!-- 1st Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2010 1st Quarter</masterLabel>
+            <translation><!-- 2010 1st Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2010 2nd Quarter</masterLabel>
+            <translation><!-- 2010 2nd Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2010 3rd Quarter</masterLabel>
+            <translation><!-- 2010 3rd Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2010 4th Quarter Visits</masterLabel>
+            <translation><!-- 2010 4th Quarter Visits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2011 1st Quarter</masterLabel>
+            <translation><!-- 2011 1st Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2011 2nd Quarter</masterLabel>
+            <translation><!-- 2011 2nd Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2011 3rd Quarter</masterLabel>
+            <translation><!-- 2011 3rd Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2011 4th Quarter</masterLabel>
+            <translation><!-- 2011 4th Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2012 1st Quarter</masterLabel>
+            <translation><!-- 2012 1st Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2012 2nd Quarter</masterLabel>
+            <translation><!-- 2012 2nd Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2012 3rd Quarter</masterLabel>
+            <translation><!-- 2012 3rd Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2012 4th Quarter</masterLabel>
+            <translation><!-- 2012 4th Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2nd Quarter</masterLabel>
+            <translation><!-- 2nd Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3rd Quarter</masterLabel>
+            <translation><!-- 3rd Quarter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4th Quarter</masterLabel>
+            <translation><!-- 4th Quarter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Visit Score --></label>
+        <name>Visit_Score__c</name>
+        <picklistValues>
+            <masterLabel>Evident Safety Violations</masterLabel>
+            <translation><!-- Evident Safety Violations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommend Improvements</masterLabel>
+            <translation><!-- Recommend Improvements --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Safe Worksite</masterLabel>
+            <translation><!-- Safe Worksite --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Safety</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Safety</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Safety Layout</layout>
+        <sections>
+            <label><!-- Additional Visit Info --></label>
+            <section>Additional Visit Info</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Safety Site Visit Checklist --></label>
+            <section>Safety Site Visit Checklist</section>
+        </sections>
+        <sections>
+            <label><!-- Site Visit Results --></label>
+            <section>Site Visit Results</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

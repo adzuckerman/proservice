@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_$Account.Client_ID__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Client_DBA__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.Owner__c</field>
+    </columns>
+    <columns>
+        <field>FK_$Account.Owner_Email__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Implementation_Coord__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <description>Report with Recently Implemented Clients for VOC Survy</description>
+    <format>Tabular</format>
+    <name>VOC Implementation Test Template</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Implementation__c@Implementation__c.Client__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CUST_NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Implementation__c.Contract_Start_Date__c</dateColumn>
+        <endDate>2017-09-15</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2017-09-01</startDate>
+    </timeFrameFilter>
+</Report>

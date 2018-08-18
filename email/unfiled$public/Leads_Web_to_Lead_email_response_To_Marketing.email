@@ -1,0 +1,15 @@
+Web Lead Form form was submitted, this is the list of values it contained.    
+
+Company: {!Lead.Company}
+Name: {!Lead.FirstName} {!Lead.LastName}
+Title: {!Lead.Title}
+Phone: {!Lead.Phone}
+Email: {!Lead.Email}
+Lead Email (referral): {!Lead.00N34000005SxKf}
+Comments: {!Lead.UTM_Challenge__c}
+
+UTM Campaign: {!Lead.UTMCampaign__c}
+UTM Content: {!Lead.UTMContent__c}
+UTM Medium: {!Lead.UTMMedium__c}
+UTM Source: {!Lead.UTMSource__c}
+UTM Term: {!Lead.UTMTerm__c}

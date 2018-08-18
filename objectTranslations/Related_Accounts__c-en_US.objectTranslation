@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Current account the user clicked from --></help>
+        <label><!-- Current --></label>
+        <name>Current__c</name>
+        <relationshipLabel><!-- Related Accounts (Current) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Placeholder --></help>
+        <label><!-- Placeholder --></label>
+        <name>Placeholder__c</name>
+        <relationshipLabel><!-- Related Accounts (Placeholder) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Account related to --></help>
+        <label><!-- Related To --></label>
+        <name>Related_To__c</name>
+        <relationshipLabel><!-- Related Accounts (Related To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Quick summary of how the accounts are related to each other --></help>
+        <label><!-- Relation Detail --></label>
+        <name>Relation_Detail__c</name>
+    </fields>
+    <fields>
+        <help><!-- Picklist for relationship type between Accounts --></help>
+        <label><!-- Relation Type --></label>
+        <name>Relation_Type__c</name>
+        <picklistValues>
+            <masterLabel>College buddies</masterLabel>
+            <translation><!-- College buddies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial partners</masterLabel>
+            <translation><!-- Financial partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not available</masterLabel>
+            <translation><!-- Not available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owners are friends</masterLabel>
+            <translation><!-- Owners are friends --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Related Accounts</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Related Accounts</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Related Accounts Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

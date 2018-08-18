@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Escalated</fullName>
+        <default>false</default>
+        <label>Escalated</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>true</default>
+        <label>New</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>ACE Opened w/No Action Requested</fullName>
+        <default>false</default>
+        <label>ACE Opened w/No Action Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing Request Pending More Information</fullName>
+        <default>false</default>
+        <label>Pricing Request Pending More Information</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing Requested</fullName>
+        <default>false</default>
+        <label>Pricing Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Underwriting</fullName>
+        <default>false</default>
+        <label>Underwriting</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Preliminary Pricing Back</fullName>
+        <default>false</default>
+        <label>Preliminary Pricing Back</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Final Pricing Approved</fullName>
+        <default>false</default>
+        <label>Final Pricing Approved</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Collateral Prep Requested</fullName>
+        <default>false</default>
+        <label>Collateral Prep Requested</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Negotiation</fullName>
+        <default>false</default>
+        <label>Negotiation</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Time &amp; Attendance Go Live Pending</fullName>
+        <default>false</default>
+        <label>Time &amp; Attendance Go Live Pending</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Won - No Action Taken</fullName>
+        <default>false</default>
+        <label>Won - No Action Taken</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Won - Adjustment w/o Contract</fullName>
+        <default>false</default>
+        <label>Won - Adjustment w/o Contract</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Won - Adjustment w/Contract</fullName>
+        <default>false</default>
+        <label>Won - Adjustment w/Contract</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Won - Entity/Name Change</fullName>
+        <default>false</default>
+        <label>Won - Entity/Name Change</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Won - Letting Client Go</fullName>
+        <default>false</default>
+        <label>Won - Letting Client Go/DNM</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Lost - Client Terming</fullName>
+        <default>false</default>
+        <label>Lost - Client Terming</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Term In Progress</fullName>
+        <default>false</default>
+        <label>Term In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Termination</fullName>
+        <default>false</default>
+        <label>Client Termination</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

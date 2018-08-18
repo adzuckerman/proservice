@@ -1,0 +1,15 @@
+Aloha {!Opportunity.Primary_Contact_Name__c},
+ 
+Please ‘reply all’ to this email with your approval if you agree to this request and you will receive your report in a separate email from the NCCI office. Upon receipt, please email your report directly to me.  Thank you!
+
+ ****************************************************************************
+Aloha Marcia,
+ 
+We are requesting an Experience Modification Rating worksheet on behalf of {!Account.Name}.
+ 
+The contact at the group is {!Opportunity.Primary_Contact_Name__c}. 
+ 
+Please let me know if I can assist with anything else.
+
+Thanks,
+{!User.FirstName} {!User.LastName}

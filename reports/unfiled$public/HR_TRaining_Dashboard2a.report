@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CHR_CSR_Services__c.Client_Name__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Pre_Visit_Notes__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Tier__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Island__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Scheduled_Visit__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Priority__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>CHR_CSR_Services__c.of_Modules__c</field>
+    </columns>
+    <description>current weeks training</description>
+    <filter>
+        <criteriaItems>
+            <column>CHR_CSR_Services__c.CSR_Name__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Donna Jones,Amy Teeter,Jo Ann Kaita,Kim Gould</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CHR_CSR_Services__c.Status__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Scheduled,Complete</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CHR_CSR_Services__c.CSR_Name__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>HR TRaining Dashboard2a</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$CHR_CSR_Services__c@CHR_CSR_Services__c.Client__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CHR_CSR_Services__c.Scheduled_Visit__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>CHR_CSR_Services__c.Scheduled_Visit__c</dateColumn>
+        <interval>INTERVAL_THISWEEK</interval>
+    </timeFrameFilter>
+</Report>

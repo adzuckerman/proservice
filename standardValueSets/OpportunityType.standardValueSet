@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>HRO</fullName>
+        <default>false</default>
+        <label>HRO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PEO</fullName>
+        <default>false</default>
+        <label>PEO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exisiting Business</fullName>
+        <default>false</default>
+        <label>Exisiting Business</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Business</fullName>
+        <default>false</default>
+        <label>New Business</label>
+    </standardValue>
+</StandardValueSet>

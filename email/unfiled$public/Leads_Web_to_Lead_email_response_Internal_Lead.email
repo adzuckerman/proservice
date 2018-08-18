@@ -1,0 +1,24 @@
+Internal Lead Form was submitted, this is the list of values it contained.    
+
+Referred by EE: {!Lead.Referred_by_EE_Text__c}
+Referred by PSH Email: {!Lead.Referred_by_PSH_Email__c}
+Referred by Department: {!Lead.Referred_by_Department__c}
+Lead Source: {!Lead.LeadSource}
+
+Referring Client Name: {!Lead.Referring_Client_Name__c}
+Referring Client ID: {!Lead.Referring_Client_ID__c}
+Client Contact Name: {!Lead.Referring_Client_Contact_Name__c}
+Client Contact Name: {!Lead.Referring_Client_Contact_First_Name__c} {!Lead.Referring_Client_Contact_Last_Name__c}
+Client Contact Phone: {!Lead.Referring_Client_Contact_Phone__c}
+Client Contact Email: {!Lead.Referring_Client_Contact_Email__c}
+
+Referred Company: {!Lead.Company}
+# of Employees: {!Lead.Estimated_Number_of_EEs__c}
+Island: {!Lead.Island_s__c}
+Contact Name: {!Lead.FirstName} {!Lead.LastName}
+Contact Phone: {!Lead.Phone}
+Contact Email: {!Lead.Email}
+Contact Email 2: {!Lead.00N34000005SxKf}
+Contact Title: {!Lead.Title}
+Relationship to Referrer: {!Lead.Relationship_to_Lead__c}
+Comments: {!Lead.UTM_Challenge__c}

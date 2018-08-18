@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>Attendee_List__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Attendee List</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Billing_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CL_Feedback_Recc_Response_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>CSA_SLA_Review__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CSA/SLA Review</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CSR_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>CHR/CSR Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Amy Teeter</fullName>
+                    <default>false</default>
+                    <label>Amy Teeter</label>
+                </value>
+                <value>
+                    <fullName>Donna Jones</fullName>
+                    <default>false</default>
+                    <label>Donna Jones</label>
+                </value>
+                <value>
+                    <fullName>Evan Bennett</fullName>
+                    <default>false</default>
+                    <label>Evan Bennett</label>
+                </value>
+                <value>
+                    <fullName>Heather Wiley</fullName>
+                    <default>false</default>
+                    <label>Heather Wiley</label>
+                </value>
+                <value>
+                    <fullName>Jo Ann Kaita</fullName>
+                    <default>false</default>
+                    <label>Jo Ann Kaita</label>
+                </value>
+                <value>
+                    <fullName>Kim Gould</fullName>
+                    <default>false</default>
+                    <label>Kim Gould</label>
+                </value>
+                <value>
+                    <fullName>Oahu - Other</fullName>
+                    <default>false</default>
+                    <label>Oahu - Other</label>
+                </value>
+                <value>
+                    <fullName>Pam Shepard-Henderson</fullName>
+                    <default>false</default>
+                    <label>Pam Shepard-Henderson</label>
+                </value>
+                <value>
+                    <fullName>Pansy Mendez</fullName>
+                    <default>false</default>
+                    <label>Pansy Mendez</label>
+                </value>
+                <value>
+                    <fullName>Tennille Kephart</fullName>
+                    <default>false</default>
+                    <label>Tennille Kephart</label>
+                </value>
+                <value>
+                    <fullName>Theresa Menke</fullName>
+                    <default>false</default>
+                    <label>Theresa Menke</label>
+                </value>
+                <value>
+                    <fullName>Tina LePage</fullName>
+                    <default>false</default>
+                    <label>Tina LePage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Class_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Class Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>SEXHAR101</fullName>
+                    <default>false</default>
+                    <label>SEXHAR101</label>
+                </value>
+                <value>
+                    <fullName>WPV101</fullName>
+                    <default>false</default>
+                    <label>WPV101</label>
+                </value>
+                <value>
+                    <fullName>DISCRM101</fullName>
+                    <default>false</default>
+                    <label>DISCRM101</label>
+                </value>
+                <value>
+                    <fullName>WGHR101</fullName>
+                    <default>false</default>
+                    <label>WGHR101</label>
+                </value>
+                <value>
+                    <fullName>EMPHIR101</fullName>
+                    <default>false</default>
+                    <label>EMPHIR101</label>
+                </value>
+                <value>
+                    <fullName>DSCTERM101</fullName>
+                    <default>false</default>
+                    <label>DSCTERM101</label>
+                </value>
+                <value>
+                    <fullName>SPV101</fullName>
+                    <default>false</default>
+                    <label>SPV101</label>
+                </value>
+                <value>
+                    <fullName>HR 202-Management</fullName>
+                    <default>false</default>
+                    <label>HR 202-Management</label>
+                </value>
+                <value>
+                    <fullName>HR 202-Employees</fullName>
+                    <default>false</default>
+                    <label>HR 202-Employees</label>
+                </value>
+                <value>
+                    <fullName>HR 303</fullName>
+                    <default>false</default>
+                    <label>HR 303</label>
+                </value>
+                <value>
+                    <fullName>HR 404</fullName>
+                    <default>false</default>
+                    <label>HR 404</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Client_Congratulatory_Milestone__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Congratulatory &amp; Milestone</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Guidebook_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Guidebook Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Client ID</label>
+        <precision>6</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Name</label>
+        <length>75</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Referral_Program__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Referral Program</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Requested_Visit__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Requested Visit</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Rescue_Support__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Rescue Support</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Review__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Client Review</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Client_Visit_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Visit Notes</label>
+        <length>1500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Client</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>CSR_Services</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Collateral_Ordered__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Used to determine if necessary collateral for a particular client touch was ordered.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Select once the necessary collateral has been ordered for the client touch.</inlineHelpText>
+        <label>Collateral Ordered</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Constructive_Feedback__c</fullName>
+        <externalId>false</externalId>
+        <label>Constructive Feedback</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Contact_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact 1</label>
+        <length>35</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cost_Center__c</fullName>
+        <externalId>false</externalId>
+        <label>Cost Center</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Criteria__c</fullName>
+        <externalId>false</externalId>
+        <label>Criteria/Request</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Volume/Size</fullName>
+                    <default>false</default>
+                    <label>Volume/Size</label>
+                </value>
+                <value>
+                    <fullName>OnBoarding Request</fullName>
+                    <default>false</default>
+                    <label>OnBoarding Request</label>
+                </value>
+                <value>
+                    <fullName>Client Service Request</fullName>
+                    <default>false</default>
+                    <label>Client Service Request</label>
+                </value>
+                <value>
+                    <fullName>HR/Compliance Request</fullName>
+                    <default>false</default>
+                    <label>HR/Compliance Request</label>
+                </value>
+                <value>
+                    <fullName>Client Request</fullName>
+                    <default>false</default>
+                    <label>Client Request</label>
+                </value>
+                <value>
+                    <fullName>Rollover</fullName>
+                    <default>false</default>
+                    <label>Rollover</label>
+                </value>
+                <value>
+                    <fullName>HR COMP</fullName>
+                    <default>false</default>
+                    <label>HR COMP</label>
+                </value>
+                <value>
+                    <fullName>SVC TEAM</fullName>
+                    <default>false</default>
+                    <label>SVC TEAM</label>
+                </value>
+                <value>
+                    <fullName>CLIENT VOL</fullName>
+                    <default>false</default>
+                    <label>CLIENT VOL</label>
+                </value>
+                <value>
+                    <fullName>Tier 1</fullName>
+                    <default>false</default>
+                    <label>Tier 1</label>
+                </value>
+                <value>
+                    <fullName>Client Growth</fullName>
+                    <default>false</default>
+                    <label>Client Growth</label>
+                </value>
+                <value>
+                    <fullName>New Client</fullName>
+                    <default>false</default>
+                    <label>New Client</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Disciplinary_Action_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Disciplinary Action Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Discrimination_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Discrimination Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>E_mail__c</fullName>
+        <externalId>false</externalId>
+        <label>E-mail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Employee_Hiring_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Employee Hiring Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Employees__c</fullName>
+        <externalId>false</externalId>
+        <label>Employees</label>
+        <precision>7</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Evaluation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Evaluation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Event__c</fullName>
+        <description>Special training activities</description>
+        <externalId>false</externalId>
+        <label>Event</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>true</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>Multi-client Session</fullName>
+                    <default>false</default>
+                    <label>Multi-client Session</label>
+                </value>
+                <value>
+                    <fullName>Healthcare Seminar</fullName>
+                    <default>false</default>
+                    <label>Healthcare Seminar</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_10__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 10</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_2__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_3__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_4__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_5__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_6__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 6</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_7__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 7</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_8__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 8</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Feedback_Response_9__c</fullName>
+        <externalId>false</externalId>
+        <label>Feedback/Response 9</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Future_Visit_Training_Opportunities__c</fullName>
+        <externalId>false</externalId>
+        <label>Future Visit/Training Opportunities</label>
+        <length>1500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HR_Compliance_Introduction__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Phone consutlation of HR Compliance services</description>
+        <externalId>false</externalId>
+        <label>HR Compliance Introduction</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HR_Compliance_OnBoarding__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>HR Compliance OnBoarding</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>HR_OBservation_8__c</fullName>
+        <externalId>false</externalId>
+        <label>HR OBservation 8</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_10__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 10</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_1__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 1</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_2__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_3__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 3</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_4__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 4</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_5__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 5</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_6__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 6</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_7__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 7</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HR_Observation_9__c</fullName>
+        <externalId>false</externalId>
+        <label>HR Observation 9</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>Industry</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Island__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Cost_Center__c =1, "Oahu", 
+if(Cost_Center__c =2, "Kailua-Kona, Big Island", 
+if(Cost_Center__c =3, "Kahului, Maui", 
+if(Cost_Center__c =5, "Lanai", 
+if(Cost_Center__c =21, "Hilo, Big Island", 
+if(Cost_Center__c =4, "Kapaa, Kauai",""))))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Island</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manager_s_Guide_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Manager's Guide Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>New_Client_Manager_Introduction__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>New Client Manager Introduction</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_of_Attendees__c</fullName>
+        <externalId>false</externalId>
+        <label># of Attendees</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OE_Client_Meeting__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>OE Client Meeting</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Other_Notes_HR_Issues__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Notes/HR Issues</label>
+        <length>1500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Other__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Other</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Overall_Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Overall Rating</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Participant_Certificate__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Participant Certificate</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Payroll_Invoice_Delivery__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Payroll/Invoice Delivery</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Personal_Evaluation_Learning__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Personal Evaluation &amp; Learning</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Positive_Feedback__c</fullName>
+        <externalId>false</externalId>
+        <label>Positive Feedback/Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Post_Visit_Follow_up__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Post-Visit Follow-up</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Post_Visit_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Post-Visit Notes</label>
+        <length>1500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Pre_Visit_Communication__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pre-Visit Communication</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Visit_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre-Visit Notes</label>
+        <length>1500</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+                <value>
+                    <fullName>4</fullName>
+                    <default>false</default>
+                    <label>4</label>
+                </value>
+                <value>
+                    <fullName>5</fullName>
+                    <default>false</default>
+                    <label>5</label>
+                </value>
+                <value>
+                    <fullName>6</fullName>
+                    <default>false</default>
+                    <label>6</label>
+                </value>
+                <value>
+                    <fullName>7</fullName>
+                    <default>false</default>
+                    <label>7</label>
+                </value>
+                <value>
+                    <fullName>8</fullName>
+                    <default>false</default>
+                    <label>8</label>
+                </value>
+                <value>
+                    <fullName>9</fullName>
+                    <default>false</default>
+                    <label>9</label>
+                </value>
+                <value>
+                    <fullName>10</fullName>
+                    <default>false</default>
+                    <label>10</label>
+                </value>
+                <value>
+                    <fullName>Unique</fullName>
+                    <default>false</default>
+                    <label>Unique</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProService_Core_Serivces_Review__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ProService Core Services Review</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ProService_Forms_Library__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ProService Forms Library</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Regulatory_Industry_Update_Notification__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Regulatory/Industry Update Notification</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Related_Accounts__c</fullName>
+        <externalId>false</externalId>
+        <label>Related Accounts</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Scheduled_Visit__c</fullName>
+        <externalId>false</externalId>
+        <label>Scheduled Visit</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Sensitivity_Diversity_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sensitivity/Diversity Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Set_Appointment__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Set Appointment</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sexual_Harassment_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sexual Harassment Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Open</fullName>
+                    <default>false</default>
+                    <label>Open</label>
+                </value>
+                <value>
+                    <fullName>In Process</fullName>
+                    <default>false</default>
+                    <label>In Process</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+                <value>
+                    <fullName>Visit Declined</fullName>
+                    <default>false</default>
+                    <label>Visit Declined</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Scheduled</fullName>
+                    <default>false</default>
+                    <label>Scheduled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supervisory_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Supervisory Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Thank_You_Letter__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Thank You Letter</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Tier__c</fullName>
+        <externalId>false</externalId>
+        <label>Tier</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visit_Flag__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL( Visit_Score__c , "Acknowledged"), 
+IMAGE("/img/samples/light_red.gif", "red", 15, 35), 
+IF(ISPICKVAL( Visit_Score__c , "Acceptance"), 
+IMAGE("/img/samples/light_yellow.gif", "yellow", 15, 35), 
+IF(ISPICKVAL( Visit_Score__c , "Agreement"),
+IMAGE("/img/samples/light_green.gif", "green", 15, 35),null)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Visit Flag</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Visit_Length__c</fullName>
+        <externalId>false</externalId>
+        <label>Visit Length</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>15</fullName>
+                    <default>false</default>
+                    <label>15</label>
+                </value>
+                <value>
+                    <fullName>30</fullName>
+                    <default>false</default>
+                    <label>30</label>
+                </value>
+                <value>
+                    <fullName>45</fullName>
+                    <default>false</default>
+                    <label>45</label>
+                </value>
+                <value>
+                    <fullName>60</fullName>
+                    <default>false</default>
+                    <label>60</label>
+                </value>
+                <value>
+                    <fullName>75</fullName>
+                    <default>false</default>
+                    <label>75</label>
+                </value>
+                <value>
+                    <fullName>90</fullName>
+                    <default>false</default>
+                    <label>90</label>
+                </value>
+                <value>
+                    <fullName>105</fullName>
+                    <default>false</default>
+                    <label>105</label>
+                </value>
+                <value>
+                    <fullName>120</fullName>
+                    <default>false</default>
+                    <label>120</label>
+                </value>
+                <value>
+                    <fullName>135</fullName>
+                    <default>false</default>
+                    <label>135</label>
+                </value>
+                <value>
+                    <fullName>150</fullName>
+                    <default>false</default>
+                    <label>150</label>
+                </value>
+                <value>
+                    <fullName>165</fullName>
+                    <default>false</default>
+                    <label>165</label>
+                </value>
+                <value>
+                    <fullName>180</fullName>
+                    <default>false</default>
+                    <label>180</label>
+                </value>
+                <value>
+                    <fullName>210</fullName>
+                    <default>false</default>
+                    <label>210</label>
+                </value>
+                <value>
+                    <fullName>240</fullName>
+                    <default>false</default>
+                    <label>240</label>
+                </value>
+                <value>
+                    <fullName>270</fullName>
+                    <default>false</default>
+                    <label>270</label>
+                </value>
+                <value>
+                    <fullName>300</fullName>
+                    <default>false</default>
+                    <label>300</label>
+                </value>
+                <value>
+                    <fullName>330</fullName>
+                    <default>false</default>
+                    <label>330</label>
+                </value>
+                <value>
+                    <fullName>360</fullName>
+                    <default>false</default>
+                    <label>360</label>
+                </value>
+                <value>
+                    <fullName>390</fullName>
+                    <default>false</default>
+                    <label>390</label>
+                </value>
+                <value>
+                    <fullName>510</fullName>
+                    <default>false</default>
+                    <label>510</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Visit_Quarter__c</fullName>
+        <externalId>false</externalId>
+        <label>Visit Quarter</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>3rd Quarter - 2009</fullName>
+                    <default>false</default>
+                    <label>3rd Quarter - 2009</label>
+                </value>
+                <value>
+                    <fullName>4th Quarter - 2009</fullName>
+                    <default>false</default>
+                    <label>4th Quarter - 2009</label>
+                </value>
+                <value>
+                    <fullName>1st Quarter - 2010</fullName>
+                    <default>false</default>
+                    <label>1st Quarter - 2010</label>
+                </value>
+                <value>
+                    <fullName>2nd Quarter - 2010</fullName>
+                    <default>false</default>
+                    <label>2nd Quarter - 2010</label>
+                </value>
+                <value>
+                    <fullName>3rd Quarter - 2010</fullName>
+                    <default>false</default>
+                    <label>3rd Quarter - 2010</label>
+                </value>
+                <value>
+                    <fullName>4th Quarter - 2010</fullName>
+                    <default>false</default>
+                    <label>4th Quarter - 2010</label>
+                </value>
+                <value>
+                    <fullName>1st Quarter - 2011</fullName>
+                    <default>false</default>
+                    <label>1st Quarter - 2011</label>
+                </value>
+                <value>
+                    <fullName>2nd Quarter - 2011</fullName>
+                    <default>false</default>
+                    <label>2nd Quarter - 2011</label>
+                </value>
+                <value>
+                    <fullName>3rd Quarter - 2011</fullName>
+                    <default>false</default>
+                    <label>3rd Quarter - 2011</label>
+                </value>
+                <value>
+                    <fullName>4th Quarter - 2011</fullName>
+                    <default>false</default>
+                    <label>4th Quarter - 2011</label>
+                </value>
+                <value>
+                    <fullName>1st Quarter - 2012</fullName>
+                    <default>false</default>
+                    <label>1st Quarter - 2012</label>
+                </value>
+                <value>
+                    <fullName>2nd Quarter - 2012</fullName>
+                    <default>false</default>
+                    <label>2nd Quarter - 2012</label>
+                </value>
+                <value>
+                    <fullName>3rd Quarter - 2012</fullName>
+                    <default>false</default>
+                    <label>3rd Quarter - 2012</label>
+                </value>
+                <value>
+                    <fullName>4th Quarter - 2012</fullName>
+                    <default>false</default>
+                    <label>4th Quarter - 2012</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Visit_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Visit Score</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agreement</fullName>
+                    <default>false</default>
+                    <label>Agreement</label>
+                </value>
+                <value>
+                    <fullName>Acceptance</fullName>
+                    <default>false</default>
+                    <label>Acceptance</label>
+                </value>
+                <value>
+                    <fullName>Acknowledged</fullName>
+                    <default>false</default>
+                    <label>Acknowledged</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Wage_Hour_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Wage &amp; Hour Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Web_Based_Resources_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Web-Based Resources Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Workplace_Violence_Training__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Workplace Violence Training</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>X4_in_1_Card__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>4-in-1 Card</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>of_Modules__c</fullName>
+        <description>Count of modules</description>
+        <externalId>false</externalId>
+        <label># of Modules</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>upcoming_Call_Campaign_Notification__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Upcoming Call Campaign Notification</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>CHR/CSR Services</label>
+    <nameField>
+        <label>CHR/CSR Service Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>CHR/CSR Services</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>UPDATEDBY_USER</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Visits_2009</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>3rd Quarter - 2009,4th Quarter - 2009</value>
+        </filters>
+        <label>All Visits - 2009</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Visits_2010</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>1st Quarter - 2010,2nd Quarter - 2010,3rd Quarter - 2010,4th Quarter - 2010</value>
+        </filters>
+        <label>All Visits - 2010</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Visits_2011</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>1st Quarter - 2011,2nd Quarter - 2011,3rd Quarter - 2011,4th Quarter - 2011</value>
+        </filters>
+        <label>All Visits - 2011</label>
+    </listViews>
+    <listViews>
+        <fullName>Amy_s_target_list</fullName>
+        <columns>NAME</columns>
+        <columns>Class_Name__c</columns>
+        <columns>Client_Visit_Notes__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CSR_Name__c</field>
+            <operation>equals</operation>
+            <value>Amy Teeter</value>
+        </filters>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>2nd Quarter - 2010,3rd Quarter - 2010</value>
+        </filters>
+        <label>Amy's target list</label>
+    </listViews>
+    <listViews>
+        <fullName>X1st_Quarter_2011</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <columns>No_of_Attendees__c</columns>
+        <columns>Priority__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>1st Quarter - 2011</value>
+        </filters>
+        <label>1st Quarter - 2011</label>
+    </listViews>
+    <listViews>
+        <fullName>X1st_Quarter_Visits_2010</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <columns>No_of_Attendees__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>1st Quarter - 2010</value>
+        </filters>
+        <label>1st Quarter Visits - 2010</label>
+    </listViews>
+    <listViews>
+        <fullName>X2009_All_Visits</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>3rd Quarter - 2009,4th Quarter - 2009</value>
+        </filters>
+        <label>2009 - All Visits</label>
+    </listViews>
+    <listViews>
+        <fullName>X2nd_Quarter_2011</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <columns>No_of_Attendees__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>2nd Quarter - 2011</value>
+        </filters>
+        <label>2nd Quarter - 2011</label>
+    </listViews>
+    <listViews>
+        <fullName>X2nd_Quarter_Visits_2010</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <columns>No_of_Attendees__c</columns>
+        <columns>Thank_You_Letter__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>2nd Quarter - 2010</value>
+        </filters>
+        <label>2nd Quarter Visits - 2010</label>
+    </listViews>
+    <listViews>
+        <fullName>X3rd_Quarter_2011</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <columns>No_of_Attendees__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>3rd Quarter - 2011</value>
+        </filters>
+        <label>3rd Quarter - 2011</label>
+    </listViews>
+    <listViews>
+        <fullName>X3rd_Quarter_Visits</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>3rd Quarter - 2009</value>
+        </filters>
+        <label>3rd Quarter Visits - 2009</label>
+    </listViews>
+    <listViews>
+        <fullName>X4th_Quarter_2011</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <columns>No_of_Attendees__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>4th Quarter - 2011</value>
+        </filters>
+        <label>4th Quarter - 2011</label>
+    </listViews>
+    <listViews>
+        <fullName>X4th_Quarter_Visits_2009</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Priority__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>4th Quarter - 2009</value>
+        </filters>
+        <label>4th Quarter Visits - 2009</label>
+    </listViews>
+    <listViews>
+        <fullName>X4th_Quarter_Visits_2010</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>CSR_Name__c</columns>
+        <columns>Criteria__c</columns>
+        <columns>Island__c</columns>
+        <columns>Scheduled_Visit__c</columns>
+        <columns>Team__c</columns>
+        <columns>Status__c</columns>
+        <columns>Visit_Quarter__c</columns>
+        <columns>Visit_Flag__c</columns>
+        <columns>No_of_Attendees__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Visit_Quarter__c</field>
+            <operation>equals</operation>
+            <value>4th Quarter - 2010</value>
+        </filters>
+        <label>4th Quarter Visits - 2010</label>
+    </listViews>
+</CustomObject>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_90198216</developerName>
+        <masterLabel>Legal Entity</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>SBQQ__Quote__c.ProService_Legal_Entity__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService HRO, Inc.</sourceValue>
+            </sourceValues>
+            <value>HRO</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Human Resource, Inc.</sourceValue>
+            </sourceValues>
+            <value>PSHR (DT)</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Focus, Inc.</sourceValue>
+            </sourceValues>
+            <value>PSF</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Advantage Inc.</sourceValue>
+            </sourceValues>
+            <value>PSA</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Pacific</sourceValue>
+            </sourceValues>
+            <value>PSP</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Elite</sourceValue>
+            </sourceValues>
+            <value>PSE</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Optimum Inc.</sourceValue>
+            </sourceValues>
+            <value>PS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Innovation, Inc.</sourceValue>
+            </sourceValues>
+            <value>PSI</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Solutions Inc.</sourceValue>
+            </sourceValues>
+            <value>PSS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Connect, Inc.</sourceValue>
+            </sourceValues>
+            <value>Other</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.Status_Comments__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.SBQQ__Opportunity2__c</field>
+    </columns>
+    <columns>
+        <field>SBQQ__Quote__c.Sales_Op_Owner__c</field>
+    </columns>
+    <columns>
+        <field>CUST_OWNER_NAME</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>SBQQ__Quote__c.SBQQ__Status__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Accepted,Rejected,Replaced by New Quote,In Review,Approved,Denied,Presented</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>SBQQ__Quote__c.Primary_Quote__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_90198216</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>PT Dashboard - Closed Quotes</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$SBQQ__Quote__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CUST_CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CURPREVQ</interval>
+    </timeFrameFilter>
+</Report>

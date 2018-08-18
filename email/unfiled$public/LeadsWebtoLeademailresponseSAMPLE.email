@@ -1,0 +1,12 @@
+Thank you for your interest in ProService.  We will be contacting you shortly.    
+
+Company: {!Lead.Company}
+Name: {!Lead.FirstName} {!Lead.LastName}
+Title: {!Lead.Title}
+Phone: {!Lead.Phone}
+Email: {!Lead.Email}
+Comments: {!Lead.UTM_Challenge__c}
+
+
+Sincerely,  
+The Team at ProService

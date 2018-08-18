@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Implementation__c.Platform__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.PEO_HRO__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Implementation_Coord__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Date_Contract_Received__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Contract_Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Paycycle__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <aggregateTypes>Average</aggregateTypes>
+        <aggregateTypes>Maximum</aggregateTypes>
+        <field>Implementation__c.Annualized_Admin_Fees__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <aggregateTypes>Average</aggregateTypes>
+        <aggregateTypes>Maximum</aggregateTypes>
+        <aggregateTypes>Minimum</aggregateTypes>
+        <field>Implementation__c.of_Employees__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Island__c</field>
+    </columns>
+    <description>Ernest &amp; Laura</description>
+    <format>Tabular</format>
+    <name>Weekly New Client IDs</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$Implementation__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Implementation__c.Date_Contract_Received__c</dateColumn>
+        <interval>INTERVAL_THISWEEK</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,5 @@
+The following Opportunity is ready for Healthcare pricing:
+
+Opportunity:  {!Opportunity.Name}
+Account:  {!Opportunity.Account}
+Opportunity Link:  {!Opportunity.Link}

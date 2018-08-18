@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>I’m Jody with ProService Hawaii - I&apos;m following up on a request made online for an HR consultation with ProService Hawaii but I see that your company is already a current Customer. To speak with a member of our Customer Service Team, please call (808) 394-8878 for immediate assistance. If you should need help with a new account feel free to contact me at (808) 443-5426.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer Service #</name>
+    <relatedEntityType>Lead</relatedEntityType>
+    <style>none</style>
+    <subject>ProService Customer Service #: (808) 394-8878</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

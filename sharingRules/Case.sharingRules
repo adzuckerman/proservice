@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>ACE_Read_Write</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>ACE and ACE Terming Read/Write/Transfer access for AMs.</description>
+        <label>ACE Read/Write</label>
+        <sharedTo>
+            <group>ACE</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>ACE - Terming,ACE</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+</SharingRules>

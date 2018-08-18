@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.PEO_HRO__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Implementation_Coord__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Assigned_Team__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Contract_Start_Date__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.First_Payroll_Date__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Paycycle__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Actual_of_Employees__c</field>
+    </columns>
+    <columns>
+        <field>Implementation__c.Comments__c</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <description>New Client Tracker report for Brock</description>
+    <filter>
+        <criteriaItems>
+            <column>SUBJECT</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>HRP Setup</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>New Client Tracker</name>
+    <params>
+        <name>closed</name>
+        <value>open</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ActivityCustomEntity$Implementation__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LAST_UPDATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

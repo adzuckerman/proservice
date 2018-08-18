@@ -1,0 +1,5 @@
+{!Opportunity.OwnerFullName},
+
+The "{!Opportunity.Name}" opportunity's proposal is ready for review. 
+
+For details, please click here: {!Opportunity.Link}

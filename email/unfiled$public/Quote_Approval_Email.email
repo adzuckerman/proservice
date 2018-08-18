@@ -1,0 +1,7 @@
+A quote for {!SBQQ__Quote__c.Opportunity_Name__c} has been issued a pricing grid and is ready for your approval.
+
+Use this link to view the quote and the pricing grid (in the Files section).  You may make your approval choice from the quote page as well.
+{!SBQQ__Quote__c.Link}
+
+Use this link to go straight to making the approval.
+{!ApprovalRequest.Internal_URL}

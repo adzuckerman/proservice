@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notify Client that login information will be sent in a separate emails</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Professional Services - Email: Notification of Login Email to Be Sent # 1</name>
+    <style>none</style>
+    <subject>Notification of Login Information - ProService</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

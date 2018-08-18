@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_32316650</developerName>
+        <masterLabel>Quote Creation Type</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.SBQQ__Quotes2__r$Quote_Creation_Reason__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>View quote as HRO</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>View quote as PEO</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Change to payroll/EE count</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Updating prelim quote</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Different HC option (DTC/HMAA/carve out)</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Changes to HC Comparison</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>New WC code</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Soft cost/Surcharge added</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Different WC option</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Other</sourceValue>
+            </sourceValues>
+            <value>Additional Versions</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Initial version</sourceValue>
+            </sourceValues>
+            <value>Initial Version</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r$Name</field>
+    </columns>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Week</dateGranularity>
+        <field>Opportunity.SBQQ__Quotes2__r$Pricing_Grid_Issued_Date__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_32316650</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <name>PT Dashboard - Bucketed Grids</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Primary_Quote_LA__c</reportType>
+    <roleHierarchyFilter>Executive</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Opportunity$Name</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Opportunity.SBQQ__Quotes2__r$Pricing_Grid_Issued_Date__c</dateColumn>
+        <interval>INTERVAL_CURPREVQ</interval>
+    </timeFrameFilter>
+</Report>

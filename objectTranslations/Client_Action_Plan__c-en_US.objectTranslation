@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- DO NOT EDIT - The date the AM last had an interaction with the key DM. --></help>
+        <label><!-- AM Last Touch with Key Decision Maker --></label>
+        <name>AM_Last_Touch_with_Key_Decision_Maker__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the initial assessment of the client based on the collective knowledge of the AM and STM. --></help>
+        <label><!-- AM/STM Client Assessment --></label>
+        <name>AM_STM_Client_Assessment__c</name>
+    </fields>
+    <fields>
+        <help><!-- Update as needed. --></help>
+        <label><!-- AM&apos;s Connectivity (Current) --></label>
+        <name>AM_s_Connectivity_Current__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Green</masterLabel>
+            <translation><!-- Super Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- DO NOT EDIT - Is the AM considered a trusted advisor?  Will the client accept what they are told by the AM based on trust and faith alone?  Does the client proactively call the AM to solicit advice on business or personnel decisions? --></help>
+        <label><!-- AM&apos;s Connectivity (Baseline) --></label>
+        <name>AMs_Connectivity_Baseline__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Data Available</masterLabel>
+            <translation><!-- No Data Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Green</masterLabel>
+            <translation><!-- Super Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account Manager --></label>
+        <name>Account_Manager__c</name>
+        <picklistValues>
+            <masterLabel>Angie Nakasone</masterLabel>
+            <translation><!-- Angie Nakasone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angie Wideman</masterLabel>
+            <translation><!-- Angie Wideman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aulani Kekuna</masterLabel>
+            <translation><!-- Aulani Kekuna --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cathy Painter</masterLabel>
+            <translation><!-- Cathy Painter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Darren Ebisu</masterLabel>
+            <translation><!-- Darren Ebisu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jordan Wong</masterLabel>
+            <translation><!-- Jordan Wong --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Larry Hubbell</masterLabel>
+            <translation><!-- Larry Hubbell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark Shiman</masterLabel>
+            <translation><!-- Mark Shiman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tony Guzzardo</masterLabel>
+            <translation><!-- Tony Guzzardo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Client Action Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- What are this company&apos;s 3-5 key strategic goals or priorities? --></help>
+        <label><!-- Client Goals --></label>
+        <name>Client_Goals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Update as needed. --></help>
+        <label><!-- Client&apos;s PSH Value Perception (Current) --></label>
+        <name>Client_s_PSH_Value_Perception_Current__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Green</masterLabel>
+            <translation><!-- Super Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- DO NOT EDIT - Do we provide consistently great service?  Do we have their trust and confidence to consistently perform to their standards?  Are they loyal to us?  Do they refer other business to us?  Do they perceive value in what we do for them? --></help>
+        <label><!-- Client&apos;s PSH Value Perception (Baseline) --></label>
+        <name>Clients_PSH_Value_Perception_Baseline__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Data Available</masterLabel>
+            <translation><!-- No Data Available --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Green</masterLabel>
+            <translation><!-- Super Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Description of interaction and with whom. --></help>
+        <label><!-- Date of Last AM/STM Review --></label>
+        <name>Date_of_Last_AM_STM_Review__c</name>
+    </fields>
+    <fields>
+        <help><!-- What specific steps does ProService need to take to accomplish the Success Criteria? --></help>
+        <label><!-- Go Green Account Action Plan --></label>
+        <name>Go_Green_Account_Action_Plan__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Executive Contact --></label>
+        <name>Key_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- What are the 3-5 most important priorities for your key executive client at this company? --></help>
+        <label><!-- Key Decision Maker Goals --></label>
+        <name>Key_Decision_Maker_Goals__c</name>
+    </fields>
+    <fields>
+        <help><!-- The cumulative notes from all of the AM/STM reviews of the client&apos;s action plan. The most recent should be at the top. --></help>
+        <label><!-- Notes from All AM/STM Reviews --></label>
+        <name>Notes_from_All_AM_STM_Reviews__c</name>
+    </fields>
+    <fields>
+        <help><!-- DO NOT EDIT - Description of interaction and with whom. --></help>
+        <label><!-- Notes on AM Last Touch with Key DM --></label>
+        <name>Notes_on_AM_Last_Touch_with_Key_DM__c</name>
+    </fields>
+    <fields>
+        <help><!-- How would you describe the central challenge the Account Manager faces in developing and managing this client relationship? --></help>
+        <label><!-- Our Client&apos;s Major Challenge --></label>
+        <name>Our_Clients_Major_Challenge__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is the overall status to hit the goal fo Surprising and Delighting this client? --></help>
+        <label><!-- Overall Action Plan Status --></label>
+        <name>Overall_Action_Plan_Status__c</name>
+        <picklistValues>
+            <masterLabel>AM/STM Initial Meeting Held</masterLabel>
+            <translation><!-- AM/STM Initial Meeting Held --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Action Plan Being Executed - Trending Green</masterLabel>
+            <translation><!-- Action Plan Being Executed - Trending Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Action Plan Being Executed - Trending Red</masterLabel>
+            <translation><!-- Action Plan Being Executed - Trending Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Action Plan Being Executed - Trending Yellow</masterLabel>
+            <translation><!-- Action Plan Being Executed - Trending Yellow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Action Plan Closed by CIS (No Longer PFK)</masterLabel>
+            <translation><!-- Action Plan Closed by CIS (No Longer PFK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Action Plan Complete</masterLabel>
+            <translation><!-- Action Plan Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Action Plan Drafted</masterLabel>
+            <translation><!-- Action Plan Drafted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Action Plan Needed</masterLabel>
+            <translation><!-- No Action Plan Needed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Action Plan Needed - Related Account</masterLabel>
+            <translation><!-- No Action Plan Needed - Related Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STUCK</masterLabel>
+            <translation><!-- STUCK --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PFK Quarter --></label>
+        <name>PFK_Quarter__c</name>
+        <picklistValues>
+            <masterLabel>2015 - Q2</masterLabel>
+            <translation><!-- 2015 - Q2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2015 - Q4</masterLabel>
+            <translation><!-- 2015 - Q4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016 - Q1</masterLabel>
+            <translation><!-- 2016 - Q1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016 - Q2</masterLabel>
+            <translation><!-- 2016 - Q2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016 - Q3</masterLabel>
+            <translation><!-- 2016 - Q3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2016 - Q4</masterLabel>
+            <translation><!-- 2016 - Q4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Team Manager --></label>
+        <name>Service_Team_Manager__c</name>
+        <picklistValues>
+            <masterLabel>Lisa Tilton</masterLabel>
+            <translation><!-- Lisa Tilton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Melanie Ching</masterLabel>
+            <translation><!-- Melanie Ching --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Richie Wessman</masterLabel>
+            <translation><!-- Richie Wessman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tami Minami</masterLabel>
+            <translation><!-- Tami Minami --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tempsy Quach</masterLabel>
+            <translation><!-- Tempsy Quach --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- What would taking this client to Green or Super Green look like for the AM? Who would they need to have a relationship with and what would that look like? What pain points would ProService have to remove? --></help>
+        <label><!-- Success Criteria --></label>
+        <name>Success_Criteria__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Client Action Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Client Action Plans</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Client Action Plan Layout</layout>
+        <sections>
+            <label><!-- Account Action Plan --></label>
+            <section>Account Action Plan</section>
+        </sections>
+        <sections>
+            <label><!-- Client&apos;s Goals --></label>
+            <section>Client's Goals</section>
+        </sections>
+        <sections>
+            <label><!-- Current Account Assessment --></label>
+            <section>Current Account Assessment</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- ProService Hawaii&apos;s Goals for the Client --></label>
+            <section>ProService Hawaii's Goals for the Client</section>
+        </sections>
+        <sections>
+            <label><!-- Updates --></label>
+            <section>Updates</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

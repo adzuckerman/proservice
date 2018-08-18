@@ -1,0 +1,14 @@
+New Friends & Family Referral:
+From: {!Client_Referrals__c.Referral_Owner__c}
+Dept:  {!Client_Referrals__c.Home_Department__c}
+
+Referred business name:  {!Client_Referrals__c.Referred_Business_Name__c}
+Type of business:  {!Client_Referrals__c.Type_of_Business__c}
+Name of contact:  {!Client_Referrals__c.Name_of_Business_Contact__c}
+Contact's title:  {!Client_Referrals__c.Contact_s_Title__c}
+Contact phone:  {!Client_Referrals__c.Contact_s_Phone__c}
+Contact Email:  {!Client_Referrals__c.Contact_s_Email__c}
+Island:  {!Client_Referrals__c.Island__c}
+# of employees:  {!Client_Referrals__c.Approx_of_Employees__c}
+
+Notes:  {!Client_Referrals__c.Notes__c}

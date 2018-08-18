@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Island_BDM_Hawaii__c</fullName>
+        <description>The alias of the BDM assigned to Hawaii (Big Island)</description>
+        <externalId>false</externalId>
+        <label>Island BDM Hawaii</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Island_BDM_Kauai__c</fullName>
+        <description>The alias of the BDM assigned to Kauai</description>
+        <externalId>false</externalId>
+        <label>Island BDM Kauai</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Island_BDM_Lanai__c</fullName>
+        <description>The alias of the BDM assigned to Lanai</description>
+        <externalId>false</externalId>
+        <label>Island BDM Lanai</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Island_BDM_Maui__c</fullName>
+        <description>The alias of the BDM assigned to Maui</description>
+        <externalId>false</externalId>
+        <label>Island BDM Maui</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Island_BDM_Molokai__c</fullName>
+        <description>The alias of the BDM assigned to Molokai</description>
+        <externalId>false</externalId>
+        <label>Island BDM Molokai</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Lead_Assignment_Status__c</fullName>
+        <description>Status field value on Lead that will be used to trigger the lead assiworkflow.</description>
+        <externalId>false</externalId>
+        <label>Lead Assignment Status</label>
+        <length>50</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Major_Account_BDM__c</fullName>
+        <description>The alias of the BDM to be assigned to leads when there is a large number of estimated worksite employees</description>
+        <externalId>false</externalId>
+        <label>Major Account BDM</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Major_Account_WSE_Count__c</fullName>
+        <description>This is the count that determines when the large account BDM should be assigned.</description>
+        <externalId>false</externalId>
+        <label>Major Account WSE Count</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>User Ids to whom lead would be assigned to.  All islands must be filled in or the lead assignment will fail.</description>
+    <enableFeeds>false</enableFeeds>
+    <label>Lead Assignment UserIDs</label>
+    <visibility>Public</visibility>
+</CustomObject>

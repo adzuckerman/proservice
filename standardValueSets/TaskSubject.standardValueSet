@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fax</fullName>
+        <default>false</default>
+        <label>Fax</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-mail</fullName>
+        <default>false</default>
+        <label>E-mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Letter</fullName>
+        <default>false</default>
+        <label>Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Client Setup</fullName>
+        <default>false</default>
+        <label>New Client Setup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Initial Contact</fullName>
+        <default>false</default>
+        <label>Initial Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>WC Audit</fullName>
+        <default>false</default>
+        <label>WC Audit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Team Assignment</fullName>
+        <default>false</default>
+        <label>Team Assignment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HRP Setup</fullName>
+        <default>false</default>
+        <label>HRP Setup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Benefits Setup</fullName>
+        <default>false</default>
+        <label>Client Benefits Setup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HRP Setup Audit</fullName>
+        <default>false</default>
+        <label>HRP Setup Audit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Client Forms</fullName>
+        <default>false</default>
+        <label>New Client Forms</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Orientation</fullName>
+        <default>false</default>
+        <label>Orientation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Handbook Review</fullName>
+        <default>false</default>
+        <label>Handbook Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Hire Entries</fullName>
+        <default>false</default>
+        <label>New Hire Entries</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Hire Audit</fullName>
+        <default>false</default>
+        <label>New Hire Audit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Benefit Enrollments</fullName>
+        <default>false</default>
+        <label>Employee Benefit Enrollments</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1st Payroll Processing</fullName>
+        <default>false</default>
+        <label>1st Payroll Processing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1st Payroll Audit</fullName>
+        <default>false</default>
+        <label>1st Payroll Audit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Transition</fullName>
+        <default>false</default>
+        <label>Client Transition</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pre-Transition Payroll</fullName>
+        <default>false</default>
+        <label>Pre-Transition Payroll</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PTO Setup</fullName>
+        <default>false</default>
+        <label>PTO Setup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoice Walk Through</fullName>
+        <default>false</default>
+        <label>Invoice Walk Through</label>
+    </standardValue>
+    <standardValue>
+        <fullName>DFWP/Pre-employment screening setup</fullName>
+        <default>false</default>
+        <label>DFWP/Pre-employment screening setup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AFLAC</fullName>
+        <default>false</default>
+        <label>AFLAC</label>
+    </standardValue>
+    <standardValue>
+        <fullName>401k</fullName>
+        <default>false</default>
+        <label>401k</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Garnishment</fullName>
+        <default>false</default>
+        <label>Garnishment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Certified Payroll</fullName>
+        <default>false</default>
+        <label>Certified Payroll</label>
+    </standardValue>
+    <standardValue>
+        <fullName>E-Verify</fullName>
+        <default>false</default>
+        <label>E-Verify</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1st Attempt</fullName>
+        <default>false</default>
+        <label>1st Attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2nd Attempt</fullName>
+        <default>false</default>
+        <label>2nd Attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3rd Attempt</fullName>
+        <default>false</default>
+        <label>3rd Attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>4th Attempt</fullName>
+        <default>false</default>
+        <label>4th Attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>5th Attempt</fullName>
+        <default>false</default>
+        <label>5th Attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>6th Attempt</fullName>
+        <default>false</default>
+        <label>6th Attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Made Contact</fullName>
+        <default>false</default>
+        <label>Made Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-Up</fullName>
+        <default>false</default>
+        <label>Follow-Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>1st Meeting Set</fullName>
+        <default>false</default>
+        <label>1st Meeting Set</label>
+    </standardValue>
+</StandardValueSet>

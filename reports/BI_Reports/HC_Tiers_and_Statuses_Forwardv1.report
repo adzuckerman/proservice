@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account.Opportunities$Name</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$StageName</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.SBQQ__Quotes2__r$EmployeesFT__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.SBQQ__Quotes2__r$EmployeesPT__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Lead_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$X1st_Meeting_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Clientspace_Proposal_Date__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.SBQQ__Quotes2__r$HMSAHMAATier__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities.SBQQ__Quotes2__r$KaiserTier__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Account.Opportunities.SBQQ__Quotes2__r.SBQQ__LineItems__r$SBQQ__ProductFamily__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Work Comp</value>
+        </criteriaItems>
+    </filter>
+    <format>Tabular</format>
+    <name>HC Tiers and Statuses - Forward</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Quote_Line_with_Opportunities_with_Account_LA__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Account$Status_Date__c</dateColumn>
+        <interval>INTERVAL_LASTMONTH</interval>
+    </timeFrameFilter>
+</Report>

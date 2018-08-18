@@ -1,0 +1,5 @@
+New NPS Survey Submitted for {!NPS_Survey_Results__c.Client__c}
+
+NPS Score: {!NPS_Survey_Results__c.NPS_Score__c}
+NPS Reason: {!NPS_Survey_Results__c.NPS_Reason__c}
+NPS Category: {!NPS_Survey_Results__c.NPS_Category__c}

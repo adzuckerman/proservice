@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>S</fullName>
+        <default>false</default>
+        <label>S</label>
+    </customValue>
+    <customValue>
+        <fullName>ES</fullName>
+        <default>false</default>
+        <label>ES</label>
+    </customValue>
+    <customValue>
+        <fullName>EC</fullName>
+        <default>false</default>
+        <label>EC</label>
+    </customValue>
+    <customValue>
+        <fullName>F</fullName>
+        <default>false</default>
+        <label>F</label>
+    </customValue>
+    <masterLabel>Enrollment</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

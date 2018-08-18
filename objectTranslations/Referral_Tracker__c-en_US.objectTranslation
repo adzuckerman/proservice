@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Opportunity this record is related to --></help>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Referrals --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Proferral Payout Date --></help>
+        <label><!-- Proferral Payout Date --></label>
+        <name>Proferral_Payout_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Proferral Referee Payout Amount --></help>
+        <label><!-- Proferral Referee Payout Amount --></label>
+        <name>Proferral_Referee_Payout_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Proferral Referrer Payout Amount --></help>
+        <label><!-- Proferral Referrer Payout Amount --></label>
+        <name>Proferral_Referrer_Payout_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Proferral Referrer Payout Amount --></help>
+        <label><!-- Proferral Referrer Payout Notes --></label>
+        <name>Proferral_Referrer_Payout_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the person who was referred to ProService --></help>
+        <label><!-- Referee&apos;s Name --></label>
+        <name>Referee_s_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referred by Client/Partner --></help>
+        <label><!-- Referred by Client/Partner --></label>
+        <name>Referred_by_Client_Partner__c</name>
+        <relationshipLabel><!-- Referrals --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Department the employee belongs to that referred the Organization --></help>
+        <label><!-- Referred by Department --></label>
+        <name>Referred_by_Department__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation><!-- Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation><!-- Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS</masterLabel>
+            <translation><!-- CIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims</masterLabel>
+            <translation><!-- Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client HR</masterLabel>
+            <translation><!-- Client HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Front Office</masterLabel>
+            <translation><!-- Front Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Associates</masterLabel>
+            <translation><!-- HR Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation><!-- Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Audit Team</masterLabel>
+            <translation><!-- Internal Audit Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal HR</masterLabel>
+            <translation><!-- Internal HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing &amp; Analytics</masterLabel>
+            <translation><!-- Pricing &amp; Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Control</masterLabel>
+            <translation><!-- Risk Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Operations</masterLabel>
+            <translation><!-- Sales Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solutions</masterLabel>
+            <translation><!-- Solutions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Referred by internal EE --></help>
+        <label><!-- Referred by EE --></label>
+        <name>Referred_by_EE__c</name>
+        <relationshipLabel><!-- Referrals --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Name of the person who referred the Organization to ProService --></help>
+        <label><!-- Referrer&apos;s Name --></label>
+        <name>Referrer_s_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- WSE Internal Payout Amount --></help>
+        <label><!-- WSE Internal Payout Amount --></label>
+        <name>WSE_Internal_Payout_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- WSE Internal Payout Date --></help>
+        <label><!-- WSE Internal Payout Date --></label>
+        <name>WSE_Internal_Payout_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- WSE Internal Payout Notes --></help>
+        <label><!-- WSE Internal Payout Notes --></label>
+        <name>WSE_Internal_Payout_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1st Meeting Internal Notes --></help>
+        <label><!-- 1st Meeting Internal Notes --></label>
+        <name>X1st_Meeting_Internal_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1st Meeting Internal Payout Amount --></help>
+        <label><!-- 1st Meeting Internal Payout Amount --></label>
+        <name>X1st_Meeting_Internal_Payout_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1st Meeting Internal Payout Date --></help>
+        <label><!-- 1st Meeting Internal Payout Date --></label>
+        <name>X1st_Meeting_Internal_Payout_Date__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Referral</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Referrals</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Referral Layout</layout>
+        <sections>
+            <label><!-- 1st Meeting Internal --></label>
+            <section>1st Meeting Internal</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- PROferral --></label>
+            <section>PROferral</section>
+        </sections>
+        <sections>
+            <label><!-- WSE Internal Payout --></label>
+            <section>WSE Internal Payout</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

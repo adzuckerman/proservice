@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Team__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Class_Name__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.No_of_Attendees__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Client_Visit_Notes__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Positive_Feedback__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Criteria__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Future_Visit_Training_Opportunities__c</field>
+    </columns>
+    <columns>
+        <field>CHR_CSR_Services__c.Visit_Length__c</field>
+    </columns>
+    <description>HR Email for Donna</description>
+    <filter>
+        <criteriaItems>
+            <column>CHR_CSR_Services__c.CSR_Name__c</column>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Donna Jones,Oahu - Other,Kim Gould</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>CHR_CSR_Services__c.CSR_Name__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>HR Training Weekly Email</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$CHR_CSR_Services__c@CHR_CSR_Services__c.Client__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CHR_CSR_Services__c.Scheduled_Visit__c</dateColumn>
+        <interval>INTERVAL_LASTWEEK</interval>
+    </timeFrameFilter>
+</Report>

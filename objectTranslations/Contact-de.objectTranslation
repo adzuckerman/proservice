@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Status on the account --></help>
+        <label><!-- Account Status --></label>
+        <name>Account_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved for Salesforce Integration? --></label>
+        <name>Approved_for_Salesforce_Integration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Date --></label>
+        <name>CRMG_WF__ActivityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Description --></label>
+        <name>CRMG_WF__ActivityDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Subject --></label>
+        <name>CRMG_WF__ActivitySubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today --></label>
+        <name>CRMG_WF__Today__c</name>
+    </fields>
+    <fields>
+        <label><!-- ClientEmployeeId --></label>
+        <name>ClientEmployee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact 1 Phone --></label>
+        <name>Contact_1_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Type --></label>
+        <name>Contact_Type__c</name>
+        <picklistValues>
+            <masterLabel>Client</masterLabel>
+            <translation><!-- Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee</masterLabel>
+            <translation><!-- Employee --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact&apos;s Birthdate --></label>
+        <name>Contacts_Birthdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- DM --></label>
+        <name>DM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days to Reach Opportunity --></label>
+        <name>Days_to_Reach_Opportunity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contact is a decision maker for the company --></help>
+        <label><!-- Decision Maker --></label>
+        <name>Decision_Maker__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Direct Phone --></help>
+        <label><!-- Direct Phone --></label>
+        <name>Direct_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Status Desc --></label>
+        <name>EE_Status_Desc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee ID --></label>
+        <name>Employee_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Status Date --></label>
+        <name>Employee_Status_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employee Status --></label>
+        <name>Employee_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leave</masterLabel>
+            <translation><!-- Leave --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termed</masterLabel>
+            <translation><!-- Termed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Employer Id --></label>
+        <name>Employer_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Employer Name --></label>
+        <name>Employer_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Info --></label>
+        <name>Event_Info__c</name>
+        <picklistValues>
+            <masterLabel>Business Forum</masterLabel>
+            <translation><!-- Business Forum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Charity Gala</masterLabel>
+            <translation><!-- Charity Gala --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Holiday Gift</masterLabel>
+            <translation><!-- Client Holiday Gift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Holiday Party</masterLabel>
+            <translation><!-- Client Holiday Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golf Event</masterLabel>
+            <translation><!-- Golf Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Networking Event</masterLabel>
+            <translation><!-- Networking Event --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- First touch converting campaign --></label>
+        <name>First_touch_converting_campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Golf Handicap --></label>
+        <name>Golf_Handicap__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last marketing email name --></label>
+        <name>Last_marketing_email_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last marketing email send date --></label>
+        <name>Last_marketing_email_send_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- NPS Score --></label>
+        <name>NPS_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recent Conversion Date --></label>
+        <name>Recent_Conversion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Secondary Email --></label>
+        <name>Secondary_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Spouse/Guest Name --></label>
+        <name>Spouse_Guest_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Team in which the account belongs too --></help>
+        <label><!-- Team --></label>
+        <name>Team__c</name>
+        <picklistValues>
+            <masterLabel>Kokua</masterLabel>
+            <translation><!-- Kokua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lokahi</masterLabel>
+            <translation><!-- Lokahi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pono</masterLabel>
+            <translation><!-- Pono --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tee Shirt Size --></label>
+        <name>Tee_Shirt_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- XXOpp External ID --></label>
+        <name>XXOpp_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Index --></label>
+        <name>dupcheck__dc3Index__c</name>
+    </fields>
+    <layouts>
+        <layout>Payroll Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Events --></label>
+            <section>Events</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Standard Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Events --></label>
+            <section>Events</section>
+        </sections>
+        <sections>
+            <label><!-- HubSpot Intelligence --></label>
+            <section>HubSpot Intelligence</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <description><!-- Employee contact imported from a payroll system --></description>
+        <label><!-- Payroll --></label>
+        <name>Payroll</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Contacts --></label>
+        <name>activities__Create_Tasks_Contacts</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Check --></label>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Merge --></label>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_42511248</developerName>
+        <masterLabel>Legal Entity</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Opportunity.SBQQ__Quotes2__r$ProService_Legal_Entity__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Connect, Inc.</sourceValue>
+            </sourceValues>
+            <value>PSC</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Focus, Inc.</sourceValue>
+            </sourceValues>
+            <value>PSF</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Solutions Inc.</sourceValue>
+            </sourceValues>
+            <value>PSS</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Advantage Inc.</sourceValue>
+            </sourceValues>
+            <value>PSA</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Pacific</sourceValue>
+            </sourceValues>
+            <value>PSP</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Elite</sourceValue>
+            </sourceValues>
+            <value>PSE</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Innovation, Inc.</sourceValue>
+            </sourceValues>
+            <value>PSI</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Optimum Inc.</sourceValue>
+            </sourceValues>
+            <value>PSO</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService Human Resource, Inc.</sourceValue>
+            </sourceValues>
+            <value>PSHR</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService HRO, Inc.</sourceValue>
+            </sourceValues>
+            <value>HRO</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>ProService National</sourceValue>
+            </sourceValues>
+            <value>PSN</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Opportunity$Name</field>
+    </columns>
+    <columns>
+        <field>Opportunity.SBQQ__Quotes2__r$Name</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Opportunity.SBQQ__Quotes2__r$AnnualGrossPayroll__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__Quotes2__r$SBQQ__Status__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Accepted,Rejected,Replaced by New Quote,In Review,Approved,Denied,Presented</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity.SBQQ__Quotes2__r$Primary_Quote__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Opportunity$Startup_Company__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>notEqual</operator>
+            <value>No</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_42511248</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>PT Dashboard - Legal Entity Placement</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Opportunities_with_Primary_Quote_LA__c</reportType>
+    <roleHierarchyFilter>Executive</roleHierarchyFilter>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Opportunity.SBQQ__Quotes2__r$CreatedDate</dateColumn>
+        <interval>INTERVAL_CURPREVQ</interval>
+    </timeFrameFilter>
+</Report>

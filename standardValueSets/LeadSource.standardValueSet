@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Client Referral</fullName>
+        <default>false</default>
+        <label>Client Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Internal Referral</fullName>
+        <default>false</default>
+        <label>Internal Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Lead</fullName>
+        <default>false</default>
+        <label>Marketing Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referring Partner</fullName>
+        <default>false</default>
+        <label>Referring Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>N/A</fullName>
+        <default>false</default>
+        <label>N/A</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDM</fullName>
+        <default>false</default>
+        <label>BDM</label>
+    </standardValue>
+</StandardValueSet>

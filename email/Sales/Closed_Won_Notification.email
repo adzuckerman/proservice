@@ -1,0 +1,5 @@
+Company Name: {!Opportunity.Account}
+BDM: {!Opportunity.OwnerFullName}
+EE Count: {!Opportunity.Employee_Count__c}
+Admin Amount: {!Opportunity.Amount}
+Service Type: {!Opportunity.Service_Type__c}

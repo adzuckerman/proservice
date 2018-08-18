@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Solutions</relationshipLabel>
+        <relationshipName>Solutions</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Client_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>The main contact and client collaborator with instituting ProService development areas.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>If a client contact does not appear in the lookup, you may need to set up the Contact before proceeding.</inlineHelpText>
+        <label>Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Solutions</relationshipLabel>
+        <relationshipName>Solutions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Days_Between__c</fullName>
+        <externalId>false</externalId>
+        <formula>Solution_Due_Date__c - Inception_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Between</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Set_Up_Start__c</fullName>
+        <description>This is the beginning of "live" service.</description>
+        <externalId>false</externalId>
+        <label>Estimated Set Up Start</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Estimated_Transition_Date__c</fullName>
+        <description>Estimated date when functionality will be handed over to the team for continuing support.</description>
+        <externalId>false</externalId>
+        <label>Estimated Transition Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Findings__c</fullName>
+        <description>Description of the findings from the client interview</description>
+        <externalId>false</externalId>
+        <label>Findings</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Inception_Date__c</fullName>
+        <defaultValue>Today()</defaultValue>
+        <description>Initial meeting date with the client to determine the overall scope of necessary services from ProService</description>
+        <externalId>false</externalId>
+        <label>Inception Date</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Progress_Status__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE(  
+CASE( Progress__c,
+"Green", "/img/samples/light_green.gif", 
+"Yellow", "/img/samples/light_yellow.gif",
+"Red", "/img/samples/light_red.gif",  
+"/s.gif"),  
+"status color")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Progress Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Progress__c</fullName>
+        <externalId>false</externalId>
+        <label>Progress</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>true</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Provider__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>ProService individual responsible for Solution</description>
+        <externalId>false</externalId>
+        <label>Provider</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Solutions</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Solution_Conclusion__c</fullName>
+        <description>Delivered results for the First Solution</description>
+        <externalId>false</externalId>
+        <label>Solution Conclusion</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Solution_Due_Date__c</fullName>
+        <description>Estimated delivery date of the first solution</description>
+        <externalId>false</externalId>
+        <label>Solution Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Solution_Result__c</fullName>
+        <description>Client's satisfaction level in regards to the completed solution</description>
+        <externalId>false</externalId>
+        <label>Solution Result</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Very Satisfied</fullName>
+                    <default>false</default>
+                    <label>Very Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Satisfied</fullName>
+                    <default>false</default>
+                    <label>Satisfied</label>
+                </value>
+                <value>
+                    <fullName>Unsatisfied</fullName>
+                    <default>false</default>
+                    <label>Unsatisfied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Solution_Service__c</fullName>
+        <description>Outline of First Solution</description>
+        <externalId>false</externalId>
+        <label>Solution Service</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Solution_Sub_Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Sub Description</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Solution__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Certification Management</fullName>
+                    <default>false</default>
+                    <label>Certification Management</label>
+                </value>
+                <value>
+                    <fullName>Consultation</fullName>
+                    <default>false</default>
+                    <label>Consultation</label>
+                </value>
+                <value>
+                    <fullName>Dashboard Development</fullName>
+                    <default>false</default>
+                    <label>Dashboard Development</label>
+                </value>
+                <value>
+                    <fullName>GL Export</fullName>
+                    <default>false</default>
+                    <label>GL Export</label>
+                </value>
+                <value>
+                    <fullName>Management Reports</fullName>
+                    <default>false</default>
+                    <label>Management Reports</label>
+                </value>
+                <value>
+                    <fullName>Scheduling Management</fullName>
+                    <default>false</default>
+                    <label>Scheduling Management</label>
+                </value>
+                <value>
+                    <fullName>Self-Service Development</fullName>
+                    <default>false</default>
+                    <label>Self-Service Development</label>
+                </value>
+                <value>
+                    <fullName>Seminar</fullName>
+                    <default>false</default>
+                    <label>Seminar</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Workflow Management</fullName>
+                    <default>false</default>
+                    <label>Workflow Management</label>
+                </value>
+                <value>
+                    <fullName>Payroll Reports</fullName>
+                    <default>false</default>
+                    <label>Payroll Reports</label>
+                </value>
+                <value>
+                    <fullName>Provider Reports</fullName>
+                    <default>false</default>
+                    <label>Provider Reports</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <valueName>Consultation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>Management Reports</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Scheduling Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>Training</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <valueName>Workflow Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <valueName>Seminar</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>Certification Management</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>Dashboard Development</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <valueName>Self-Service Development</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>GL Export</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>Payroll Reports</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>Provider Reports</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Solution__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Manager Development</fullName>
+                    <default>false</default>
+                    <label>Manager Development</label>
+                </value>
+                <value>
+                    <fullName>Recruiting Development</fullName>
+                    <default>false</default>
+                    <label>Recruiting Development</label>
+                </value>
+                <value>
+                    <fullName>Time and Attendance</fullName>
+                    <default>false</default>
+                    <label>Time and Attendance</label>
+                </value>
+                <value>
+                    <fullName>HRMS Update</fullName>
+                    <default>false</default>
+                    <label>HRMS Update</label>
+                </value>
+                <value>
+                    <fullName>Reporting Development</fullName>
+                    <default>false</default>
+                    <label>Reporting Development</label>
+                </value>
+                <value>
+                    <fullName>UltiPro .NET Setup</fullName>
+                    <default>false</default>
+                    <label>UltiPro .NET Setup</label>
+                </value>
+                <value>
+                    <fullName>General Consultation</fullName>
+                    <default>false</default>
+                    <label>General Consultation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status_1__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Solution__c</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Discovery</fullName>
+                    <default>false</default>
+                    <label>Discovery</label>
+                </value>
+                <value>
+                    <fullName>Client Approval of .NET Plan</fullName>
+                    <default>false</default>
+                    <label>Client Approval of .NET Plan</label>
+                </value>
+                <value>
+                    <fullName>Client Approval of Plan</fullName>
+                    <default>false</default>
+                    <label>Client Approval of Plan</label>
+                </value>
+                <value>
+                    <fullName>Ordering Clock</fullName>
+                    <default>false</default>
+                    <label>Ordering Clock</label>
+                </value>
+                <value>
+                    <fullName>Setting Up .NET</fullName>
+                    <default>false</default>
+                    <label>Setting Up .NET</label>
+                </value>
+                <value>
+                    <fullName>Setting up PSH Process</fullName>
+                    <default>false</default>
+                    <label>Setting up PSH Process</label>
+                </value>
+                <value>
+                    <fullName>Writing Report</fullName>
+                    <default>false</default>
+                    <label>Writing Report</label>
+                </value>
+                <value>
+                    <fullName>Importing Cost Centers</fullName>
+                    <default>false</default>
+                    <label>Importing Cost Centers</label>
+                </value>
+                <value>
+                    <fullName>Importing Employees</fullName>
+                    <default>false</default>
+                    <label>Importing Employees</label>
+                </value>
+                <value>
+                    <fullName>Setting up SaaShr</fullName>
+                    <default>false</default>
+                    <label>Setting up SaaShr</label>
+                </value>
+                <value>
+                    <fullName>Setting up Middleware</fullName>
+                    <default>false</default>
+                    <label>Setting up Middleware</label>
+                </value>
+                <value>
+                    <fullName>Creating Dashboard</fullName>
+                    <default>false</default>
+                    <label>Creating Dashboard</label>
+                </value>
+                <value>
+                    <fullName>Installing Clocks</fullName>
+                    <default>false</default>
+                    <label>Installing Clocks</label>
+                </value>
+                <value>
+                    <fullName>Training Admins</fullName>
+                    <default>false</default>
+                    <label>Training Admins</label>
+                </value>
+                <value>
+                    <fullName>Training Managers</fullName>
+                    <default>false</default>
+                    <label>Training Managers</label>
+                </value>
+                <value>
+                    <fullName>Training Employees</fullName>
+                    <default>false</default>
+                    <label>Training Employees</label>
+                </value>
+                <value>
+                    <fullName>Parallel Testing</fullName>
+                    <default>false</default>
+                    <label>Parallel Testing</label>
+                </value>
+                <value>
+                    <fullName>Time Import Testing</fullName>
+                    <default>false</default>
+                    <label>Time Import Testing</label>
+                </value>
+                <value>
+                    <fullName>Client Review</fullName>
+                    <default>false</default>
+                    <label>Client Review</label>
+                </value>
+                <value>
+                    <fullName>Going Live</fullName>
+                    <default>false</default>
+                    <label>Going Live</label>
+                </value>
+                <value>
+                    <fullName>Transition Prep</fullName>
+                    <default>false</default>
+                    <label>Transition Prep</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Discovery</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Ordering Clock</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Importing Cost Centers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Importing Employees</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Setting up SaaShr</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Setting up Middleware</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Installing Clocks</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Training Admins</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Training Managers</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Training Employees</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Parallel Testing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <valueName>Time Import Testing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Going Live</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Transition Prep</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Completed</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Time and Attendance</controllingFieldValue>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>On Hold</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Recruiting Development</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Client Approval of Plan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Manager Development</controllingFieldValue>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <controllingFieldValue>General Consultation</controllingFieldValue>
+                <valueName>Setting up PSH Process</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <valueName>Client Approval of .NET Plan</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>HRMS Update</controllingFieldValue>
+                <controllingFieldValue>UltiPro .NET Setup</controllingFieldValue>
+                <valueName>Setting Up .NET</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>Creating Dashboard</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Reporting Development</controllingFieldValue>
+                <valueName>Client Review</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Internal Client consulting group that focuses on improvement of higher level HR and insurance functionality using ProService's resources.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Solutions</label>
+    <nameField>
+        <label>Solutions Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Solutions</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>Provider__c</columns>
+        <columns>NAME</columns>
+        <columns>Solution__c</columns>
+        <columns>Status_1__c</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>Progress_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Solutions</fullName>
+        <columns>NAME</columns>
+        <columns>Provider__c</columns>
+        <columns>Progress_Status__c</columns>
+        <columns>Solution_Due_Date__c</columns>
+        <columns>Solution_Service__c</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>Solution_Result__c</columns>
+        <columns>Status_1__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status_1__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>Open Solutions</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Solutions_Gilles</fullName>
+        <columns>Account__c</columns>
+        <columns>NAME</columns>
+        <columns>Inception_Date__c</columns>
+        <columns>Progress_Status__c</columns>
+        <columns>Status_1__c</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>Solution_Due_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Provider__c</field>
+            <operation>equals</operation>
+            <value>Gilles Plot</value>
+        </filters>
+        <filters>
+            <field>Status_1__c</field>
+            <operation>notContain</operation>
+            <value>Completed</value>
+        </filters>
+        <label>Open Solutions - Gilles</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Solutions_Shawn</fullName>
+        <columns>Account__c</columns>
+        <columns>NAME</columns>
+        <columns>Status_1__c</columns>
+        <columns>Inception_Date__c</columns>
+        <columns>Progress_Status__c</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>Solution_Due_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Provider__c</field>
+            <operation>equals</operation>
+            <value>Shawn Leon-Guerrero</value>
+        </filters>
+        <filters>
+            <field>Status_1__c</field>
+            <operation>notContain</operation>
+            <value>Completed</value>
+        </filters>
+        <label>Open Solutions - Shawn</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_Solutions_Viktoria</fullName>
+        <columns>Account__c</columns>
+        <columns>NAME</columns>
+        <columns>Inception_Date__c</columns>
+        <columns>Progress_Status__c</columns>
+        <columns>Status_1__c</columns>
+        <columns>LAST_ACTIVITY</columns>
+        <columns>Solution_Due_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Provider__c</field>
+            <operation>equals</operation>
+            <value>Viktoria West</value>
+        </filters>
+        <filters>
+            <field>Status_1__c</field>
+            <operation>notEqual</operation>
+            <value>Completed</value>
+        </filters>
+        <label>Open Solutions - Viktoria</label>
+    </listViews>
+</CustomObject>

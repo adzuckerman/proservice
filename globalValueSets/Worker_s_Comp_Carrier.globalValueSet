@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Headland</fullName>
+        <default>true</default>
+        <label>Headland</label>
+    </customValue>
+    <customValue>
+        <fullName>Hemic</fullName>
+        <default>false</default>
+        <label>Hemic</label>
+    </customValue>
+    <customValue>
+        <fullName>Amtrust</fullName>
+        <default>false</default>
+        <label>Amtrust</label>
+    </customValue>
+    <customValue>
+        <fullName>FICOH</fullName>
+        <default>false</default>
+        <label>FICOH</label>
+    </customValue>
+    <customValue>
+        <fullName>AIG</fullName>
+        <default>false</default>
+        <label>AIG</label>
+    </customValue>
+    <customValue>
+        <fullName>Island Insurance</fullName>
+        <default>false</default>
+        <label>Island Insurance</label>
+    </customValue>
+    <customValue>
+        <fullName>DTRIC</fullName>
+        <default>false</default>
+        <label>DTRIC</label>
+    </customValue>
+    <customValue>
+        <fullName>First Comp</fullName>
+        <default>false</default>
+        <label>First Comp</label>
+    </customValue>
+    <customValue>
+        <fullName>The Hartford</fullName>
+        <default>false</default>
+        <label>The Hartford</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <masterLabel>Worker&apos;s Comp Carrier</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

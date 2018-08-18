@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Imp Schedule Hand Off Meeting Task Owner --></label>
+        <name>Imp_Schedule_Hand_Off_Meeting_Task_Owner__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Implementation Settings</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Implementation Settings</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

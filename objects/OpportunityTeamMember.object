@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddAccountTeam</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddDefaultTeam</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddOppTeam</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteTeam</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DisplayAccess</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>OpportunityAccessLevel</fullName>
+    </fields>
+    <fields>
+        <fullName>OpportunityId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>TeamMemberRole</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TeamRoleReason__c</fullName>
+        <externalId>false</externalId>
+        <label>Team Role Reason</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>TeamMemberRole</controllingField>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Relationship with Prospect</fullName>
+                    <default>false</default>
+                    <label>Relationship with Prospect</label>
+                </value>
+                <value>
+                    <fullName>Lead on PTO</fullName>
+                    <default>false</default>
+                    <label>Lead on PTO</label>
+                </value>
+                <value>
+                    <fullName>Prospect has 100+ EE</fullName>
+                    <default>false</default>
+                    <label>Prospect has 100+ EE</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Backup BDM</controllingFieldValue>
+                <valueName>Relationship with Prospect</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Backup BDM</controllingFieldValue>
+                <valueName>Lead on PTO</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Backup BDM</controllingFieldValue>
+                <valueName>Prospect has 100+ EE</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>UserId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+</CustomObject>

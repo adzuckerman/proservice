@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>Account_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Additional_Notes__c</fullName>
+        <description>Additional Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional Notes</inlineHelpText>
+        <label>Additional Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Additional_Receive_Date__c</fullName>
+        <description>Additional Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional Receive Date</inlineHelpText>
+        <label>Additional Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Additional_Submission_Complete__c</fullName>
+        <description>Additional Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Additional Submission Complete</inlineHelpText>
+        <label>Additional Submission Complete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Application_Date__c</fullName>
+        <description>Application Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Application Receive Date</inlineHelpText>
+        <label>Application Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Application_Notes__c</fullName>
+        <description>Application Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Application Notes</inlineHelpText>
+        <label>Application Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Application_Submission_Complete__c</fullName>
+        <description>Application Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Application Submission Complete</inlineHelpText>
+        <label>Application Submission Complete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>BDM__c</fullName>
+        <description>Opportunity BDM</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Owner.FirstName &amp; " " &amp; Opportunity__r.Owner.LastName</formula>
+        <inlineHelpText>Opportunity BDM</inlineHelpText>
+        <label>BDM</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Census_Notes__c</fullName>
+        <description>Census Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Census Notes</inlineHelpText>
+        <label>Census Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Census_Receive_Date__c</fullName>
+        <description>Census Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Census Receive Date</inlineHelpText>
+        <label>Census Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Census_Submission_Complete__c</fullName>
+        <description>Census Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Census Submission Complete</inlineHelpText>
+        <label>Census/PHQ</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Collateral_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Collateral Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Application</fullName>
+                    <default>false</default>
+                    <label>Application</label>
+                </value>
+                <value>
+                    <fullName>Census</fullName>
+                    <default>false</default>
+                    <label>Census</label>
+                </value>
+                <value>
+                    <fullName>HC Invoice</fullName>
+                    <default>false</default>
+                    <label>HC Invoice</label>
+                </value>
+                <value>
+                    <fullName>NCCI_Report</fullName>
+                    <default>false</default>
+                    <label>NCCI Report</label>
+                </value>
+                <value>
+                    <fullName>SUTA_Rate</fullName>
+                    <default>false</default>
+                    <label>SUTA Rate</label>
+                </value>
+                <value>
+                    <fullName>TDI_Rate_Sheet</fullName>
+                    <default>false</default>
+                    <label>TDI Rate Sheet</label>
+                </value>
+                <value>
+                    <fullName>WC Declaration Page</fullName>
+                    <default>false</default>
+                    <label>WC Declaration Page</label>
+                </value>
+                <value>
+                    <fullName>WC Loss Run</fullName>
+                    <default>false</default>
+                    <label>WC Loss Run</label>
+                </value>
+                <value>
+                    <fullName>Additional Docs</fullName>
+                    <default>false</default>
+                    <label>Additional Docs</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Days_App_to_Present_Age__c</fullName>
+        <description>Days between Application Date and present date. To be used for list view, not for reports.</description>
+        <externalId>false</externalId>
+        <formula>TODAY() - Application_Date__c</formula>
+        <inlineHelpText>Days between Application Date and present date.</inlineHelpText>
+        <label>Days App to Present (Age)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_Between_App_to_Proposal__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Clientspace_Proposal_Date__c - Application_Date__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days Between App to Proposal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Estimated_Annual_Admin__c</fullName>
+        <description>"Estimated Annual Admin" field from the opportunity object.</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Amount</formula>
+        <inlineHelpText>"Estimated Annual Admin" field from the opportunity object.</inlineHelpText>
+        <label>Estimated Annual Admin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Estimated_of_EEs__c</fullName>
+        <description>"Estimated # of EEs" field from the opportunity object.</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Estimated_Employee_Count__c</formula>
+        <inlineHelpText>"Estimated # of EEs" field from the opportunity object.</inlineHelpText>
+        <label>Estimated # of EEs</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HC_Invoice_Notes__c</fullName>
+        <description>HC Invoice Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HC Invoice Notes</inlineHelpText>
+        <label>HC Invoice Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>HC_Invoice_Receive_Date__c</fullName>
+        <description>HC Invoice Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HC Invoice Receive Date</inlineHelpText>
+        <label>HC Invoice Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>HC_Invoice_Submission_Complete__c</fullName>
+        <description>HC Invoice Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>HC Invoice Submission Complete</inlineHelpText>
+        <label>HC Invoice</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <color>#FF0000</color>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <color>#FFFF66</color>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <color>#33CC00</color>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Loss_Run_Notes__c</fullName>
+        <description>Loss Run Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Loss Run Notes</inlineHelpText>
+        <label>Loss Run Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Loss_Run_Receive_Date__c</fullName>
+        <description>Loss Run Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Loss Run Receive Date</inlineHelpText>
+        <label>Loss Run Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Loss_Run_Submission_Complete__c</fullName>
+        <description>Loss Run Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Loss Run Submission Complete</inlineHelpText>
+        <label>Loss Run Submission Complete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NCCI_Report_Notes__c</fullName>
+        <description>NCCI Report Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NCCI Report Notes</inlineHelpText>
+        <label>NCCI Report Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>NCCI_Report_Receive_Date__c</fullName>
+        <description>NCCI Report Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NCCI Report Receive Date</inlineHelpText>
+        <label>NCCI Report Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>NCCI_Report_Submission_Complete__c</fullName>
+        <description>NCCI Report Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>NCCI Report Submission Complete</inlineHelpText>
+        <label>NCCI</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Status__c</fullName>
+        <description>Opportunity Status</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.StageName)</formula>
+        <inlineHelpText>Opportunity Status</inlineHelpText>
+        <label>Opportunity Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <description>Master-detail relationship</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Master-detail relationship</inlineHelpText>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Opportunity_Attachments</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Receive_Date__c</fullName>
+        <description>Collateral received date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Collateral received date</inlineHelpText>
+        <label>Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SUTA_Notes__c</fullName>
+        <description>SUTA Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SUTA Notes</inlineHelpText>
+        <label>SUTA Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>SUTA_Receive_Date__c</fullName>
+        <description>SUTA Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SUTA Receive Date</inlineHelpText>
+        <label>SUTA Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>SUTA_Submission_Complete__c</fullName>
+        <description>SUTA Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>SUTA Submission Complete</inlineHelpText>
+        <label>SUTA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_Ops_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Ops Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Ops__c</fullName>
+        <description>Opportunity Sales Ops Owner</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Sales_Ops_Owner__r.FirstName &amp; " " &amp; Opportunity__r.Sales_Ops_Owner__r.LastName</formula>
+        <inlineHelpText>Opportunity Sales Ops Owner</inlineHelpText>
+        <label>Sales Ops</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Submission_Complete__c</fullName>
+        <externalId>false</externalId>
+        <label>Submission Complete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>TDI_Notes__c</fullName>
+        <description>TDI Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>TDI Notes</inlineHelpText>
+        <label>TDI Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TDI_Receive_Date__c</fullName>
+        <description>TDI Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>TDI Receive Date</inlineHelpText>
+        <label>TDI Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>TDI_Submission_Complete__c</fullName>
+        <description>TDI Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>TDI Submission Complete</inlineHelpText>
+        <label>TDI</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>WC_Dec_Notes__c</fullName>
+        <description>WC Dec Notes</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WC Dec Notes</inlineHelpText>
+        <label>WC Dec Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>WC_Dec_Receive_Date__c</fullName>
+        <description>WC Dec Receive Date</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WC Dec Receive Date</inlineHelpText>
+        <label>WC Dec Receive Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>WC_Dec_Submission_Complete__c</fullName>
+        <description>WC Dec Submission Complete</description>
+        <externalId>false</externalId>
+        <inlineHelpText>WC Dec Submission Complete</inlineHelpText>
+        <label>WC Dec</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>N</fullName>
+                    <default>false</default>
+                    <label>N</label>
+                </value>
+                <value>
+                    <fullName>Y</fullName>
+                    <default>false</default>
+                    <label>Y</label>
+                </value>
+                <value>
+                    <fullName>P</fullName>
+                    <default>false</default>
+                    <label>P</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Opportunity Collateral</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Collateral</label>
+    <nameField>
+        <label>Collateral Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Collaterals</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Opportunity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>BDM__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Sales_Ops__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Opportunity_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LAST_UPDATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <startsWith>Vowel</startsWith>
+    <visibility>Public</visibility>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops__c</columns>
+        <columns>BDM__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application,Pricing</value>
+        </filters>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Amanda_Lindley</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Amanda Lindley</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Amanda Lindley</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Dale_Yasunaga</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Dale Yasunaga</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Dale Yasunaga</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Debbie_Dudoit</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Debbie Dudoit</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Debbie Dudoit</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Guy_Tanioka</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Guy Tanioka</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Guy Tanioka</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Holly_DeGeal</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Holly DeGeal</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Holly DeGeal</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Jared_Furusho</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Jared Furusho</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Jared Furusho</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Jason_Daley</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Jason Daley</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Jason Daley</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Jill_Eckart</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Jill Eckart</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Jill Eckart</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Kathy_Bell</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Kathy Bell</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Kathy Bell</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Stanton_Saiki</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Stanton Saiki</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Stanton Saiki</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Stephanie_Wu</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Stephanie Wu</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Stephanie Wu</label>
+    </listViews>
+    <listViews>
+        <fullName>BDM_Tawney_Sablan</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>BDM__c</field>
+            <operation>equals</operation>
+            <value>Tawney Sablan</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>BDM - Tawney Sablan</label>
+    </listViews>
+    <listViews>
+        <fullName>Kate_Moran1</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>BDM__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>Sales_Ops__c</field>
+            <operation>equals</operation>
+            <value>Kate Moran</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>Sales Ops - Kate Moran</label>
+    </listViews>
+    <listViews>
+        <fullName>Matt_Lovelace</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>BDM__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>Sales_Ops__c</field>
+            <operation>equals</operation>
+            <value>Matt Lovelace</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>Sales Ops - Matt Lovelace</label>
+    </listViews>
+    <listViews>
+        <fullName>Monica_Caringal</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>BDM__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>Sales_Ops__c</field>
+            <operation>equals</operation>
+            <value>Monica Caringal</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>Sales Ops - Monica Caringal</label>
+    </listViews>
+    <listViews>
+        <fullName>Nicole_Grabos</fullName>
+        <booleanFilter>(1 OR 3) AND 2</booleanFilter>
+        <columns>NAME</columns>
+        <columns>Opportunity_Status__c</columns>
+        <columns>BDM__c</columns>
+        <columns>Sales_Ops_Notes__c</columns>
+        <columns>Application_Date__c</columns>
+        <columns>Days_App_to_Present_Age__c</columns>
+        <columns>Estimated_of_EEs__c</columns>
+        <columns>Estimated_Annual_Admin__c</columns>
+        <columns>Census_Submission_Complete__c</columns>
+        <columns>HC_Invoice_Submission_Complete__c</columns>
+        <columns>SUTA_Submission_Complete__c</columns>
+        <columns>TDI_Submission_Complete__c</columns>
+        <columns>WC_Dec_Submission_Complete__c</columns>
+        <columns>NCCI_Report_Submission_Complete__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Info Gathering,Application Review,Submit to Pricing,Pricing Complete</value>
+        </filters>
+        <filters>
+            <field>Sales_Ops__c</field>
+            <operation>equals</operation>
+            <value>Nicole Sgaramella</value>
+        </filters>
+        <filters>
+            <field>Opportunity_Status__c</field>
+            <operation>equals</operation>
+            <value>Proposal Complete,Negotiation/Review,Verbal Agreement,Contract Signing</value>
+        </filters>
+        <label>Sales Ops - Nicole Sgaramella</label>
+    </listViews>
+</CustomObject>

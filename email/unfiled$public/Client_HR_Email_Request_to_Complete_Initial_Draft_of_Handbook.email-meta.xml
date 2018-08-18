@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Request to Provide Information to Complete Initial Draft of Handbook</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Client HR - Email Request to Complete Initial Draft of Handbook</name>
+    <style>none</style>
+    <subject>Action Required - ProService Information Needed to Complete Draft of Handbook</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

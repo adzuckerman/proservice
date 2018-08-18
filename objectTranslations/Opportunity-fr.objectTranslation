@@ -1,0 +1,2734 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Aligned/Transferred Client --></label>
+        <name>Aligned_Transferred_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Date --></label>
+        <name>ApplicationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDM Notes --></label>
+        <name>BDM_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Benefits Administration --></label>
+        <name>Benefits_Administration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Type --></label>
+        <name>Business_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Date --></label>
+        <name>CRMG_WF__ActivityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Description --></label>
+        <name>CRMG_WF__ActivityDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Subject --></label>
+        <name>CRMG_WF__Activity_Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today --></label>
+        <name>CRMG_WF__Today__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Contact --></label>
+        <name>Client_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Legal Name --></label>
+        <name>Client_Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Name --></label>
+        <name>Client_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Relationship --></label>
+        <name>Client_Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Data in this field were migrated from ClientSpace 4/20. --></help>
+        <label><!-- Application Date (ClientSpace Import) --></label>
+        <name>Clientspace_Application_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Data in this field were migrated from ClientSpace 4/20. --></help>
+        <label><!-- Pricing Approval Date(ClientSpaceImport) --></label>
+        <name>Clientspace_Pricing_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Data in this field were migrated from ClientSpace 4/20. --></help>
+        <label><!-- Pricing Submit Date (ClientSpace Import) --></label>
+        <name>Clientspace_Pricing_Submit_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Data in this field were migrated from ClientSpace 4/20. --></help>
+        <label><!-- Proposal Date (ClientSpace Import) --></label>
+        <name>Clientspace_Proposal_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Detail of why the Opp was Closed Lost (including how lost, who lost to, etc) --></help>
+        <label><!-- Closed Detail --></label>
+        <name>Closed_Detail__c</name>
+    </fields>
+    <fields>
+        <help><!-- The primary reason the Opp was Closed. More info can be entered in Close Detail field --></help>
+        <label><!-- Closed Reason --></label>
+        <name>Closed_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Bad Timing</masterLabel>
+            <translation><!-- Bad Timing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Process</masterLabel>
+            <translation><!-- Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product</masterLabel>
+            <translation><!-- Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospect Non Responsiveness</masterLabel>
+            <translation><!-- Prospect Non Responsiveness --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Relationship</masterLabel>
+            <translation><!-- Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service</masterLabel>
+            <translation><!-- Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Closing Status (TO BE FORECAST CATEGORY) --></label>
+        <name>Closing_Status__c</name>
+        <picklistValues>
+            <masterLabel>Best Case</masterLabel>
+            <translation><!-- Best Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commit</masterLabel>
+            <translation><!-- Commit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline</masterLabel>
+            <translation><!-- Pipeline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Head to Head Competitors --></label>
+        <name>Competitor_List__c</name>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administaff</masterLabel>
+            <translation><!-- Administaff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advantech</masterLabel>
+            <translation><!-- Advantech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AlohaBusinessServices</masterLabel>
+            <translation><!-- AlohaBusinessServices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alphastaff</masterLabel>
+            <translation><!-- Alphastaff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CoAdvantage</masterLabel>
+            <translation><!-- CoAdvantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELS</masterLabel>
+            <translation><!-- ELS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Experts</masterLabel>
+            <translation><!-- Employment Experts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FrankCrum</masterLabel>
+            <translation><!-- FrankCrum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gevity</masterLabel>
+            <translation><!-- Gevity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRAH</masterLabel>
+            <translation><!-- HRAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRBenefix</masterLabel>
+            <translation><!-- HRBenefix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HawaiiWorkplace</masterLabel>
+            <translation><!-- HawaiiWorkplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heartland</masterLabel>
+            <translation><!-- Heartland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiHR</masterLabel>
+            <translation><!-- HiHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InSource</masterLabel>
+            <translation><!-- InSource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IntuitPayroll</masterLabel>
+            <translation><!-- IntuitPayroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBA</masterLabel>
+            <translation><!-- MBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NELCO</masterLabel>
+            <translation><!-- NELCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oasis</masterLabel>
+            <translation><!-- Oasis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAU</masterLabel>
+            <translation><!-- PAU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PaySmart</masterLabel>
+            <translation><!-- PaySmart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Progressive</masterLabel>
+            <translation><!-- Progressive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeastern</masterLabel>
+            <translation><!-- Southeastern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNT Payroll Services</masterLabel>
+            <translation><!-- TNT Payroll Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent HR Solutions</masterLabel>
+            <translation><!-- Talent HR Solutions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Construction based pricing --></help>
+        <label><!-- Construction Pricing --></label>
+        <name>Construction_Pricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Title --></label>
+        <name>Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Signed? --></label>
+        <name>Contract_Signed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Start Date --></label>
+        <name>Contract_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Credit score of the prospect --></help>
+        <label><!-- Credit Score --></label>
+        <name>Credit_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current benefits carrier 1 renewal date. QMI info used during prospecting potential client --></help>
+        <label><!-- Current Benefits Carrier 1 Renewal Date --></label>
+        <name>Current_Benefits_Carrier_1_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current benefits carrier. QMI info used during prospecting potential client. --></help>
+        <label><!-- Current Benefits Carrier 1 --></label>
+        <name>Current_Benefits_Carrier_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current benefits carrier 2 renewal date. QMI info used during prospecting potential client --></help>
+        <label><!-- Current Benefits Carrier 2 Renewal Date --></label>
+        <name>Current_Benefits_Carrier_2_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current benefits carrier 2.QMI info used during prospecting potential client --></help>
+        <label><!-- Current Benefits Carrier 2 --></label>
+        <name>Current_Benefits_Carrier_2__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s Dental Carrier. QMI info used during prospecting potential client --></help>
+        <label><!-- Current Dental Carrier --></label>
+        <name>Current_Dental_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Health Care Provider --></label>
+        <name>Current_HC_Carrier__c</name>
+        <picklistValues>
+            <masterLabel>HMAA</masterLabel>
+            <translation><!-- HMAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HMSA</masterLabel>
+            <translation><!-- HMSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiser</masterLabel>
+            <translation><!-- Kaiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A - Start-Up</masterLabel>
+            <translation><!-- N/A - Start-Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Unknown</masterLabel>
+            <translation><!-- Other/Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UHA</masterLabel>
+            <translation><!-- UHA --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current payroll method. QMI info used during prospecting potential client --></help>
+        <label><!-- Current Payroll Method --></label>
+        <name>Current_Payroll_Method__c</name>
+        <picklistValues>
+            <masterLabel>In House</masterLabel>
+            <translation><!-- In House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEO</masterLabel>
+            <translation><!-- PEO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Company</masterLabel>
+            <translation><!-- Payroll Company --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s current payroll provider. QMI info used during prospecting potential client. Date of lead read-only because populated from Opportunity (if not Opp, fields from CS Import) --></help>
+        <label><!-- Current Payroll Provider --></label>
+        <name>Current_Payroll_Provider__c</name>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administaff</masterLabel>
+            <translation><!-- Administaff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Advantech</masterLabel>
+            <translation><!-- Advantech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AlohaBusinessServices</masterLabel>
+            <translation><!-- AlohaBusinessServices --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alphastaff</masterLabel>
+            <translation><!-- Alphastaff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CoAdvantage</masterLabel>
+            <translation><!-- CoAdvantage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ELS</masterLabel>
+            <translation><!-- ELS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employment Experts</masterLabel>
+            <translation><!-- Employment Experts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FrankCrum</masterLabel>
+            <translation><!-- FrankCrum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gevity</masterLabel>
+            <translation><!-- Gevity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRAH</masterLabel>
+            <translation><!-- HRAH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRBenefix</masterLabel>
+            <translation><!-- HRBenefix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HawaiiWorkplace</masterLabel>
+            <translation><!-- HawaiiWorkplace --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Heartland</masterLabel>
+            <translation><!-- Heartland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiHR</masterLabel>
+            <translation><!-- HiHR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InSource</masterLabel>
+            <translation><!-- InSource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IntuitPayroll</masterLabel>
+            <translation><!-- IntuitPayroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MBA</masterLabel>
+            <translation><!-- MBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NELCO</masterLabel>
+            <translation><!-- NELCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oasis</masterLabel>
+            <translation><!-- Oasis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PAU</masterLabel>
+            <translation><!-- PAU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PaySmart</masterLabel>
+            <translation><!-- PaySmart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Progressive</masterLabel>
+            <translation><!-- Progressive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southeastern</masterLabel>
+            <translation><!-- Southeastern --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TNT Payroll Services</masterLabel>
+            <translation><!-- TNT Payroll Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent HR Solutions</masterLabel>
+            <translation><!-- Talent HR Solutions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Payroll Provider --></label>
+        <name>Current_Payroll__c</name>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Edge</masterLabel>
+            <translation><!-- Business Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makai HR</masterLabel>
+            <translation><!-- Makai HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A - Start-Up</masterLabel>
+            <translation><!-- N/A - Start-Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Unknown</masterLabel>
+            <translation><!-- Other/Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent HR</masterLabel>
+            <translation><!-- Talent HR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s Current WC Carrier Renewal Date. QMI info used during prospecting potential client --></help>
+        <label><!-- Current WC Carrier Renewal Date --></label>
+        <name>Current_WC_Carrier_Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Organization&apos;s Current WC Carrier. QMI info used during prospecting potential client --></help>
+        <label><!-- Current Workers&apos; Comp Provider --></label>
+        <name>Current_WC_Carrier__c</name>
+        <picklistValues>
+            <masterLabel>Crum &amp; Forster</masterLabel>
+            <translation><!-- Crum &amp; Forster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dongbu Insurance</masterLabel>
+            <translation><!-- Dongbu Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Comp</masterLabel>
+            <translation><!-- First Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Insurance</masterLabel>
+            <translation><!-- First Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEMIC</masterLabel>
+            <translation><!-- HEMIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Island Insurance</masterLabel>
+            <translation><!-- Island Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Markel</masterLabel>
+            <translation><!-- Markel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A - Start-Up</masterLabel>
+            <translation><!-- N/A - Start-Up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Unknown</masterLabel>
+            <translation><!-- Other/Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Days 1st meeting to application --></label>
+        <name>Days_1stM_to_application__c</name>
+    </fields>
+    <fields>
+        <help><!-- Days 1st meeting to close --></help>
+        <label><!-- Days 1st Meeting To Close --></label>
+        <name>Days_1st_Meeting_To_Close__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date between 1st meeting to proposal --></help>
+        <label><!-- Days 1st meeting to proposal --></label>
+        <name>Days_1st_meeting_to_proposal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days App to Present (Age) --></label>
+        <name>Days_App_to_Present_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Between App to Proposal --></label>
+        <name>Days_Between_App_to_Proposal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days application to close --></label>
+        <name>Days_application_to_close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deal Size --></label>
+        <name>Deal_Size__c</name>
+        <picklistValues>
+            <masterLabel>1-5</masterLabel>
+            <translation><!-- 1-5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100+</masterLabel>
+            <translation><!-- 100+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20-49</masterLabel>
+            <translation><!-- 20-49 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50-99</masterLabel>
+            <translation><!-- 50-99 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6-19</masterLabel>
+            <translation><!-- 6-19 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Decision Making Process --></label>
+        <name>Decision_Making_Process__c</name>
+        <picklistValues>
+            <masterLabel>Board</masterLabel>
+            <translation><!-- Board --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multiple decision makers</masterLabel>
+            <translation><!-- Multiple decision makers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Single point of contact</masterLabel>
+            <translation><!-- Single point of contact --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dental Only --></label>
+        <name>Dental_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct to Carrier --></label>
+        <name>Direct_to_Carrier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Doctor/Dentist based pricing --></help>
+        <label><!-- Doctor/Dentist --></label>
+        <name>Doctor_Dentist__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Name --></label>
+        <name>EE_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Relationship --></label>
+        <name>EE_Relationship__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimated employee count of the organization --></help>
+        <label><!-- Employee Count --></label>
+        <name>Employee_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Annual Admin Amount --></label>
+        <name>Estimated_Annual_Admin_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Employee Count --></label>
+        <name>Estimated_Employee_Count__c</name>
+    </fields>
+    <fields>
+        <help><!-- Former ProService Client/Restart --></help>
+        <label><!-- Former ProService Client/Restart --></label>
+        <name>Former_ProService_Client_Restart__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of full time employees. Converts from leads when opportunity is created. Overwritten when WC is entered into the quote. --></help>
+        <label><!-- Full Time Employees --></label>
+        <name>Full_Time_Employees__c</name>
+    </fields>
+    <fields>
+        <help><!-- Updated from &quot;Primary Quote&quot; --></help>
+        <label><!-- Gross Payroll --></label>
+        <name>Gross_Payroll__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag for Sales Ops to let Pricing know HC is ready for pricing --></help>
+        <label><!-- HC ready for pricing --></label>
+        <name>HCReadyforPricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- HC Invoice Receive Date --></label>
+        <name>HC_Invoice_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- HC Notes --></label>
+        <name>HC_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- HC Pricing Complete Date --></label>
+        <name>HC_Pricing_Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- HC Pricing Request Notes --></label>
+        <name>HC_Pricing_Request_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- HC Pricing Request  --></label>
+        <name>HC_Pricing_Request__c</name>
+        <picklistValues>
+            <masterLabel>Alignment</masterLabel>
+            <translation><!-- Alignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carve out</masterLabel>
+            <translation><!-- Carve out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DTC</masterLabel>
+            <translation><!-- DTC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No eligible/enrolling EEs</masterLabel>
+            <translation><!-- No eligible/enrolling EEs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prelim tiers</masterLabel>
+            <translation><!-- Prelim tiers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted to underwriting</masterLabel>
+            <translation><!-- Submitted to underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- HC Ready for Pricing Date --></label>
+        <name>HC_Ready_for_Pricing_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag for Pricing to let Sales Ops know that HC pricing is complete --></help>
+        <label><!-- HC pricing complete --></label>
+        <name>HC_pricing_complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDM Handover Complete --></label>
+        <name>ImpPM_BDMComplete__c</name>
+    </fields>
+    <fields>
+        <label><!-- BDM Handover Notes --></label>
+        <name>ImpPM_BDMHandoverNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Amount --></label>
+        <name>ImpPM_DepositAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deposit Type --></label>
+        <name>ImpPM_DepositType__c</name>
+        <picklistValues>
+            <masterLabel>2 Payrolls</masterLabel>
+            <translation><!-- 2 Payrolls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 Payrolls</masterLabel>
+            <translation><!-- 3 Payrolls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 Payrolls</masterLabel>
+            <translation><!-- 4 Payrolls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 Payrolls</masterLabel>
+            <translation><!-- 5 Payrolls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6 Payrolls</masterLabel>
+            <translation><!-- 6 Payrolls --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Included</masterLabel>
+            <translation><!-- Check Included --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spread Over 1 Payroll</masterLabel>
+            <translation><!-- Spread Over 1 Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waived</masterLabel>
+            <translation><!-- Waived --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- First Payroll Date --></label>
+        <name>ImpPM_FirstPayrollDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pay Cycle - Prospect Pay Frequency --></help>
+        <label><!-- Pay Cycle --></label>
+        <name>ImpPM_Pay_Cycle__c</name>
+        <picklistValues>
+            <masterLabel>Bi-Weekly</masterLabel>
+            <translation><!-- Bi-Weekly --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-monthly 1/15</masterLabel>
+            <translation><!-- Semi-monthly 1/15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-monthly 15/EOM</masterLabel>
+            <translation><!-- Semi-monthly 15/EOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-monthly 5/20</masterLabel>
+            <translation><!-- Semi-monthly 5/20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Semi-monthly 7/22</masterLabel>
+            <translation><!-- Semi-monthly 7/22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Weekly</masterLabel>
+            <translation><!-- Weekly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Has Pre-Paid Health Care Been Discussed --></label>
+        <name>ImpPM_PrePaidHCDiscussed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Group --></label>
+        <name>ImpPM_PricingGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recent Pay date --></label>
+        <name>ImpPM_RecentPaydate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SalesOps Handover Notes --></label>
+        <name>ImpPM_SalesOpsNotes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Switching Pay Cycle --></label>
+        <name>ImpPM_SwitchingPayCycle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Work Week Schedule --></label>
+        <name>ImpPM_WorkWeekSchedule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Handover Readiness Date --></label>
+        <name>Implementation_Hand_Off_Readiness_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Handover Ready? --></label>
+        <name>Implementation_Hand_Off_Ready__c</name>
+    </fields>
+    <fields>
+        <label><!-- Industry --></label>
+        <name>Industry__c</name>
+        <picklistValues>
+            <masterLabel>Accommodation and Food Services</masterLabel>
+            <translation><!-- Accommodation and Food Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative and Support and Waste Management and Remediation Services</masterLabel>
+            <translation><!-- Administrative and Support and Waste Management and Remediation Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agriculture, Forestry, Fishing and Hunting</masterLabel>
+            <translation><!-- Agriculture, Forestry, Fishing and Hunting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Arts, Entertainment, and Recreation</masterLabel>
+            <translation><!-- Arts, Entertainment, and Recreation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Construction</masterLabel>
+            <translation><!-- Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Educational Services</masterLabel>
+            <translation><!-- Educational Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance and Insurance</masterLabel>
+            <translation><!-- Finance and Insurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Health Care and Social Assistance</masterLabel>
+            <translation><!-- Health Care and Social Assistance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Information</masterLabel>
+            <translation><!-- Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Management of Companies and Enterprises</masterLabel>
+            <translation><!-- Management of Companies and Enterprises --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing</masterLabel>
+            <translation><!-- Manufacturing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mining, Quarrying &amp; Oil &amp; Gas Extraction</masterLabel>
+            <translation><!-- Mining, Quarrying &amp; Oil &amp; Gas Extraction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Services (except Public Administration)</masterLabel>
+            <translation><!-- Other Services (except Public Administration) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional, Scientific, and Technical Services</masterLabel>
+            <translation><!-- Professional, Scientific, and Technical Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Administration</masterLabel>
+            <translation><!-- Public Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Real Estate and Rental and Leasing</masterLabel>
+            <translation><!-- Real Estate and Rental and Leasing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Retail Trade</masterLabel>
+            <translation><!-- Retail Trade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transportation and Warehousing</masterLabel>
+            <translation><!-- Transportation and Warehousing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wholesale Trade</masterLabel>
+            <translation><!-- Wholesale Trade --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Intake Meeting Notes --></label>
+        <name>IntakeMeetingNotes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag to let the team know that the prospect&apos;s Kaiser quote was received --></help>
+        <label><!-- Kaiser Date Received --></label>
+        <name>Kaiser_Date_Received__c</name>
+    </fields>
+    <fields>
+        <help><!-- Kaiser Tier the organization will be quoted on --></help>
+        <label><!-- Kaiser Tier --></label>
+        <name>Kaiser_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Known PSH Client Connectivity? --></label>
+        <name>Known_PSH_Client_Connectivity__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Known PSH EE Connectivity --></label>
+        <name>Known_PSH_EE_Connectivity__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Who else are they getting proposals from --></label>
+        <name>Known_involved_head_to_head_competitors__c</name>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Edge</masterLabel>
+            <translation><!-- Business Edge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makai HR</masterLabel>
+            <translation><!-- Makai HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Unknown</masterLabel>
+            <translation><!-- Other/Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Talent HR</masterLabel>
+            <translation><!-- Talent HR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last HC Underwriter Submission Date --></label>
+        <name>Last_HC_Underwriter_Submission_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of lead marketing field --></help>
+        <label><!-- Lead Date --></label>
+        <name>Lead_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Method --></label>
+        <name>Lead_Method__c</name>
+        <picklistValues>
+            <masterLabel>AIS</masterLabel>
+            <translation><!-- AIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASB</masterLabel>
+            <translation><!-- ASB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Manager</masterLabel>
+            <translation><!-- Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call In</masterLabel>
+            <translation><!-- Call In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campaign</masterLabel>
+            <translation><!-- Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIIFS</masterLabel>
+            <translation><!-- HIIFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLTCA</masterLabel>
+            <translation><!-- HLTCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiser</masterLabel>
+            <translation><!-- Kaiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting Activities</masterLabel>
+            <translation><!-- Prospecting Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk In</masterLabel>
+            <translation><!-- Walk In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Form</masterLabel>
+            <translation><!-- Web Form --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Marketing Campaign Source --></label>
+        <name>MarketingCampaignSource__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag to let pricing know this is a Multi-year Contract --></help>
+        <label><!-- Multi-year Contract --></label>
+        <name>Multi_year_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Need HC Requote --></label>
+        <name>Need_HC_Requote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Need WC Requote --></label>
+        <name>Need_WC_Requote__c</name>
+    </fields>
+    <fields>
+        <help><!-- New to Blue (N2B) based pricing --></help>
+        <label><!-- New to Blue (N2B) --></label>
+        <name>New_to_Blue_N2B__c</name>
+    </fields>
+    <fields>
+        <help><!-- Next steps and predicted outcome by Sales Ops --></help>
+        <label><!-- Next Steps --></label>
+        <name>Next_Steps__c</name>
+    </fields>
+    <fields>
+        <help><!-- ProService Labor Fees cost that will display in the proposal --></help>
+        <label><!-- ProService Labor Fees --></label>
+        <name>Notes_Product_No_migration_SFDC__c</name>
+    </fields>
+    <fields>
+        <help><!-- When a proposal isn&apos;t made, just a onesheet of our rate offer --></help>
+        <label><!-- One Sheet --></label>
+        <name>One_Sheet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Current HC Carrier --></label>
+        <name>Other_Current_HC_Carrier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Current Payroll --></label>
+        <name>Other_Current_Payroll__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other reasons to go through RFP --></label>
+        <name>Other_reasons_to_go_through_RFP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Out of State Employee --></label>
+        <name>Out_of_State_Employee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag to let the team know that the prospect&apos;s PRMC was received --></help>
+        <label><!-- PRMC Date Received --></label>
+        <name>PRMC_Date_Received__c</name>
+    </fields>
+    <fields>
+        <help><!-- PRMC HMSA Tier the prospect will be quoted on --></help>
+        <label><!-- PRMC HMSA Tier --></label>
+        <name>PRMC_HMSA_Tier__c</name>
+        <picklistValues>
+            <masterLabel>Aligned</masterLabel>
+            <translation><!-- Aligned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H009</masterLabel>
+            <translation><!-- H009 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H010</masterLabel>
+            <translation><!-- H010 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H011</masterLabel>
+            <translation><!-- H011 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H012</masterLabel>
+            <translation><!-- H012 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H014</masterLabel>
+            <translation><!-- H014 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H015</masterLabel>
+            <translation><!-- H015 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H017</masterLabel>
+            <translation><!-- H017 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H018</masterLabel>
+            <translation><!-- H018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H020</masterLabel>
+            <translation><!-- H020 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H023</masterLabel>
+            <translation><!-- H023 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H025</masterLabel>
+            <translation><!-- H025 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H030</masterLabel>
+            <translation><!-- H030 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H035</masterLabel>
+            <translation><!-- H035 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H040</masterLabel>
+            <translation><!-- H040 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H045</masterLabel>
+            <translation><!-- H045 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H050</masterLabel>
+            <translation><!-- H050 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H060</masterLabel>
+            <translation><!-- H060 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H065</masterLabel>
+            <translation><!-- H065 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H070</masterLabel>
+            <translation><!-- H070 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H075</masterLabel>
+            <translation><!-- H075 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H080</masterLabel>
+            <translation><!-- H080 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H085</masterLabel>
+            <translation><!-- H085 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H090</masterLabel>
+            <translation><!-- H090 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H095</masterLabel>
+            <translation><!-- H095 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H100</masterLabel>
+            <translation><!-- H100 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H105</masterLabel>
+            <translation><!-- H105 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H110</masterLabel>
+            <translation><!-- H110 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H115</masterLabel>
+            <translation><!-- H115 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H120</masterLabel>
+            <translation><!-- H120 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H125</masterLabel>
+            <translation><!-- H125 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H130</masterLabel>
+            <translation><!-- H130 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H135</masterLabel>
+            <translation><!-- H135 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H140</masterLabel>
+            <translation><!-- H140 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H145</masterLabel>
+            <translation><!-- H145 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H150</masterLabel>
+            <translation><!-- H150 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H155</masterLabel>
+            <translation><!-- H155 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H160</masterLabel>
+            <translation><!-- H160 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H162</masterLabel>
+            <translation><!-- H162 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H164</masterLabel>
+            <translation><!-- H164 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H166</masterLabel>
+            <translation><!-- H166 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H168</masterLabel>
+            <translation><!-- H168 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H170</masterLabel>
+            <translation><!-- H170 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H180</masterLabel>
+            <translation><!-- H180 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H185</masterLabel>
+            <translation><!-- H185 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H190</masterLabel>
+            <translation><!-- H190 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred</masterLabel>
+            <translation><!-- Transferred --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- PRMC Risk Rate Tier --></help>
+        <label><!-- PRMC Risk Rate Tier --></label>
+        <name>PRMC_Risk_Rate_Tier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of full time employees. Converts from leads when opportunity is created. Overwritten when WC is entered into the quote. --></help>
+        <label><!-- Part Time Employees --></label>
+        <name>Part_Time_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Count --></label>
+        <name>Power_of_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Preliminary --></label>
+        <name>Preliminary__c</name>
+    </fields>
+    <fields>
+        <help><!-- Special pricing notes or instructions regarding that affects the proposal --></help>
+        <label><!-- Pricing Notes --></label>
+        <name>Pricing_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact Name --></label>
+        <name>Primary_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- This contact is used for all automated communications.  Update this in Contact Roles. --></help>
+        <label><!-- Primary Contact --></label>
+        <name>Primary_Contact__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- ProService HR Support cost that will display in the proposal --></help>
+        <label><!-- ProService HR Support --></label>
+        <name>ProService_HR_Support__c</name>
+    </fields>
+    <fields>
+        <help><!-- ProService Healthcare cost that will display in the proposal --></help>
+        <label><!-- ProService Healthcare --></label>
+        <name>ProService_Healthcare__c</name>
+    </fields>
+    <fields>
+        <help><!-- ProService T&amp;A  cost that will display in the proposal --></help>
+        <label><!-- ProService T&amp;A Cost --></label>
+        <name>ProService_T_A_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- ProService Work Comp cost that will display in the proposal --></help>
+        <label><!-- ProService Work Comp --></label>
+        <name>ProService_Work_Comp__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of when an Opportunity stage moves from Pricing Complete to Proposal Complete --></help>
+        <label><!-- Proposal Date --></label>
+        <name>ProposalDate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Get description from Sales Ops --></help>
+        <label><!-- Prospect Grade --></label>
+        <name>Prospect_Grade__c</name>
+        <picklistValues>
+            <masterLabel>A</masterLabel>
+            <translation><!-- A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B</masterLabel>
+            <translation><!-- B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C</masterLabel>
+            <translation><!-- C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Prospect Growth Goals next two to five years --></help>
+        <label><!-- Prospect Growth Goals --></label>
+        <name>Prospect_Growth_Goals__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prospect&apos;s current HR Support cost --></help>
+        <label><!-- Prospect HR Support --></label>
+        <name>Prospect_HR_Support__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prospect&apos;s current Healthcare cost --></help>
+        <label><!-- Prospect Healthcare --></label>
+        <name>Prospect_Healthcare__c</name>
+    </fields>
+    <fields>
+        <help><!-- Get description from Sales Ops --></help>
+        <label><!-- Prospect History --></label>
+        <name>Prospect_History__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prospect current Labor Fees costs --></help>
+        <label><!-- Prospect Labor Fees --></label>
+        <name>Prospect_Labor_Fees__c</name>
+    </fields>
+    <fields>
+        <help><!-- Prospect&apos;s current Work Comp cost --></help>
+        <label><!-- Prospect Work Comp --></label>
+        <name>Prospect_Work_Comp__c</name>
+    </fields>
+    <fields>
+        <label><!-- QMI Action Plan / Next Steps --></label>
+        <name>QMI_Action_Plan_Next_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Biz Impacts Score --></label>
+        <name>QMI_Biz_Impacts_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Biz impact discoveries we are solving to --></label>
+        <name>QMI_Biz_impact_discoveries_solving_to__c</name>
+    </fields>
+    <fields>
+        <label><!-- Broker Notes - If Applicable --></label>
+        <name>QMI_Broker_Notes_If_Applicable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Maker in Discovery Score --></label>
+        <name>QMI_Decision_Maker_in_Discovery_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Making Process Score --></label>
+        <name>QMI_Decision_Making_Process_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Making Timeline Score --></label>
+        <name>QMI_Decision_Making_Timeline_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does the prospect have out of state EEs? --></label>
+        <name>QMI_Does_prospect_have_out_of_state_EEs__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does the prospect have union employees? --></label>
+        <name>QMI_Does_the_prospect_have_union_EEs__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does the prospect need USL&amp;H coverage? --></label>
+        <name>QMI_Does_the_prospect_need_USLH_coverage__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Health Care Provider Notes - If Appliabl --></label>
+        <name>QMI_Health_Care_Provider_Notes_If_Applic__c</name>
+    </fields>
+    <fields>
+        <label><!-- Health Care Renewal Months - If known 1 --></label>
+        <name>QMI_Health_Care_Renewal_Months_If_known1__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation><!-- April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation><!-- August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation><!-- December --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation><!-- February --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation><!-- January --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation><!-- July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation><!-- June --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation><!-- March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation><!-- November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation><!-- September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Health Care Renewal Months - If known 2 --></label>
+        <name>QMI_Health_Care_Renewal_Months_If_known2__c</name>
+        <picklistValues>
+            <masterLabel>April</masterLabel>
+            <translation><!-- April --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>August</masterLabel>
+            <translation><!-- August --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>December</masterLabel>
+            <translation><!-- December --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>February</masterLabel>
+            <translation><!-- February --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>January</masterLabel>
+            <translation><!-- January --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>July</masterLabel>
+            <translation><!-- July --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>June</masterLabel>
+            <translation><!-- June --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>March</masterLabel>
+            <translation><!-- March --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May</masterLabel>
+            <translation><!-- May --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>November</masterLabel>
+            <translation><!-- November --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>October</masterLabel>
+            <translation><!-- October --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>September</masterLabel>
+            <translation><!-- September --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- How can the org help engage the prospect --></label>
+        <name>QMI_How_can_the_org_help_engage_prospect__c</name>
+        <picklistValues>
+            <masterLabel>C-Level Engagement</masterLabel>
+            <translation><!-- C-Level Engagement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPR Training</masterLabel>
+            <translation><!-- CPR Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Exceptions</masterLabel>
+            <translation><!-- Exceptions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Consultation</masterLabel>
+            <translation><!-- HR Consultation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Training Event</masterLabel>
+            <translation><!-- HR Training Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Office Tour</masterLabel>
+            <translation><!-- Office Tour --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Demo</masterLabel>
+            <translation><!-- Product Demo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- How many biz impacts did you uncover? --></label>
+        <name>QMI_How_many_biz_impacts_did_you_uncover__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Known PSH Client Connectivity --></label>
+        <name>QMI_Known_PSH_Client_Connectivity_Lookup__c</name>
+        <relationshipLabel><!-- Known PSH Client Connectivity --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- List if prospect is working with broker --></label>
+        <name>QMI_List_if_prospect_is_working_w_broker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Feedback Complete? --></label>
+        <name>QMI_Manager_Feedback_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Feedback Notes --></label>
+        <name>QMI_Manager_Feedback_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Notes --></label>
+        <name>QMI_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Out of State Score --></label>
+        <name>QMI_Out_of_State_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- PSH Client Connectivity Score --></label>
+        <name>QMI_PSH_Client_Connectivity_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payroll Provider Notes - If Applicable --></label>
+        <name>QMI_Payroll_Provider_Notes_If_Applicable__c</name>
+    </fields>
+    <fields>
+        <label><!-- % EE&apos;s on Healthcare Score --></label>
+        <name>QMI_Pct_EEs_on_Healthcare_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prospect&apos;s decision making timeline? --></label>
+        <name>QMI_Prospects_decision_making_timeline__c</name>
+        <picklistValues>
+            <masterLabel>30 days</masterLabel>
+            <translation><!-- 30 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60 days</masterLabel>
+            <translation><!-- 60 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90 days</masterLabel>
+            <translation><!-- 90 days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greater than 90 days</masterLabel>
+            <translation><!-- Greater than 90 days --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Q-Card Actual Score --></label>
+        <name>QMI_QCard_Actual_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q-Card Grade % --></label>
+        <name>QMI_QCard_Grade_Pct__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q-Card Grade --></label>
+        <name>QMI_QCard_Grade__c</name>
+    </fields>
+    <fields>
+        <label><!-- Q-Card Total Possible --></label>
+        <name>QMI_QCard_Total_Possible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Event Score --></label>
+        <name>QMI_Trigger_Event_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- USL&amp;H Score --></label>
+        <name>QMI_USLH_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Union Employees Score --></label>
+        <name>QMI_Union_Employees_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Was the ultimate decision maker in your Discovery Meeting? --></help>
+        <label><!-- Was decision maker in discovery meeting? --></label>
+        <name>QMI_Was_decision_maker_in_discovery_meet__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- What % of EE&apos;s are on healthcare? --></label>
+        <name>QMI_What_pct_of_EEs_are_on_healthcare__c</name>
+        <picklistValues>
+            <masterLabel>10%</masterLabel>
+            <translation><!-- 10% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100%</masterLabel>
+            <translation><!-- 100% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20%</masterLabel>
+            <translation><!-- 20% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30%</masterLabel>
+            <translation><!-- 30% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40%</masterLabel>
+            <translation><!-- 40% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50%</masterLabel>
+            <translation><!-- 50% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60%</masterLabel>
+            <translation><!-- 60% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70%</masterLabel>
+            <translation><!-- 70% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80%</masterLabel>
+            <translation><!-- 80% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90%</masterLabel>
+            <translation><!-- 90% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Workers&apos; Comp Provider Notes - If Applic --></label>
+        <name>QMI_Workers_Comp_Provider_Notes_If_Appli__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is there a trigger event? --></label>
+        <name>Reasons_to_go_through_RFP__c</name>
+        <picklistValues>
+            <masterLabel>Insurance renewal</masterLabel>
+            <translation><!-- Insurance renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Loss of key employee / budget</masterLabel>
+            <translation><!-- Loss of key employee / budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/Unknown</masterLabel>
+            <translation><!-- Other/Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recent compliance issue</masterLabel>
+            <translation><!-- Recent compliance issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unhappy with current provider</masterLabel>
+            <translation><!-- Unhappy with current provider --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Name of the person who was referred to ProService --></help>
+        <label><!-- Referee&apos;s Name --></label>
+        <name>Referee_s_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referred by Client/Partner --></help>
+        <label><!-- Referred by Client/Partner --></label>
+        <name>Referred_by_Client_Partner__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Department the employee belongs to that referred the Organization --></help>
+        <label><!-- Referred by Department --></label>
+        <name>Referred_by_Department__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation><!-- Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation><!-- Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS</masterLabel>
+            <translation><!-- CIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims</masterLabel>
+            <translation><!-- Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client HR</masterLabel>
+            <translation><!-- Client HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Front Office</masterLabel>
+            <translation><!-- Front Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Associates</masterLabel>
+            <translation><!-- HR Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation><!-- Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation><!-- Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Audit Team</masterLabel>
+            <translation><!-- Internal Audit Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal HR</masterLabel>
+            <translation><!-- Internal HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll- Hoomau</masterLabel>
+            <translation><!-- Payroll- Hoomau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll- Lokahi</masterLabel>
+            <translation><!-- Payroll- Lokahi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Hookela</masterLabel>
+            <translation><!-- Payroll-Hookela --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Kokua</masterLabel>
+            <translation><!-- Payroll-Kokua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Laulima</masterLabel>
+            <translation><!-- Payroll-Laulima --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Pono</masterLabel>
+            <translation><!-- Payroll-Pono --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing &amp; Analytics</masterLabel>
+            <translation><!-- Pricing &amp; Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Control</masterLabel>
+            <translation><!-- Risk Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Operations</masterLabel>
+            <translation><!-- Sales Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solutions</masterLabel>
+            <translation><!-- Solutions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Referred by internal EE --></help>
+        <label><!-- Referred by EE --></label>
+        <name>Referred_by_EE__c</name>
+        <relationshipLabel><!-- Opportunities (Referred by EE) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Referred by EE (text) --></label>
+        <name>Referred_by_EE_text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the person who referred the Organization to ProService --></help>
+        <label><!-- Referrer&apos;s Name --></label>
+        <name>Referrer_s_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referring Client Name --></label>
+        <name>Referring_Client_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remarks --></label>
+        <name>Remarks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Restaurant (F&amp;B-not F&amp;B pricing) based pricing --></help>
+        <label><!-- Restaurant (F&amp;B-not F&amp;B pricing) --></label>
+        <name>Restaurant_FB_not_FB_pricing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Retail based pricing --></help>
+        <label><!-- Retail Pricing --></label>
+        <name>Retail_Pricing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag for teams to know if the group is a rush start. --></help>
+        <label><!-- Rush Start? --></label>
+        <name>Rush_Start__c</name>
+    </fields>
+    <fields>
+        <help>Référence à votre contrat amendé.</help>
+        <label><!-- Amended Contract --></label>
+        <name>SBQQ__AmendedContract__c</name>
+        <relationshipLabel><!-- Amendment Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <help>Salesforce CPQ utilise ce champ pour convertir automatiquement les ressources et les abonnements.</help>
+        <label><!-- Contracted --></label>
+        <name>SBQQ__Contracted__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez cette case pour créer des prix contractés sans créer de contrat.</help>
+        <label><!-- Create Contracted Prices --></label>
+        <name>SBQQ__CreateContractedPrices__c</name>
+    </fields>
+    <fields>
+        <help>Identificateur unique de la transaction de commande de changement qui correspond à l'ID du devis principal d'origine.</help>
+        <label><!-- Order Group ID --></label>
+        <name>SBQQ__OrderGroupID__c</name>
+    </fields>
+    <fields>
+        <help>Sélectionnez cette case pour créer automatiquement une commande à partir du devis principal.</help>
+        <label><!-- Ordered --></label>
+        <name>SBQQ__Ordered__c</name>
+    </fields>
+    <fields>
+        <help>Salesforce CPQ l'utilise pour pointer vers le devis principal de cette opportunité.</help>
+        <label><!-- Primary Quote --></label>
+        <name>SBQQ__PrimaryQuote__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote Pricebook Id --></label>
+        <name>SBQQ__QuotePricebookId__c</name>
+    </fields>
+    <fields>
+        <help>Indique que cette opportunité est un renouvellement.</help>
+        <label><!-- Renewal --></label>
+        <name>SBQQ__Renewal__c</name>
+    </fields>
+    <fields>
+        <help>Contrat renouvelé par cette opportunité de renouvellement. Si les contrats sont cumulés dans cette opportunité, il pointe vers le contrat principal.</help>
+        <label><!-- Renewed Contract --></label>
+        <name>SBQQ__RenewedContract__c</name>
+        <relationshipLabel><!-- Renewal Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Manager Email --></label>
+        <name>Sales_Manager_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Lookup to the User that is the Sales Ops Owner --></help>
+        <label><!-- Sales Ops Owner --></label>
+        <name>Sales_Ops_Owner__c</name>
+        <relationshipLabel><!-- Opportunities (Sales Ops Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sales Ops/Pricing Notes --></label>
+        <name>Sales_Ops_Pricing_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date when NCCI was sent. --></help>
+        <label><!-- Send Authorization Email Date --></label>
+        <name>Send_Authorization_Email_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Lead Application Request Date --></label>
+        <name>Send_Lead_Application_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Lead Application Request --></label>
+        <name>Send_Lead_Application_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send authorization email --></label>
+        <name>Send_email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Updated from &quot;Primary Quote&quot; --></help>
+        <label><!-- Service Type --></label>
+        <name>Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>HRO-HRP</masterLabel>
+            <translation><!-- HRO-HRP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HRO-Ultipro</masterLabel>
+            <translation><!-- HRO-Ultipro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PEO</masterLabel>
+            <translation><!-- PEO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Flag to let the team know the prospect is a start-up and will be quoted standard healthcare. --></help>
+        <label><!-- Standard Start-up Healthcare --></label>
+        <name>Standard_Start_up_Healthcare__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Startup Company based pricing --></help>
+        <label><!-- Startup Company? --></label>
+        <name>Startup_Company__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-Closed Reason 1 --></label>
+        <name>SubCategory1__c</name>
+        <picklistValues>
+            <masterLabel>Applicant Tracking System</masterLabel>
+            <translation><!-- Applicant Tracking System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits Administration</masterLabel>
+            <translation><!-- Benefits Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker Relationship</masterLabel>
+            <translation><!-- Broker Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Common Ownership</masterLabel>
+            <translation><!-- Common Ownership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliance Support</masterLabel>
+            <translation><!-- Compliance Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Reporting</masterLabel>
+            <translation><!-- Custom Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct to Carrier</masterLabel>
+            <translation><!-- Direct to Carrier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HC Savings</masterLabel>
+            <translation><!-- HC Savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HC Underwriting Process</masterLabel>
+            <translation><!-- HC Underwriting Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal PSH relationships</masterLabel>
+            <translation><!-- Internal PSH relationships --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Length of Process</masterLabel>
+            <translation><!-- Length of Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSH Client Referral</masterLabel>
+            <translation><!-- PSH Client Referral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Only Alternative</masterLabel>
+            <translation><!-- Payroll Only Alternative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price vs. Competitor</masterLabel>
+            <translation><!-- Price vs. Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price vs. In-House</masterLabel>
+            <translation><!-- Price vs. In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Level Appreciation During Sales Process</masterLabel>
+            <translation><!-- Service Level Appreciation During Sales Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Level Perception in Market</masterLabel>
+            <translation><!-- Service Level Perception in Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Level vs. Competitor</masterLabel>
+            <translation><!-- Service Level vs. Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subject Matter Experts</masterLabel>
+            <translation><!-- Subject Matter Experts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time &amp; Attendance</masterLabel>
+            <translation><!-- Time &amp; Attendance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UltiPro</masterLabel>
+            <translation><!-- UltiPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Savings</masterLabel>
+            <translation><!-- WC Savings --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eOnboarding</masterLabel>
+            <translation><!-- eOnboarding --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Target Proposal Date --></label>
+        <name>Target_Proposal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time and Attendance --></label>
+        <name>Time_and_Attendance__c</name>
+        <picklistValues>
+            <masterLabel>Monthly Fees?</masterLabel>
+            <translation><!-- Monthly Fees? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Set-Up Fees?</masterLabel>
+            <translation><!-- Set-Up Fees? --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Time Clocks?</masterLabel>
+            <translation><!-- Time Clocks? --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Get description from Sales Ops --></help>
+        <label><!-- Trigger Events/Buying Reasons --></label>
+        <name>Trigger_Events_Buying_Reasons__c</name>
+    </fields>
+    <fields>
+        <label><!-- Union Employees --></label>
+        <name>Union_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Notes --></label>
+        <name>WC_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Pricing Complete Date --></label>
+        <name>WC_Pricing_Complete_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Pricing Request Notes --></label>
+        <name>WC_Pricing_Request_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- WC Pricing Request --></label>
+        <name>WC_Pricing_Request__c</name>
+        <picklistValues>
+            <masterLabel>Alignment</masterLabel>
+            <translation><!-- Alignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Carve out</masterLabel>
+            <translation><!-- Carve out --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HEMIC</masterLabel>
+            <translation><!-- HEMIC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OOS</masterLabel>
+            <translation><!-- OOS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard underwriting</masterLabel>
+            <translation><!-- Standard underwriting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- WC Ready for Pricing Date --></label>
+        <name>WC_Ready_for_Pricing_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag for Pricing to let Sales Ops know that WC pricing is complete --></help>
+        <label><!-- WC pricing complete --></label>
+        <name>WC_pricing_complete__c</name>
+    </fields>
+    <fields>
+        <help><!-- Flag for Sales Ops to let Pricing know WC is ready for pricing --></help>
+        <label><!-- WC ready for pricing --></label>
+        <name>WCreadyforpricing__c</name>
+    </fields>
+    <fields>
+        <help><!-- Waived Admin Notes --></help>
+        <label><!-- Waived Admin Notes --></label>
+        <name>Waived_Admi__c</name>
+    </fields>
+    <fields>
+        <help><!-- Waived Admin Estimate cost that will display in the proposal --></help>
+        <label><!-- Waived Admin Estimate --></label>
+        <name>Waived_Admin_Estimate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Who did we lose this group to? --></label>
+        <name>Who_did_we_lose_this_group_to__c</name>
+        <picklistValues>
+            <masterLabel>ADP</masterLabel>
+            <translation><!-- ADP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Altres</masterLabel>
+            <translation><!-- Altres --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Broker</masterLabel>
+            <translation><!-- Broker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ceridian</masterLabel>
+            <translation><!-- Ceridian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None, Lost for Reasons Unrelated to Competition</masterLabel>
+            <translation><!-- None, Lost for Reasons Unrelated to Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Will the owner be on health care? --></label>
+        <name>Will_the_owner_be_on_health_care__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Will the owner be on payroll? --></label>
+        <name>Will_the_owner_be_on_payroll__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 1st Meeting Date --></label>
+        <name>X1st_Meeting_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1st Meeting Occurred --></label>
+        <name>X1st_Meeting_Occurred__c</name>
+    </fields>
+    <fields>
+        <label><!-- XXOpp External ID --></label>
+        <name>XXOpp_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Handover Notes --></label>
+        <name>mpPM_HandoverProspectContactNotes__c</name>
+    </fields>
+    <layouts>
+        <layout>CPQ Opportunity Layout</layout>
+        <sections>
+            <label>Liens personnalisés</label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label>Recalcul</label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label>Information sur Salesforce CPQ</label>
+            <section>Salesforce CPQ Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout -  Ops and Pricing</layout>
+        <sections>
+            <label><!-- Client Master --></label>
+            <section>Client Master</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Exceptions --></label>
+            <section>Exceptions</section>
+        </sections>
+        <sections>
+            <label><!-- Forecasting --></label>
+            <section>Forecasting</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Handover --></label>
+            <section>Implementation Handover</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing --></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Detail --></label>
+            <section>Pricing Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Information --></label>
+            <section>Pricing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Summary --></label>
+            <section>Pricing Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Quick Market Intelligence (QMI) --></label>
+            <section>Quick Market Intelligence (QMI)</section>
+        </sections>
+        <sections>
+            <label><!-- ReQuote --></label>
+            <section>ReQuote</section>
+        </sections>
+        <sections>
+            <label><!-- Status and Lifecycle --></label>
+            <section>Status and Lifecycle</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout - Marketing</layout>
+        <sections>
+            <label><!-- Competitive Information --></label>
+            <section>Competitive Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing --></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Quick Market Intelligence (QMI) --></label>
+            <section>Quick Market Intelligence (QMI)</section>
+        </sections>
+        <sections>
+            <label><!-- Referral Information --></label>
+            <section>Referral Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Opportunity Layout - Sales</layout>
+        <sections>
+            <label><!-- Client Master --></label>
+            <section>Client Master</section>
+        </sections>
+        <sections>
+            <label><!-- Collaborative Forecast --></label>
+            <section>Collaborative Forecast</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Exceptions --></label>
+            <section>Exceptions</section>
+        </sections>
+        <sections>
+            <label><!-- Forecasting --></label>
+            <section>Forecasting</section>
+        </sections>
+        <sections>
+            <label><!-- Implementation Handover --></label>
+            <section>Implementation Handover</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing --></label>
+            <section>Marketing</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Detail --></label>
+            <section>Pricing Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Information --></label>
+            <section>Pricing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing Summary --></label>
+            <section>Pricing Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Quick Market Intelligence (QMI) --></label>
+            <section>Quick Market Intelligence (QMI)</section>
+        </sections>
+        <sections>
+            <label><!-- Referral Information --></label>
+            <section>Referral Information</section>
+        </sections>
+        <sections>
+            <label><!-- Status and Lifecycle --></label>
+            <section>Status and Lifecycle</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Quote --></label>
+        <name>New_Quote</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send NCCI Email --></label>
+        <name>Send_Authorization_Email</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Online Application --></label>
+        <name>Send_Lead_Application_Request</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Please input value --></errorMessage>
+        <name>Admin_blank_1st_Meet_to_another_stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please include current payroll provider --></errorMessage>
+        <name>Application_Require_Current_Provider</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please select a value for Head to Head Competitor --></errorMessage>
+        <name>Application_Require_Head2Head_Competitor</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Biz impact discoveries we are solving to&quot; field must be filled out. --></errorMessage>
+        <name>Biz_impact_discoveries_we_solving_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill in the Primary Contact before sending the Authorization Email. --></errorMessage>
+        <name>Check_if_Primary_Contact_Exists</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Lost Opportunities must have &quot;Closed Reason&quot;, &quot;Sub-Closed Reason&quot;, &quot;Who did we lose this group to?&quot; and &quot;Closed Detail&quot; filled out. --></errorMessage>
+        <name>Closed_Lost_Required_Info</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Closed Won Opportunities must have &quot;Closed Reason&quot;, &quot;Sub-Closed Reason&quot; and &quot;Closed Detail&quot; fields entered. --></errorMessage>
+        <name>Closed_Won_Required_Info</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Current Health Care Provider&quot; field must be filled out. --></errorMessage>
+        <name>Current_Health_Care_Provider_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Current Payroll Provider&quot; field must be filled out. --></errorMessage>
+        <name>Current_Payroll_Provider_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Current Workers&apos; Comp Provider&quot; field must be filled out. --></errorMessage>
+        <name>Current_Workers_Comp_Provider_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Decision Making Process&quot; field must be filled out. --></errorMessage>
+        <name>Decision_Making_Process_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Was decision maker in discovery meeting?&quot; field must be filled out. --></errorMessage>
+        <name>Decision_maker_discovery_meeting_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Estimated Annual Admin Amount field is required to move Stage from &quot;1st Meeting Set&quot; to another Stage --></errorMessage>
+        <name>EST_Admin_blank_1st_Meet_to_another_stag</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;How many biz impacts did you uncover?&quot; field must be filled out. --></errorMessage>
+        <name>How_many_biz_impacts_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please confirm the 1st meeting has occurred --></errorMessage>
+        <name>Info_Gathering_Require_1st_Meeting_occur</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Is there a trigger event?&quot; field must be filled out. --></errorMessage>
+        <name>Is_there_a_trigger_event_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Known PSH Client Connectivity&quot; field must be filled out. --></errorMessage>
+        <name>Known_PSH_Client_Connectivity_Lkup_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Known PSH Client Connectivity?&quot; field must be filled out. --></errorMessage>
+        <name>Known_PSH_Client_Connectivity_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Prospect&apos;s decision making timeline?&quot; field must be filled out. --></errorMessage>
+        <name>Prospect_decision_making_timeline_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Does the prospect have out of state EEs?&quot; field must be filled out. --></errorMessage>
+        <name>Prospect_have_out_of_state_EEs_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Does the prospect have union employees?&quot; field must be filled out. --></errorMessage>
+        <name>Prospect_have_union_employees_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Does the prospect need USL&amp;H coverage?&quot; field must be filled out. --></errorMessage>
+        <name>Prospect_need_USLH_coverage_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Stage can&apos;t go backwards --></errorMessage>
+        <name>Stage_prevent_users_from_going_backward</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Skipping is not allowed --></errorMessage>
+        <name>Stage_prevent_users_from_skipping</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please input Startup value --></errorMessage>
+        <name>Startup_Field_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Target Proposal Date&quot; field must be filled out. --></errorMessage>
+        <name>Target_Proposal_Date_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;What % of EE&apos;s are on healthcare?&quot; field must be filled out. --></errorMessage>
+        <name>What_Pct_of_EEs_are_on_healthcare_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Who else are they getting proposals from&quot; field must be filled out. --></errorMessage>
+        <name>Who_else_they_getting_proposals_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Will the owner be on health care?&quot; field must be filled out. --></errorMessage>
+        <name>Will_the_owner_be_on_health_care_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- &quot;Will the owner be on payroll?&quot; field must be filled out. --></errorMessage>
+        <name>Will_the_owner_be_on_payroll_blank</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please check box to confirm --></errorMessage>
+        <name>x1st_Meeting_Occured</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please set a meeting date --></errorMessage>
+        <name>x1st_Meeting_Set_Require_Meeting_Date</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Composer --></label>
+        <name>Conga_Composer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Pricing --></label>
+        <name>Conga_Pricing</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Opp --></label>
+        <name>New_Opp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amend_Contract --></label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateOrder --></label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Include_Document --></label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Opp --></label>
+        <name>activities__Create_Tasks_Opp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Verify_with_DNB --></label>
+        <name>dsfs__Verify_with_DNB</name>
+    </webLinks>
+    <workflowTasks>
+        <name>Fill_out_QMI_section</name>
+        <subject><!-- Fill-out QMI section --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

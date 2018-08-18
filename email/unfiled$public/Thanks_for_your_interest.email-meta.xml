@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thank you for your interest in ProService Hawaii. Please give me a call when you have a moment. My direct phone is (808) 443-5426.</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Thanks for your interest...</name>
+    <relatedEntityType>Lead</relatedEntityType>
+    <style>none</style>
+    <subject>ProService Hawaii</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

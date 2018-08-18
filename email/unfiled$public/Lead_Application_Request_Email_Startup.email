@@ -1,0 +1,14 @@
+<p>Aloha,</p>
+<p>Thank you for your interest in ProService.&nbsp; To prepare your customized proposal, please complete our  <a href="www.proservice.com/apply ">online application</a>.&nbsp;Please allow approximately 15 minutes for this process.&nbsp;</p>
+<p>http://www.proservice.com/apply</p>
+<p>We recommend you begin by creating an account. You will be able to save your entry and&nbsp;complete the application at a later time if needed.&nbsp;&nbsp;</p>
+
+<p>If you have any questions about this application, please contact your Business Development Manager: {!Opportunity.00N34000005kti0}, at {!if(Opportunity.00N34000005kthz='',"",Opportunity.00N34000005kthz&" or ")} {!Opportunity.00N34000005kthy}.</p>
+<p>If you experience any issues with the online application, email&nbsp;our Sales Operations&nbsp;Department at&nbsp;<a href="mailto:salesoperations@proservice.com">salesoperations@proservice.com</a>.&nbsp; </p>
+<p>We look forward to partnering with you and your business.</p>
+<p>&nbsp;</p>
+<p>Mahalo,</p>
+{!User.Name}
+<p>ProService Hawaii</p>
+<p>6600 Kalanianaole Highway<br />Suite 200<br />Honolulu, HI 96825<br />http://www.proservice.com/<br />Phone: 808-394-8878</p>
+<p>&nbsp;</p>

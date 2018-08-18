@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_30555315</developerName>
+        <masterLabel>Won</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>STATUS</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Won - No Action Taken</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Won - Adjustment w/o Contract</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Won - Adjustment w/Contract</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Won - Entity/Name Change</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Won - Letting Client Go</sourceValue>
+            </sourceValues>
+            <value>True</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Lost - Client Terming</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>On Hold</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Escalated</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Closed</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>New</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pricing Request Pending More Information</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pricing Requested</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Underwriting</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Preliminary Pricing Back</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Final Pricing Approved</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Collateral Prep Requested</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Negotiation</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Time &amp; Attendance Go Live Pending</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Term In Progress</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Client Termination</sourceValue>
+            </sourceValues>
+            <value>False</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>Case.Client_ID__c</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>Account.Team__c</field>
+    </columns>
+    <columns>
+        <field>Case.ACE_Owner__c</field>
+    </columns>
+    <columns>
+        <field>Case.ACE_Type__c</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>Case.Won__c</field>
+    </columns>
+    <columns>
+        <field>Case.ACE_Close_Date__c</field>
+    </columns>
+    <columns>
+        <field>Case.Change_Effective_Date__c</field>
+    </columns>
+    <columns>
+        <field>Case.Change_1st_Payroll_Date__c</field>
+    </columns>
+    <columns>
+        <field>Case.Calendar_Year_Discount_Total__c</field>
+    </columns>
+    <columns>
+        <field>Case.Calendar_Year_Increase_Total__c</field>
+    </columns>
+    <columns>
+        <field>Case.ACE_Risk_Status__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Case.Admin_Discount__c</field>
+    </columns>
+    <columns>
+        <field>Case.Labor_Fee_Dis__c</field>
+    </columns>
+    <columns>
+        <field>Case.WC_Discount__c</field>
+    </columns>
+    <columns>
+        <field>Case.Discount_Total__c</field>
+    </columns>
+    <columns>
+        <field>Case.Admin_Increase__c</field>
+    </columns>
+    <columns>
+        <field>Case.Labor_Fee_Inc__c</field>
+    </columns>
+    <columns>
+        <field>Case.WC_Increase__c</field>
+    </columns>
+    <columns>
+        <field>Case.Increase_Total__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.ACE,Case.ACE_Terming</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>CLOSED</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>1</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <name>2-Closed ACEs_Budget Tracking</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ACCOUNT.NAME</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Case.ACE_Close_Date__c</dateColumn>
+        <interval>INTERVAL_THISWEEK</interval>
+    </timeFrameFilter>
+</Report>

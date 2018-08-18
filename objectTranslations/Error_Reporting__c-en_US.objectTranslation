@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Client ID # --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <relationshipLabel><!-- Service Mistakes Reporting --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Mistake Occurred --></label>
+        <name>Date_Mistake_Occurred__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Mistake Recorded --></label>
+        <name>Date_Mistake_Recorded__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+        <picklistValues>
+            <masterLabel>HR Services</masterLabel>
+            <translation><!-- HR Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description of Issue --></label>
+        <name>Description_of_Issue__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the amount ProService refunded back to the client due to error or the amount we choose not to bill them over a certain time due to error. If an exact amount was refunded that should be input and not just an estimate. --></help>
+        <label><!-- Estimated Admin Credit --></label>
+        <name>Estimated_Admin_Credit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-Up Taken --></label>
+        <name>Follow_Up_Taken__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mistake Impact Detail --></label>
+        <name>Mistake_Impact_Detail__c</name>
+        <picklistValues>
+            <masterLabel>Admin Billing Mistake</masterLabel>
+            <translation><!-- Admin Billing Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefit Billing Mistake</masterLabel>
+            <translation><!-- Benefit Billing Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CCH Issue</masterLabel>
+            <translation><!-- CCH Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Check Delivery Issue/Mistake</masterLabel>
+            <translation><!-- Check Delivery Issue/Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deduction Mistake</masterLabel>
+            <translation><!-- Deduction Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Direct Deposit Mistake</masterLabel>
+            <translation><!-- Direct Deposit Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Distribution Room Mistake</masterLabel>
+            <translation><!-- Distribution Room Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR/PGS Data Entry Mistake</masterLabel>
+            <translation><!-- HR/PGS Data Entry Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incorrect Paycode(s) Used</masterLabel>
+            <translation><!-- Incorrect Paycode(s) Used --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Job Code/WC Classification Mistake</masterLabel>
+            <translation><!-- Job Code/WC Classification Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Billing Mistake</masterLabel>
+            <translation><!-- Other Billing Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Data Entry Mistake</masterLabel>
+            <translation><!-- Payroll Data Entry Mistake --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UPS Issue</masterLabel>
+            <translation><!-- UPS Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USPS Issue</masterLabel>
+            <translation><!-- USPS Issue --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mistake Impact --></label>
+        <name>Mistake_Impact__c</name>
+        <picklistValues>
+            <masterLabel>Mistake Affected Client Bill Amount Only</masterLabel>
+            <translation><!-- Mistake Affected Client Bill Amount Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mistake Affected Employee(s) Pay Only</masterLabel>
+            <translation><!-- Mistake Affected Employee(s) Pay Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mistake Affected Employee(s) Pay and Client Bill Amount</masterLabel>
+            <translation><!-- Mistake Affected Employee(s) Pay and Client Bill Amount --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll Not Received as Anticipated</masterLabel>
+            <translation><!-- Payroll Not Received as Anticipated --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mistake Status --></label>
+        <name>Mistake_Status__c</name>
+        <picklistValues>
+            <masterLabel>Open, Pending STM Review</masterLabel>
+            <translation><!-- Open, Pending STM Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STM-Reviewed, Closed</masterLabel>
+            <translation><!-- STM-Reviewed, Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>STM-Reviewed, In-Progress</masterLabel>
+            <translation><!-- STM-Reviewed, In-Progress --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Oversight: We know better, but lost concentration
+Aha-Moment: We lacked knowledge but now have realization
+High-Stakes: Results can be catastrophic; CLs on PFK or multiple mistakes lists 
+Stretch: Trying something new/challenging &amp; bound to make errors --></help>
+        <label><!-- Mistake Type --></label>
+        <name>Mistake_Type__c</name>
+        <picklistValues>
+            <masterLabel>Aha-Moment</masterLabel>
+            <translation><!-- Aha-Moment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High-Stakes</masterLabel>
+            <translation><!-- High-Stakes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oversight</masterLabel>
+            <translation><!-- Oversight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stretch</masterLabel>
+            <translation><!-- Stretch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Origin of Mistake --></label>
+        <name>Origin_of_Mistake__c</name>
+        <picklistValues>
+            <masterLabel>Distribution</masterLabel>
+            <translation><!-- Distribution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HC Benefits</masterLabel>
+            <translation><!-- HC Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Associates/PGS</masterLabel>
+            <translation><!-- HR Associates/PGS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation/Solution</masterLabel>
+            <translation><!-- Implementation/Solution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Supp Benefits</masterLabel>
+            <translation><!-- Supp Benefits --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter in the first and last name of each person accountable for the mistake. --></help>
+        <label><!-- Person Accountable for Mistake --></label>
+        <name>Person_Accountable_for_Mistake__c</name>
+    </fields>
+    <fields>
+        <label><!-- Root Cause Analysis Detail --></label>
+        <name>Root_Cause_Analysis_Detail__c</name>
+        <picklistValues>
+            <masterLabel>Data Entered Incorrectly / Failed to Audit</masterLabel>
+            <translation><!-- Data Entered Incorrectly / Failed to Audit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>External</masterLabel>
+            <translation><!-- External --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Failed to update system / Reminders</masterLabel>
+            <translation><!-- Failed to update system / Reminders --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instructions Overlooked</masterLabel>
+            <translation><!-- Instructions Overlooked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Root Cause Analysis --></label>
+        <name>Root_Cause_Analysis__c</name>
+        <picklistValues>
+            <masterLabel>Inadequate Process</masterLabel>
+            <translation><!-- Inadequate Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insufficient Training</masterLabel>
+            <translation><!-- Insufficient Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost or Missed Paperwork</masterLabel>
+            <translation><!-- Lost or Missed Paperwork --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oversight</masterLabel>
+            <translation><!-- Oversight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Poor Communication</masterLabel>
+            <translation><!-- Poor Communication --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Severity Index --></label>
+        <name>Severity_Index__c</name>
+        <picklistValues>
+            <masterLabel>1 - Minimal</masterLabel>
+            <translation><!-- 1 - Minimal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Minor</masterLabel>
+            <translation><!-- 2 - Minor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Moderate</masterLabel>
+            <translation><!-- 3 - Moderate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Severe</masterLabel>
+            <translation><!-- 4 - Severe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Catastrophic</masterLabel>
+            <translation><!-- 5 - Catastrophic --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Special Considerations on Creation --></label>
+        <name>Special_Considerations_on_Creation__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Employees Impacted --></label>
+        <name>of_Employees_Impacted__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Service Mistakes Reporting</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Service Mistakes Reporting</value>
+    </caseValues>
+    <startsWith>Vowel</startsWith>
+    <layouts>
+        <layout>Error Reporting Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Error Information --></label>
+            <section>Error Information</section>
+        </sections>
+        <sections>
+            <label><!-- Manager Section --></label>
+            <section>Manager Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Error Reporting Layout w/department</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Error Information --></label>
+            <section>Error Information</section>
+        </sections>
+        <sections>
+            <label><!-- Manager Section --></label>
+            <section>Manager Section</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- &quot;# of Employee&apos;s Impacted&quot; must be greater than 0 --></errorMessage>
+        <name>Number_Impacted_EE_greater_than_equal_1</name>
+    </validationRules>
+</CustomObjectTranslation>

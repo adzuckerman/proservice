@@ -1,0 +1,4 @@
+<design:component>
+    <design:attribute name="diagramId" label="Diagram Id" description="Enter a diagram Id"></design:attribute>
+    <design:attribute name="height" label="Component Height" default="true"/>
+</design:component>

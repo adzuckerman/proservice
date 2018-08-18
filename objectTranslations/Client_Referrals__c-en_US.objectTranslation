@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approx. # of Employees --></label>
+        <name>Approx_of_Employees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Contact --></label>
+        <name>Client_Contact__c</name>
+        <relationshipLabel><!-- Client Referrals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Client Contact Relationship to Referral --></label>
+        <name>Client_Relationship_to_Referral__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Status --></label>
+        <name>Client_Status__c</name>
+        <picklistValues>
+            <masterLabel>Green</masterLabel>
+            <translation><!-- Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Red</masterLabel>
+            <translation><!-- Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Super Green</masterLabel>
+            <translation><!-- Super Green --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yellow</masterLabel>
+            <translation><!-- Yellow --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+        <relationshipLabel><!-- Client Referrals --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact&apos;s Email --></label>
+        <name>Contact_s_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact&apos;s Phone --></label>
+        <name>Contact_s_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact&apos;s Title --></label>
+        <name>Contact_s_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home Department --></label>
+        <name>Home_Department__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Leadership</masterLabel>
+            <translation><!-- Leadership --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations</masterLabel>
+            <translation><!-- Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Teams</masterLabel>
+            <translation><!-- Support Teams --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Island --></label>
+        <name>Island__c</name>
+        <picklistValues>
+            <masterLabel>Big Island</masterLabel>
+            <translation><!-- Big Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kauai</masterLabel>
+            <translation><!-- Kauai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maui</masterLabel>
+            <translation><!-- Maui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oahu</masterLabel>
+            <translation><!-- Oahu --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Specify in Notes)</masterLabel>
+            <translation><!-- Other (Specify in Notes) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If this referral is tied to any 2014 initiative, please indicate which --></help>
+        <label><!-- NBR Initiative Type --></label>
+        <name>NBR_Initiative_Type__c</name>
+        <picklistValues>
+            <masterLabel>Boomerang (Former Client)</masterLabel>
+            <translation><!-- Boomerang (Former Client) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Castle Program</masterLabel>
+            <translation><!-- Castle Program --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imp-60</masterLabel>
+            <translation><!-- Imp-60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reassigned Clients</masterLabel>
+            <translation><!-- Reassigned Clients --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Untouched-80+</masterLabel>
+            <translation><!-- Untouched-80+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VOC Follow-up</masterLabel>
+            <translation><!-- VOC Follow-up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name of Business Contact --></label>
+        <name>Name_of_Business_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Status --></label>
+        <name>ReferralStatus__c</name>
+        <picklistValues>
+            <masterLabel>In-Progress</masterLabel>
+            <translation><!-- In-Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Successful</masterLabel>
+            <translation><!-- Successful --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsuccessful</masterLabel>
+            <translation><!-- Unsuccessful --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Referral Count --></label>
+        <name>Referral_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral Owner --></label>
+        <name>Referral_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referred Business Name --></label>
+        <name>Referred_Business_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type of Business --></label>
+        <name>Type_of_Business__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Client Referral</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Client Referrals</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Client Referral Status Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Please select your Home Department to continue --></errorMessage>
+        <name>Department</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Referral is incomplete.  Please fill every field to submit. --></errorMessage>
+        <name>Successful_Referral</name>
+    </validationRules>
+</CustomObjectTranslation>

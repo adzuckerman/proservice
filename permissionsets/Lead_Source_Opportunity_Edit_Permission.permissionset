@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?><PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Lead Source field on the Opportunity object Edit Permission</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Lead Source Opportunity Edit Permission</label>
+    <license>Salesforce</license>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Opportunity.LeadSource</field>
+        <readable>true</readable>
+    </fieldPermissions>
+</PermissionSet>

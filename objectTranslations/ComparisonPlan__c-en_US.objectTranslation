@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Account --></help>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Comparison Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Annual Deductible (Individual) --></label>
+        <name>AnnualDeductibleIndividual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Carrier --></label>
+        <name>Carrier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Display Client ID on Comparison Plan --></help>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Display latest opportunity status date on comparison plan object --></help>
+        <label><!-- Close Date --></label>
+        <name>Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Co-Insurance (%) --></label>
+        <name>CoInsurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coverage --></label>
+        <name>Coverage__c</name>
+        <picklistValues>
+            <masterLabel>Chiro</masterLabel>
+            <translation><!-- Chiro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental</masterLabel>
+            <translation><!-- Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dental+</masterLabel>
+            <translation><!-- Dental+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D+Dental</masterLabel>
+            <translation><!-- M/D+Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V</masterLabel>
+            <translation><!-- M/D/V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/Ch</masterLabel>
+            <translation><!-- M/D/V/Ch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/Ch/AC</masterLabel>
+            <translation><!-- M/D/V/Ch/AC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/D</masterLabel>
+            <translation><!-- M/D/V/D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/D+</masterLabel>
+            <translation><!-- M/D/V/D+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/D+/CAM</masterLabel>
+            <translation><!-- M/D/V/D+/CAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/D+/Ch</masterLabel>
+            <translation><!-- M/D/V/D+/Ch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/D+/Ch/Ac</masterLabel>
+            <translation><!-- M/D/V/D+/Ch/Ac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/D/CH/AC</masterLabel>
+            <translation><!-- M/D/V/D/CH/AC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/D/V/D/Ch</masterLabel>
+            <translation><!-- M/D/V/D/Ch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/V</masterLabel>
+            <translation><!-- M/V --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/V+CAM</masterLabel>
+            <translation><!-- M/V+CAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M/V/D</masterLabel>
+            <translation><!-- M/V/D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDV+CAM</masterLabel>
+            <translation><!-- MDV+CAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDVD+CAM</masterLabel>
+            <translation><!-- MDVD+CAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med + Dental</masterLabel>
+            <translation><!-- Med + Dental --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med Only</masterLabel>
+            <translation><!-- Med Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med+CAM</masterLabel>
+            <translation><!-- Med+CAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med+Ch</masterLabel>
+            <translation><!-- Med+Ch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med+Ch/Ac</masterLabel>
+            <translation><!-- Med+Ch/Ac --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med/Dental+/CAM</masterLabel>
+            <translation><!-- Med/Dental+/CAM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical + Drug</masterLabel>
+            <translation><!-- Medical + Drug --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical/Dental +</masterLabel>
+            <translation><!-- Medical/Dental + --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EE Count EC --></label>
+        <name>EmployeeCountEC__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Count ES --></label>
+        <name>EmployeeCountES__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Count F --></label>
+        <name>EmployeeCountF__c</name>
+    </fields>
+    <fields>
+        <label><!-- EE Count S --></label>
+        <name>EmployeeCountS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contribution EC --></label>
+        <name>EmployerContributionEC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contribution ES --></label>
+        <name>EmployerContributionES__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contribution F --></label>
+        <name>EmployerContributionF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contribution S --></label>
+        <name>EmployerContributionS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Display latest opportunity status on comparison plan object --></help>
+        <label><!-- Latest Opportunity Status --></label>
+        <name>Latest_Opportunity_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Office Visit Copay --></label>
+        <name>OfficeVisitCopay__c</name>
+    </fields>
+    <fields>
+        <help><!-- Opportunity --></help>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Comparison Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Out-of-pocket Max (excluding deductible) --></label>
+        <name>OutofpocketMaxexcludingdeductible__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2yr Prior Rate EC --></label>
+        <name>Prior24EC__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2yr Prior Rate ES --></label>
+        <name>Prior24ES__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2yr Prior Rate F --></label>
+        <name>Prior24F__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2yr Prior Rate S --></label>
+        <name>Prior24S__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProService Plan Name --></label>
+        <name>ProServicePlanName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ProService Plan --></label>
+        <name>ProServicePlan__c</name>
+        <relationshipLabel><!-- Comparison Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quote --></label>
+        <name>Quote__c</name>
+        <relationshipLabel><!-- Comparison Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Rate EC --></label>
+        <name>RateEC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Rate ES --></label>
+        <name>RateES__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rate Effective Date --></label>
+        <name>RateEffectiveDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Rate F --></label>
+        <name>RateF__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Rate S --></label>
+        <name>RateS__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1yr Prior Rate EC --></label>
+        <name>Recent12EC__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1yr Prior Rate ES --></label>
+        <name>Recent12ES__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1yr Prior Rate F --></label>
+        <name>Recent12F__c</name>
+    </fields>
+    <fields>
+        <label><!-- 1yr Prior Rate S --></label>
+        <name>Recent12S__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rx 1 --></label>
+        <name>Rx1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rx 2 --></label>
+        <name>Rx2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rx 3 --></label>
+        <name>Rx3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Full Time Total Number Enrolled --></label>
+        <name>TotalNumberEnrolled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 1 --></label>
+        <name>Year1Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 2 --></label>
+        <name>Year2Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year 3 --></label>
+        <name>Year3Increase__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Comparison Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Comparison Plans</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Comparison Plan Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Employee Counts --></label>
+            <section>Employee Counts</section>
+        </sections>
+        <sections>
+            <label><!-- Expected Increases --></label>
+            <section>Expected Increases</section>
+        </sections>
+        <sections>
+            <label><!-- One Year Prior Rates --></label>
+            <section>One Year Prior Rates</section>
+        </sections>
+        <sections>
+            <label><!-- Plan Information --></label>
+            <section>Plan Information</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Contribution --></label>
+            <section>Prospect Contribution</section>
+        </sections>
+        <sections>
+            <label><!-- Prospect Current Rates --></label>
+            <section>Prospect Current Rates</section>
+        </sections>
+        <sections>
+            <label><!-- Two Year Prior Rates --></label>
+            <section>Two Year Prior Rates</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

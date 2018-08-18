@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>Current__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Current account the user clicked from</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Current account the user clicked from</inlineHelpText>
+        <label>Current</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Related Accounts (Current)</relationshipLabel>
+        <relationshipName>Related_Accounts2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Placeholder__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Placeholder</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Placeholder</inlineHelpText>
+        <label>Placeholder</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Related Accounts (Placeholder)</relationshipLabel>
+        <relationshipName>Related_Accounts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Account related to</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Account related to</inlineHelpText>
+        <label>Related To</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Related Accounts (Related To)</relationshipLabel>
+        <relationshipName>Related_Accounts1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Relation_Detail__c</fullName>
+        <description>Quick summary of how the accounts are related to each other</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Quick summary of how the accounts are related to each other</inlineHelpText>
+        <label>Relation Detail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Relation_Type__c</fullName>
+        <description>Picklist for relationship type between Accounts</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Picklist for relationship type between Accounts</inlineHelpText>
+        <label>Relation Type</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Owners are friends</fullName>
+                    <default>false</default>
+                    <label>Owners are friends</label>
+                </value>
+                <value>
+                    <fullName>Financial partners</fullName>
+                    <default>false</default>
+                    <label>Financial partners</label>
+                </value>
+                <value>
+                    <fullName>College buddies</fullName>
+                    <default>false</default>
+                    <label>College buddies</label>
+                </value>
+                <value>
+                    <fullName>Not available</fullName>
+                    <default>false</default>
+                    <label>Not available</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Accounts related to each other</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Related Accounts</label>
+    <nameField>
+        <displayFormat>Relation-{0000}</displayFormat>
+        <label>Relation</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Related Accounts</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+</CustomObject>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Follow up to mailed invite. Emails used from contact or gate keeper - for ease of their registration.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>AfterHRs Construction Pau Hana 8/16</name>
+    <style>none</style>
+    <subject>You&apos;re INVITED ~ AfterHRs Construction Pau Hana</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

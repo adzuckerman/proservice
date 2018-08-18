@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Group Type --></label>
+        <name>Account_Group_Type__c</name>
+        <picklistValues>
+            <masterLabel>ACA Applicable Large Employer</masterLabel>
+            <translation><!-- ACA Applicable Large Employer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Control</masterLabel>
+            <translation><!-- Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Group</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Groups</value>
+    </caseValues>
+    <startsWith>Vowel</startsWith>
+    <layouts>
+        <layout>Account Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

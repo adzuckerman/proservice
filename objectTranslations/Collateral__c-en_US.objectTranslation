@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional Notes --></help>
+        <label><!-- Additional Notes --></label>
+        <name>Additional_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional Receive Date --></help>
+        <label><!-- Additional Receive Date --></label>
+        <name>Additional_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional Submission Complete --></help>
+        <label><!-- Additional Submission Complete --></label>
+        <name>Additional_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Application Receive Date --></help>
+        <label><!-- Application Date --></label>
+        <name>Application_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Application Notes --></help>
+        <label><!-- Application Notes --></label>
+        <name>Application_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Application Submission Complete --></help>
+        <label><!-- Application Submission Complete --></label>
+        <name>Application_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Opportunity BDM --></help>
+        <label><!-- BDM --></label>
+        <name>BDM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census Notes --></help>
+        <label><!-- Census Notes --></label>
+        <name>Census_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census Receive Date --></help>
+        <label><!-- Census Receive Date --></label>
+        <name>Census_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Census Submission Complete --></help>
+        <label><!-- Census/PHQ --></label>
+        <name>Census_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Collateral Type --></label>
+        <name>Collateral_Type__c</name>
+        <picklistValues>
+            <masterLabel>Additional Docs</masterLabel>
+            <translation><!-- Additional Docs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application</masterLabel>
+            <translation><!-- Application --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Census</masterLabel>
+            <translation><!-- Census --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HC Invoice</masterLabel>
+            <translation><!-- HC Invoice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NCCI Report</masterLabel>
+            <translation><!-- NCCI Report --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SUTA Rate</masterLabel>
+            <translation><!-- SUTA Rate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TDI Rate Sheet</masterLabel>
+            <translation><!-- TDI Rate Sheet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Declaration Page</masterLabel>
+            <translation><!-- WC Declaration Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WC Loss Run</masterLabel>
+            <translation><!-- WC Loss Run --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Days between Application Date and present date. --></help>
+        <label><!-- Days App to Present (Age) --></label>
+        <name>Days_App_to_Present_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days Between App to Proposal --></label>
+        <name>Days_Between_App_to_Proposal__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Estimated Annual Admin&quot; field from the opportunity object. --></help>
+        <label><!-- Estimated Annual Admin --></label>
+        <name>Estimated_Annual_Admin__c</name>
+    </fields>
+    <fields>
+        <help><!-- &quot;Estimated # of EEs&quot; field from the opportunity object. --></help>
+        <label><!-- Estimated # of EEs --></label>
+        <name>Estimated_of_EEs__c</name>
+    </fields>
+    <fields>
+        <help><!-- HC Invoice Notes --></help>
+        <label><!-- HC Invoice Notes --></label>
+        <name>HC_Invoice_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- HC Invoice Receive Date --></help>
+        <label><!-- HC Invoice Receive Date --></label>
+        <name>HC_Invoice_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- HC Invoice Submission Complete --></help>
+        <label><!-- HC Invoice --></label>
+        <name>HC_Invoice_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Loss Run Notes --></help>
+        <label><!-- Loss Run Notes --></label>
+        <name>Loss_Run_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Loss Run Receive Date --></help>
+        <label><!-- Loss Run Receive Date --></label>
+        <name>Loss_Run_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Loss Run Submission Complete --></help>
+        <label><!-- Loss Run Submission Complete --></label>
+        <name>Loss_Run_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- NCCI Report Notes --></help>
+        <label><!-- NCCI Report Notes --></label>
+        <name>NCCI_Report_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- NCCI Report Receive Date --></help>
+        <label><!-- NCCI Report Receive Date --></label>
+        <name>NCCI_Report_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- NCCI Report Submission Complete --></help>
+        <label><!-- NCCI --></label>
+        <name>NCCI_Report_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Opportunity Status --></help>
+        <label><!-- Opportunity Status --></label>
+        <name>Opportunity_Status__c</name>
+    </fields>
+    <fields>
+        <help><!-- Master-detail relationship --></help>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Collaterals --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Collateral received date --></help>
+        <label><!-- Receive Date --></label>
+        <name>Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- SUTA Notes --></help>
+        <label><!-- SUTA Notes --></label>
+        <name>SUTA_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- SUTA Receive Date --></help>
+        <label><!-- SUTA Receive Date --></label>
+        <name>SUTA_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- SUTA Submission Complete --></help>
+        <label><!-- SUTA --></label>
+        <name>SUTA_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sales Ops Notes --></label>
+        <name>Sales_Ops_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Opportunity Sales Ops Owner --></help>
+        <label><!-- Sales Ops --></label>
+        <name>Sales_Ops__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submission Complete --></label>
+        <name>Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- TDI Notes --></help>
+        <label><!-- TDI Notes --></label>
+        <name>TDI_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- TDI Receive Date --></help>
+        <label><!-- TDI Receive Date --></label>
+        <name>TDI_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- TDI Submission Complete --></help>
+        <label><!-- TDI --></label>
+        <name>TDI_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- WC Dec Notes --></help>
+        <label><!-- WC Dec Notes --></label>
+        <name>WC_Dec_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- WC Dec Receive Date --></help>
+        <label><!-- WC Dec Receive Date --></label>
+        <name>WC_Dec_Receive_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- WC Dec Submission Complete --></help>
+        <label><!-- WC Dec --></label>
+        <name>WC_Dec_Submission_Complete__c</name>
+        <picklistValues>
+            <masterLabel>N</masterLabel>
+            <translation><!-- N --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P</masterLabel>
+            <translation><!-- P --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Y</masterLabel>
+            <translation><!-- Y --></translation>
+        </picklistValues>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Collateral</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Collaterals</value>
+    </caseValues>
+    <startsWith>Vowel</startsWith>
+    <layouts>
+        <layout>Opportunity Attachment Layout</layout>
+        <sections>
+            <label><!-- Additional Docs --></label>
+            <section>Additional Docs</section>
+        </sections>
+        <sections>
+            <label><!-- Application --></label>
+            <section>Application</section>
+        </sections>
+        <sections>
+            <label><!-- Census --></label>
+            <section>Census</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- HC Invoice --></label>
+            <section>HC Invoice</section>
+        </sections>
+        <sections>
+            <label><!-- NCCI Report --></label>
+            <section>NCCI Report</section>
+        </sections>
+        <sections>
+            <label><!-- SUTA Rate --></label>
+            <section>SUTA Rate</section>
+        </sections>
+        <sections>
+            <label><!-- TDI Rate Sheet --></label>
+            <section>TDI Rate Sheet</section>
+        </sections>
+        <sections>
+            <label><!-- WC Declaration Page --></label>
+            <section>WC Declaration Page</section>
+        </sections>
+        <sections>
+            <label><!-- WC Loss Run --></label>
+            <section>WC Loss Run</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

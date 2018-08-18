@@ -1,0 +1,5 @@
+The following Opportunity is ready for Worker's Comp pricing:
+
+Opportunity:  {!Opportunity.Name}
+Account:  {!Opportunity.Account}
+Opportunity Link:  {!Opportunity.Link}

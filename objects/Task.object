@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Close</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>DeleteSeries</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewTask</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayouts>
+        <fullName>Standard_Compact_Layout</fullName>
+        <fields>Subject</fields>
+        <fields>WhoId</fields>
+        <fields>Phone</fields>
+        <fields>WhatId</fields>
+        <fields>Type</fields>
+        <fields>Status</fields>
+        <label>Standard Compact Layout</label>
+    </compactLayouts>
+    <fields>
+        <fullName>ActivityDate</fullName>
+    </fields>
+    <fields>
+        <fullName>CallDisposition</fullName>
+    </fields>
+    <fields>
+        <fullName>CallDurationInSeconds</fullName>
+    </fields>
+    <fields>
+        <fullName>CallObject</fullName>
+    </fields>
+    <fields>
+        <fullName>CallType</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>IsRecurrence</fullName>
+    </fields>
+    <fields>
+        <fullName>IsReminderSet</fullName>
+    </fields>
+    <fields>
+        <fullName>IsVisibleInSelfService</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>RecurrenceInterval</fullName>
+    </fields>
+    <fields>
+        <fullName>RecurrenceRegeneratedType</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TaskSubtype</fullName>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>WhatId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>WhoId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <compactLayoutAssignment>Standard_Compact_Layout</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <searchLayouts />
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>Client_HR_Require_Hours_of_Work</fullName>
+        <active>true</active>
+        <description>If task category is "Client HR" and status is other than "Not Started", then "Hours of Work" must be greater than 0.</description>
+        <errorConditionFormula>AND(
+ISPICKVAL(Category__c,"Client HR"),
+OR(
+ISPICKVAL(Status, "In Progress"),
+ISPICKVAL(Status, "Completed"),
+ISPICKVAL(Status, "Waiting on someone else"),
+ISPICKVAL(Status, "Deferred")),
+OR((Hours_of_Work__c &lt;= 0),ISBLANK(Hours_of_Work__c)),
+OR(
+Owner:User.LastName  = "Client Information Services",
+AND(Owner:User.LastName  = "Steele", Owner:User.FirstName  = "Aileen"),
+AND(Owner:User.LastName  = "Jones", Owner:User.FirstName  = "Donna"),
+AND(Owner:User.LastName  = "Hisano", Owner:User.FirstName  = "Erin"),
+AND(Owner:User.LastName  = "Butera-Duncan", Owner:User.FirstName  = "Joylee"),
+AND(Owner:User.LastName  = "Morse", Owner:User.FirstName  = "Kalani"),
+AND(Owner:User.LastName  = "Iwao", Owner:User.FirstName  = "Kimberly"),
+AND(Owner:User.LastName  = "Bonner", Owner:User.FirstName  = "Lori"),
+AND(Owner:User.LastName  = "Puaokalani", Owner:User.FirstName  = "Serena"),
+AND(Owner:User.LastName  = "Donnelly", Owner:User.FirstName  = "Tiffany"),
+AND(Owner:User.LastName  = "Leong", Owner:User.FirstName  = "Janelle"),
+AND(Owner:User.LastName  = "Daniels", Owner:User.FirstName  = "Jenell"),
+AND(Owner:User.LastName  = "Gomes", Owner:User.FirstName  = "Christopher"),
+AND(Owner:User.LastName  = "McKale", Owner:User.FirstName  = "David")
+)
+)</errorConditionFormula>
+        <errorDisplayField>Hours_of_Work__c</errorDisplayField>
+        <errorMessage>If task category is "Client HR" and status is other than "Not Started", then "Hours of Work" must be greater than 0.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Sub2_Must_Not_be_Blank_if_Call_Down</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( 
+ISPICKVAL(Category__c,"Client HR"), 
+ISPICKVAL(Sub_Category_1__c,"Training - Call Down"), 
+ISPICKVAL(Sub_Category_2__c,"") 
+)</errorConditionFormula>
+        <errorDisplayField>Sub_Category_2__c</errorDisplayField>
+        <errorMessage>Please make a selection for "Sub-Category 2". This field must not be blank if "Training - Call Down" is selected for "Sub-Category 1".</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Subject_field_must_not_be_blank</fullName>
+        <active>true</active>
+        <description>Subject field must not be blank</description>
+        <errorConditionFormula>ISBLANK(Subject)</errorConditionFormula>
+        <errorDisplayField>Subject</errorDisplayField>
+        <errorMessage>Subject field must be populated prior to saving the task.</errorMessage>
+    </validationRules>
+    <webLinks>
+        <fullName>Log_Activity</fullName>
+        <availability>online</availability>
+        <description>button for "Log an Activity"</description>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Log Activity</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <url>/00T/e?title=Call&amp;what_id={!Opportunity.Id}&amp;who_id={!Contact.Id}&amp;retURL=%2F{!Opportunity.Id}&amp;tsk12=Completed</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Log_an_Activity</fullName>
+        <availability>online</availability>
+        <description>Hack to remove a majority of the fields in logging an activity for Sales Cloud</description>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <linkType>url</linkType>
+        <masterLabel>Log an Activity</masterLabel>
+        <openType>replace</openType>
+        <protected>false</protected>
+        <requireRowSelection>false</requireRowSelection>
+        <url>/00T/e?title=Call&amp;what_id={!Opportunity.Id}&amp;who_id={!Contact.Id}&amp;retURL=%2F{!Opportunity.Id}&amp;tsk12=Completed</url>
+    </webLinks>
+    <webLinks>
+        <fullName>Training_Call_Down_History</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <height>800</height>
+        <linkType>url</linkType>
+        <masterLabel>Training Call Down History</masterLabel>
+        <openType>sidebar</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>/00O34000006423l?pv0={!Account.Client_ID__c}</url>
+    </webLinks>
+</CustomObject>

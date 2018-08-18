@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Approved for Salesforce Integration? --></label>
+        <name>Approved_for_Salesforce_Integration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Date --></label>
+        <name>CRMG_WF__ActivityDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Description --></label>
+        <name>CRMG_WF__ActivityDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Subject --></label>
+        <name>CRMG_WF__ActivitySubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Today --></label>
+        <name>CRMG_WF__Today__c</name>
+    </fields>
+    <fields>
+        <label><!-- Campaign Name --></label>
+        <name>Campaign_Name__c</name>
+        <picklistValues>
+            <masterLabel>50/50 Campaign</masterLabel>
+            <translation><!-- 50/50 Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ABC Campaign</masterLabel>
+            <translation><!-- ABC Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords - Construction</masterLabel>
+            <translation><!-- AdWords - Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords - HR Support</masterLabel>
+            <translation><!-- AdWords - HR Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords - Healthcare</masterLabel>
+            <translation><!-- AdWords - Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords - Payroll</masterLabel>
+            <translation><!-- AdWords - Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords - Remarketing</masterLabel>
+            <translation><!-- AdWords - Remarketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords - Restaurants</masterLabel>
+            <translation><!-- AdWords - Restaurants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords - Workers Comp</masterLabel>
+            <translation><!-- AdWords - Workers Comp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords Display - General</masterLabel>
+            <translation><!-- AdWords Display - General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords Display - General Image</masterLabel>
+            <translation><!-- AdWords Display - General Image --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AdWords Display - Managed Placement</masterLabel>
+            <translation><!-- AdWords Display - Managed Placement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Adwords - Consultation</masterLabel>
+            <translation><!-- Adwords - Consultation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BDM Top 10 Campaign</masterLabel>
+            <translation><!-- BDM Top 10 Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIA Golf Sponsorship</masterLabel>
+            <translation><!-- BIA Golf Sponsorship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display - Healthcare</masterLabel>
+            <translation><!-- Display - Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Display - Payroll</masterLabel>
+            <translation><!-- Display - Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Employee Retention ebook</masterLabel>
+            <translation><!-- Employee Retention ebook --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>H1 Churn 2018</masterLabel>
+            <translation><!-- H1 Churn 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Training</masterLabel>
+            <translation><!-- HR Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hawaii Business Print</masterLabel>
+            <translation><!-- Hawaii Business Print --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Company Campaign</masterLabel>
+            <translation><!-- New Company Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSHA 30 BIA</masterLabel>
+            <translation><!-- OSHA 30 BIA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outer Island Reengage 1Q18</masterLabel>
+            <translation><!-- Outer Island Reengage 1Q18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PBN Small Biz Expo</masterLabel>
+            <translation><!-- PBN Small Biz Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProService Blog</masterLabel>
+            <translation><!-- ProService Blog --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Q3 Promotion 2018</masterLabel>
+            <translation><!-- Q3 Promotion 2018 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stanton Big Island</masterLabel>
+            <translation><!-- Stanton Big Island --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 20 - Construction</masterLabel>
+            <translation><!-- Top 20 - Construction --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 20 - Healthcare</masterLabel>
+            <translation><!-- Top 20 - Healthcare --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 20 - Non-profit</masterLabel>
+            <translation><!-- Top 20 - Non-profit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Top 20 - Other</masterLabel>
+            <translation><!-- Top 20 - Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Hawaii SBDC</masterLabel>
+            <translation><!-- West Hawaii SBDC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact Generated From --></label>
+        <name>Contact_Generated_From__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Days to Reach Opportunity --></label>
+        <name>Days_to_Reach_Opportunity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of days from creation of Lead to Convert (Account/Opp/Contact) --></help>
+        <label><!-- Days took to convert --></label>
+        <name>Days_took_to_convert__c</name>
+    </fields>
+    <fields>
+        <label><!-- Direct Phone --></label>
+        <name>Direct_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimated number of employees (FT &amp; PT) working for the company --></help>
+        <label><!-- Estimated # of EEs --></label>
+        <name>Estimated_Number_of_EEs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Name --></label>
+        <name>Event_Name__c</name>
+        <picklistValues>
+            <masterLabel>Growth Series 3.27.18</masterLabel>
+            <translation><!-- Growth Series 3.27.18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Growth Series 6.27.18</masterLabel>
+            <translation><!-- Growth Series 6.27.18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kona Brewfest 3.10.18</masterLabel>
+            <translation><!-- Kona Brewfest 3.10.18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maui Chamber Event 2.21.18</masterLabel>
+            <translation><!-- Maui Chamber Event 2.21.18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Biz Academy 1.25.18</masterLabel>
+            <translation><!-- Small Biz Academy 1.25.18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Biz Academy 3.9.18</masterLabel>
+            <translation><!-- Small Biz Academy 3.9.18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmallBiz Awards 5.4.18</masterLabel>
+            <translation><!-- SmallBiz Awards 5.4.18 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- External ID --></label>
+        <name>External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Source --></label>
+        <name>External_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- First touch converting campaign --></label>
+        <name>First_touch_converting_campaign__c</name>
+    </fields>
+    <fields>
+        <help><!-- Island(s) the organization does business in --></help>
+        <label><!-- Island(s) --></label>
+        <name>Island_s__c</name>
+        <picklistValues>
+            <masterLabel>Hawaii</masterLabel>
+            <translation><!-- Hawaii --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kauai</masterLabel>
+            <translation><!-- Kauai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lanai</masterLabel>
+            <translation><!-- Lanai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maui</masterLabel>
+            <translation><!-- Maui --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Molokai</masterLabel>
+            <translation><!-- Molokai --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oahu</masterLabel>
+            <translation><!-- Oahu --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Last Activity Date --></label>
+        <name>Last_Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last marketing email name --></label>
+        <name>Last_marketing_email_name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last marketing email send date --></label>
+        <name>Last_marketing_email_send_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Date --></label>
+        <name>Lead_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lead Method --></label>
+        <name>Lead_Method__c</name>
+        <picklistValues>
+            <masterLabel>AIS</masterLabel>
+            <translation><!-- AIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ASB</masterLabel>
+            <translation><!-- ASB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Account Manager</masterLabel>
+            <translation><!-- Account Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Call In</masterLabel>
+            <translation><!-- Call In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Campaign</masterLabel>
+            <translation><!-- Campaign --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Event</masterLabel>
+            <translation><!-- Event --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HIIFS</masterLabel>
+            <translation><!-- HIIFS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HLTCA</masterLabel>
+            <translation><!-- HLTCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kaiser</masterLabel>
+            <translation><!-- Kaiser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prospecting Activities</masterLabel>
+            <translation><!-- Prospecting Activities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk In</masterLabel>
+            <translation><!-- Walk In --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Form</masterLabel>
+            <translation><!-- Web Form --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Lead Role --></label>
+        <name>Lead_Role__c</name>
+        <picklistValues>
+            <masterLabel>Admin</masterLabel>
+            <translation><!-- Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance</masterLabel>
+            <translation><!-- Finance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR</masterLabel>
+            <translation><!-- HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Owner/Executive</masterLabel>
+            <translation><!-- Owner/Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales/Marketing</masterLabel>
+            <translation><!-- Sales/Marketing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Marketing Campaign Source --></label>
+        <name>MarketingCampaignSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Account --></label>
+        <name>Parent_Account__c</name>
+        <relationshipLabel><!-- Leads (Parent Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Recent Conversion Date --></label>
+        <name>Recent_Conversion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referral --></label>
+        <name>Referral__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Client or Partner that referred the Organization to ProService --></help>
+        <label><!-- Referred by Client/Partner --></label>
+        <name>Referred_by_Client_Partner__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Department the employee belongs to that referred the Organization --></help>
+        <label><!-- Referred by Department --></label>
+        <name>Referred_by_Department__c</name>
+        <picklistValues>
+            <masterLabel>Account Management</masterLabel>
+            <translation><!-- Account Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accounting</masterLabel>
+            <translation><!-- Accounting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Benefits</masterLabel>
+            <translation><!-- Benefits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS</masterLabel>
+            <translation><!-- CIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Claims</masterLabel>
+            <translation><!-- Claims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client HR</masterLabel>
+            <translation><!-- Client HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive</masterLabel>
+            <translation><!-- Executive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Front Office</masterLabel>
+            <translation><!-- Front Office --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HR Associates</masterLabel>
+            <translation><!-- HR Associates --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT</masterLabel>
+            <translation><!-- IT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementation</masterLabel>
+            <translation><!-- Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Innovation</masterLabel>
+            <translation><!-- Innovation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Audit Team</masterLabel>
+            <translation><!-- Internal Audit Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal HR</masterLabel>
+            <translation><!-- Internal HR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legal</masterLabel>
+            <translation><!-- Legal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marketing</masterLabel>
+            <translation><!-- Marketing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll</masterLabel>
+            <translation><!-- Payroll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Hookela</masterLabel>
+            <translation><!-- Payroll-Hookela --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Hoomau</masterLabel>
+            <translation><!-- Payroll-Hoomau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Kokua</masterLabel>
+            <translation><!-- Payroll-Kokua --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Laulima</masterLabel>
+            <translation><!-- Payroll-Laulima --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Lokahi</masterLabel>
+            <translation><!-- Payroll-Lokahi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Payroll-Pono</masterLabel>
+            <translation><!-- Payroll-Pono --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing &amp; Analytics</masterLabel>
+            <translation><!-- Pricing &amp; Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Risk Control</masterLabel>
+            <translation><!-- Risk Control --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Operations</masterLabel>
+            <translation><!-- Sales Operations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solutions</masterLabel>
+            <translation><!-- Solutions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Place holder for data coming in from proferral website --></help>
+        <label><!-- Referred by EE (text) --></label>
+        <name>Referred_by_EE_Text__c</name>
+    </fields>
+    <fields>
+        <help><!-- Referred by Internal EE - Please fill this out if  Referred by EE (text is filled in), otherwise, this data will not move to the Opportunity. --></help>
+        <label><!-- Referred by EE (lookup) --></label>
+        <name>Referred_by_EE__c</name>
+        <relationshipLabel><!-- Leads --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Email of PSH employee registering the Lead or PROferral. --></help>
+        <label><!-- Referred by PSH Email --></label>
+        <name>Referred_by_PSH_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- From proferral web form page --></help>
+        <label><!-- Referring Client Contact Email --></label>
+        <name>Referring_Client_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- From Proferral web form page --></help>
+        <label><!-- Referring Client Contact First Name --></label>
+        <name>Referring_Client_Contact_First_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- From Proferral web form page --></help>
+        <label><!-- Referring Client Contact Last Name --></label>
+        <name>Referring_Client_Contact_Last_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- From Proferral web form page --></help>
+        <label><!-- Referring Client Contact Name --></label>
+        <name>Referring_Client_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- From proferral web form page --></help>
+        <label><!-- Referring Client Contact Phone # --></label>
+        <name>Referring_Client_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <help><!-- For Proferral program web form --></help>
+        <label><!-- Referring Client ID --></label>
+        <name>Referring_Client_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- From proferral page --></help>
+        <label><!-- Referring Client Name --></label>
+        <name>Referring_Client_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Reason the lead was disqualified --></help>
+        <label><!-- Rejected Reason --></label>
+        <name>Rejected_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Could not reach - Contact Information Not Valid</masterLabel>
+            <translation><!-- Could not reach - Contact Information Not Valid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Could not reach - No Response After Multiple Attempts</masterLabel>
+            <translation><!-- Could not reach - No Response After Multiple Attempts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Entry</masterLabel>
+            <translation><!-- Duplicate Entry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Interested - Reengage In The Future</masterLabel>
+            <translation><!-- Not Interested - Reengage In The Future --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Company is too early stage</masterLabel>
+            <translation><!-- Not a good fit - Company is too early stage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Cost</masterLabel>
+            <translation><!-- Not a good fit - Cost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Current Client</masterLabel>
+            <translation><!-- Not a good fit - Current Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Former client - we don't want</masterLabel>
+            <translation><!-- Not a good fit - Former client - we don&apos;t want --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Has Internal Team</masterLabel>
+            <translation><!-- Not a good fit - Has Internal Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - High Risk</masterLabel>
+            <translation><!-- Not a good fit - High Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Mainland/out of country</masterLabel>
+            <translation><!-- Not a good fit - Mainland/out of country --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Seeking a la carte services</masterLabel>
+            <translation><!-- Not a good fit - Seeking a la carte services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Too Few EEs</masterLabel>
+            <translation><!-- Not a good fit - Too Few EEs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a good fit - Union</masterLabel>
+            <translation><!-- Not a good fit - Union --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not a lead</masterLabel>
+            <translation><!-- Not a lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not at this Time - 1099s</masterLabel>
+            <translation><!-- Not at this Time - 1099s --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not at this Time - &lt; 3 EEs</masterLabel>
+            <translation><!-- Not at this Time - &lt; 3 EEs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not at this Time - A La Carte</masterLabel>
+            <translation><!-- Not at this Time - A La Carte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not at this Time - Month to month</masterLabel>
+            <translation><!-- Not at this Time - Month to month --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not at this Time - Not Ready</masterLabel>
+            <translation><!-- Not at this Time - Not Ready --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not at this Time - Staffing</masterLabel>
+            <translation><!-- Not at this Time - Staffing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Please leave context in Description field)</masterLabel>
+            <translation><!-- Other (Please leave context in Description field) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Staff can include details on how they know the lead they are submitting --></help>
+        <label><!-- Relationship to Lead --></label>
+        <name>Relationship_to_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- CorrelationID --></label>
+        <name>SFGA__CorrelationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correlation Data --></label>
+        <name>SFGA__Correlation_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Source --></label>
+        <name>SFGA__Web_Source__c</name>
+    </fields>
+    <fields>
+        <help><!-- From proferral web form page --></help>
+        <label><!-- Send a thank you to your referrer? --></label>
+        <name>Send_a_thank_you_to_your_referrer__c</name>
+        <picklistValues>
+            <masterLabel>Client Dinner</masterLabel>
+            <translation><!-- Client Dinner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Giftcard</masterLabel>
+            <translation><!-- Giftcard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PROferral Party</masterLabel>
+            <translation><!-- PROferral Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thank You Card</masterLabel>
+            <translation><!-- Thank You Card --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thanks a Latte</masterLabel>
+            <translation><!-- Thanks a Latte --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tote Bag</masterLabel>
+            <translation><!-- Tote Bag --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- UTM Campaign --></label>
+        <name>UTMCampaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Content --></label>
+        <name>UTMContent__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Medium --></label>
+        <name>UTMMedium__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Source --></label>
+        <name>UTMSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- UTM Term --></label>
+        <name>UTMTerm__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text field for user to enter HR challenge --></help>
+        <label><!-- Challenge/Comments --></label>
+        <name>UTM_Challenge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Updated from code --></label>
+        <name>Updated_from_code__c</name>
+    </fields>
+    <fields>
+        <help><!-- 1st Meeting Date --></help>
+        <label><!-- 1st Meeting Date --></label>
+        <name>X1st_Meeting_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- XXOpp External ID --></label>
+        <name>XXOpp_External_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Duplicate Check --></label>
+        <name>dupcheck__dc3DisableDuplicateCheck__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duplicate Check Index --></label>
+        <name>dupcheck__dc3Index__c</name>
+    </fields>
+    <fields>
+        <label><!-- is Web2Lead --></label>
+        <name>dupcheck__dc3Web2Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- test field --></label>
+        <name>test_field__c</name>
+    </fields>
+    <layouts>
+        <layout>HubSpot At A Glance</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Marketing Lead Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- HubSpot Intelligence --></label>
+            <section>HubSpot Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Internal Lead Web Form Data --></label>
+            <section>Internal Lead Web Form Data</section>
+        </sections>
+        <sections>
+            <label><!-- PROferral Web Form Data --></label>
+            <section>PROferral Web Form Data</section>
+        </sections>
+        <sections>
+            <label><!-- Web to Lead Form Data --></label>
+            <section>Web to Lead Form Data</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sales Lead Layout</layout>
+        <sections>
+            <label><!-- Additional Phone and Web --></label>
+            <section>Additional Phone and Web</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- HubSpot Intelligence --></label>
+            <section>HubSpot Intelligence</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Details --></label>
+            <section>Marketing Details</section>
+        </sections>
+        <sections>
+            <label><!-- Referral Information --></label>
+            <section>Referral Information</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Task --></label>
+        <name>New_Task</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Marketing Lead --></label>
+        <name>Marketing_Lead</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sales Lead --></label>
+        <name>Sales_Lead</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Please enter a rejected reason --></errorMessage>
+        <name>Disqualified</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter the contacts first name --></errorMessage>
+        <name>FirstName_Empty</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please fill out the First Meeting Date before conversion --></errorMessage>
+        <name>First_Meeting_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please enter a rejected reason --></errorMessage>
+        <name>Future_Review</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campaign is required for this specific Lead Source --></errorMessage>
+        <name>Marketing_Campaign_Require_Campaign</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Campaign is required for this specific Lead Source --></errorMessage>
+        <name>Marketing_Event_Require_Campaign</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must select 1 or more before getting a lead assignment. --></errorMessage>
+        <name>Must_Have_Island_for_Get_Lead_Assignment</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Conga_Composer_OAuth --></label>
+        <name>APXTConga4__Conga_Composer_OAuth</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Conga_Mail_Merge --></label>
+        <name>APXTConga4__Conga_Mail_Merge</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Tasks_Lead --></label>
+        <name>activities__Create_Tasks_Lead</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_with_DocuSign --></label>
+        <name>dsfs__Send_with_DocuSign</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Check --></label>
+        <name>dupcheck__dc3Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Convert --></label>
+        <name>dupcheck__dc3Convert</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- dc3Merge --></label>
+        <name>dupcheck__dc3Merge</name>
+    </webLinks>
+</CustomObjectTranslation>

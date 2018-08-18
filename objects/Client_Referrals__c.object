@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>Approx_of_Employees__c</fullName>
+        <externalId>false</externalId>
+        <label>Approx. # of Employees</label>
+        <precision>3</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Client Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Client Referrals</relationshipLabel>
+        <relationshipName>Client_Referrals</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Client_Relationship_to_Referral__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Contact Relationship to Referral</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Super Green</fullName>
+                    <default>false</default>
+                    <label>Super Green</label>
+                </value>
+                <value>
+                    <fullName>Green</fullName>
+                    <default>false</default>
+                    <label>Green</label>
+                </value>
+                <value>
+                    <fullName>Yellow</fullName>
+                    <default>false</default>
+                    <label>Yellow</label>
+                </value>
+                <value>
+                    <fullName>Red</fullName>
+                    <default>false</default>
+                    <label>Red</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Client</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Client_Referral_Statuses</relationshipName>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact_s_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact's Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_s_Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact's Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Contact_s_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Contact's Title</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Home_Department__c</fullName>
+        <externalId>false</externalId>
+        <label>Home Department</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Leadership</fullName>
+                    <default>false</default>
+                    <label>Leadership</label>
+                </value>
+                <value>
+                    <fullName>Account Management</fullName>
+                    <default>false</default>
+                    <label>Account Management</label>
+                </value>
+                <value>
+                    <fullName>Support Teams</fullName>
+                    <default>false</default>
+                    <label>Support Teams</label>
+                </value>
+                <value>
+                    <fullName>Operations</fullName>
+                    <default>false</default>
+                    <label>Operations</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Island__c</fullName>
+        <externalId>false</externalId>
+        <label>Island</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Big Island</fullName>
+                    <default>false</default>
+                    <label>Big Island</label>
+                </value>
+                <value>
+                    <fullName>Kauai</fullName>
+                    <default>false</default>
+                    <label>Kauai</label>
+                </value>
+                <value>
+                    <fullName>Maui</fullName>
+                    <default>false</default>
+                    <label>Maui</label>
+                </value>
+                <value>
+                    <fullName>Oahu</fullName>
+                    <default>false</default>
+                    <label>Oahu</label>
+                </value>
+                <value>
+                    <fullName>Other (Specify in Notes)</fullName>
+                    <default>false</default>
+                    <label>Other (Specify in Notes)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NBR_Initiative_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If this referral is tied to any 2014 initiative, please indicate which</inlineHelpText>
+        <label>NBR Initiative Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Imp-60</fullName>
+                    <default>false</default>
+                    <label>Imp-60</label>
+                </value>
+                <value>
+                    <fullName>Untouched-80+</fullName>
+                    <default>false</default>
+                    <label>Untouched-80+</label>
+                </value>
+                <value>
+                    <fullName>Reassigned Clients</fullName>
+                    <default>false</default>
+                    <label>Reassigned Clients</label>
+                </value>
+                <value>
+                    <fullName>VOC Follow-up</fullName>
+                    <default>false</default>
+                    <label>VOC Follow-up</label>
+                </value>
+                <value>
+                    <fullName>Boomerang (Former Client)</fullName>
+                    <default>false</default>
+                    <label>Boomerang (Former Client)</label>
+                </value>
+                <value>
+                    <fullName>Castle Program</fullName>
+                    <default>false</default>
+                    <label>Castle Program</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Name_of_Business_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Name of Business Contact</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>10000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ReferralStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Referral Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Successful</fullName>
+                    <default>false</default>
+                    <label>Successful</label>
+                </value>
+                <value>
+                    <fullName>In-Progress</fullName>
+                    <default>true</default>
+                    <label>In-Progress</label>
+                </value>
+                <value>
+                    <fullName>Unsuccessful</fullName>
+                    <default>false</default>
+                    <label>Unsuccessful</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Referral_Count__c</fullName>
+        <externalId>false</externalId>
+        <label>Referral Count</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Referral_Owner__c</fullName>
+        <externalId>false</externalId>
+        <label>Referral Owner</label>
+        <length>50</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Referred_Business_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Referred Business Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Type_of_Business__c</fullName>
+        <externalId>false</externalId>
+        <label>Type of Business</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>InDevelopment</deploymentStatus>
+    <description>Client Referral Owner and Status</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>Client Referral</label>
+    <nameField>
+        <label>Client Referral</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Client Referrals</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <validationRules>
+        <fullName>Department</fullName>
+        <active>true</active>
+        <errorConditionFormula>ISPICKVAL( Home_Department__c , "")</errorConditionFormula>
+        <errorMessage>Please select your Home Department to continue</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Successful_Referral</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND( ISPICKVAL( ReferralStatus__c , "Successful"),  ISBLANK( Client_Contact__c ),  ISBLANK( Client_Relationship_to_Referral__c),  ISBLANK( Referred_Business_Name__c),  ISBLANK( Type_of_Business__c),  ISBLANK( Name_of_Business_Contact__c),  ISBLANK( Contact_s_Title__c),  ISBLANK( Contact_s_Phone__c),  ISBLANK( Approx_of_Employees__c))</errorConditionFormula>
+        <errorMessage>Referral is incomplete.  Please fill every field to submit.</errorMessage>
+    </validationRules>
+</CustomObject>

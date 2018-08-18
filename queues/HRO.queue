@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>hro@proservicehawaii.com</email>
+    <name>HRO</name>
+    <queueMembers>
+        <users>
+            <user>andrew@proservicehawaii.com</user>
+            <user>bryan@proservicehawaii.com2</user>
+            <user>cherie@proservicehawaii.com</user>
+            <user>dawn@proservicehawaii.com</user>
+            <user>execs@proservicehawaii.com</user>
+            <user>hailey@proservicehawaii.com</user>
+            <user>joe@proservicehawaii.com</user>
+            <user>sara@proservicehawaii.com</user>
+            <user>stan@proservicehawaii.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

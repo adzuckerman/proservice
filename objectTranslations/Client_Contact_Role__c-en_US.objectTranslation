@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Client Contact Roles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CCI Full Name --></label>
+        <name>CCI_Full_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Phone Number --></label>
+        <name>CCR_Business_Phone_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- HIPAA Quarterly Trainings --></label>
+        <name>CCR_HIPAA_Quarterly_Trainings__c</name>
+    </fields>
+    <fields>
+        <label><!-- HR Trainings --></label>
+        <name>CCR_HR_Trainings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker --></label>
+        <name>CCR_Key_Decision_Maker__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Operational Contact --></label>
+        <name>CCR_Key_Operational_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Content Emails --></label>
+        <name>CCR_Marketing_Content_Emails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quarterly Tax Package Notices --></label>
+        <name>CCR_Quarterly_Tax_Package_Notices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>CCR_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Contact Individual --></label>
+        <name>Client_Contact_Individual__c</name>
+        <relationshipLabel><!-- Client Contact Roles --></relationshipLabel>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Client Contact Role</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Client Contact Roles</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+    <layouts>
+        <layout>Client Contact Role Layout</layout>
+        <sections>
+            <label><!-- Communication Engagement Roles --></label>
+            <section>Communication Engagement Roles</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Opt In/Opt Out Communication Preferences --></label>
+            <section>Opt In/Opt Out Communication Preferences</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SecuritySettings xmlns="http://soap.sforce.com/2006/04/metadata">
+    <networkAccess>
+        <ipRanges>
+            <description>DR Fortress - Hurricane Electric</description>
+            <end>184.105.177.254</end>
+            <start>184.105.177.240</start>
+        </ipRanges>
+        <ipRanges>
+            <end>99.129.216.255</end>
+            <start>99.129.216.1</start>
+        </ipRanges>
+        <ipRanges>
+            <end>86.124.81.1</end>
+            <start>86.124.81.1</start>
+        </ipRanges>
+        <ipRanges>
+            <description>M. Romero - MondayCall</description>
+            <end>76.219.206.43</end>
+            <start>76.219.206.43</start>
+        </ipRanges>
+        <ipRanges>
+            <description>Hawaii Kai - Hawaiian Telecom</description>
+            <end>72.234.97.129</end>
+            <start>72.234.97.129</start>
+        </ipRanges>
+        <ipRanges>
+            <description>DR Fortress - Century Link</description>
+            <end>66.193.154.206</end>
+            <start>66.193.154.200</start>
+        </ipRanges>
+    </networkAccess>
+    <passwordPolicies>
+        <complexity>SpecialCharacters</complexity>
+        <expiration>Never</expiration>
+        <historyRestriction>3</historyRestriction>
+        <lockoutInterval>ThirtyMinutes</lockoutInterval>
+        <maxLoginAttempts>ThreeAttempts</maxLoginAttempts>
+        <minimumPasswordLength>8</minimumPasswordLength>
+        <minimumPasswordLifetime>true</minimumPasswordLifetime>
+        <obscureSecretAnswer>true</obscureSecretAnswer>
+        <questionRestriction>DoesNotContainPassword</questionRestriction>
+    </passwordPolicies>
+    <sessionSettings>
+        <disableTimeoutWarning>false</disableTimeoutWarning>
+        <enableCSPOnEmail>true</enableCSPOnEmail>
+        <enableCSRFOnGet>true</enableCSRFOnGet>
+        <enableCSRFOnPost>true</enableCSRFOnPost>
+        <enableCacheAndAutocomplete>true</enableCacheAndAutocomplete>
+        <enableClickjackNonsetupSFDC>true</enableClickjackNonsetupSFDC>
+        <enableClickjackNonsetupUser>true</enableClickjackNonsetupUser>
+        <enableClickjackNonsetupUserHeaderless>true</enableClickjackNonsetupUserHeaderless>
+        <enableClickjackSetup>true</enableClickjackSetup>
+        <enableContentSniffingProtection>true</enableContentSniffingProtection>
+        <enablePostForSessions>false</enablePostForSessions>
+        <enableSMSIdentity>true</enableSMSIdentity>
+        <enableUpgradeInsecureRequests>true</enableUpgradeInsecureRequests>
+        <enableXssProtection>true</enableXssProtection>
+        <enforceIpRangesEveryRequest>true</enforceIpRangesEveryRequest>
+        <forceLogoutOnSessionTimeout>true</forceLogoutOnSessionTimeout>
+        <forceRelogin>false</forceRelogin>
+        <hstsOnForcecomSites>true</hstsOnForcecomSites>
+        <identityConfirmationOnEmailChange>false</identityConfirmationOnEmailChange>
+        <identityConfirmationOnTwoFactorRegistrationEnabled>true</identityConfirmationOnTwoFactorRegistrationEnabled>
+        <lockSessionsToDomain>true</lockSessionsToDomain>
+        <lockSessionsToIp>false</lockSessionsToIp>
+        <redirectionWarning>false</redirectionWarning>
+        <referrerPolicy>true</referrerPolicy>
+        <requireHttpOnly>true</requireHttpOnly>
+        <requireHttps>true</requireHttps>
+        <securityCentralKillSession>true</securityCentralKillSession>
+        <sessionTimeout>SixtyMinutes</sessionTimeout>
+    </sessionSettings>
+</SecuritySettings>

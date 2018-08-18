@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_5399577</developerName>
+        <masterLabel>Group</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>OWNER_ROLE</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Director of Claims Management</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Safety</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Safety temp</sourceValue>
+            </sourceValues>
+            <value>Safety</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Client HR</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Client HR Manager</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>HR Compliance Team Queue</sourceValue>
+            </sourceValues>
+            <value>Client HR</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>UI Claims Users</sourceValue>
+            </sourceValues>
+            <value>UI Claims</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>WC Claims</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>WC Claims User</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>WC Manager</sourceValue>
+            </sourceValues>
+            <value>WC Claims</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Consultant</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Consultation Manager</sourceValue>
+            </sourceValues>
+            <value>Consultation</value>
+        </values>
+    </buckets>
+    <colorRanges>
+        <aggregate>Sum</aggregate>
+        <columnName>Activity.Hours_of_Work__c</columnName>
+        <highBreakpoint>2.0</highBreakpoint>
+        <highColor>#C25454</highColor>
+        <lowBreakpoint>1.0</lowBreakpoint>
+        <lowColor>#54C28B</lowColor>
+        <midColor>#C2C254</midColor>
+    </colorRanges>
+    <columns>
+        <field>Account.Client_ID__c</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Activity.Hours_of_Work__c</field>
+    </columns>
+    <columns>
+        <field>STATUS</field>
+    </columns>
+    <columns>
+        <field>DUE_DATE</field>
+    </columns>
+    <columns>
+        <field>ASSIGNED</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE_BY</field>
+    </columns>
+    <columns>
+        <field>LAST_UPDATE</field>
+    </columns>
+    <columns>
+        <field>CREATED_BY</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>Activity.Category__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Sub_Category_1__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Sub_Category_2__c</field>
+    </columns>
+    <columns>
+        <field>Activity.Sub_Category_3__c</field>
+    </columns>
+    <columns>
+        <field>PRIORITY</field>
+    </columns>
+    <columns>
+        <field>TASK_TYPE</field>
+    </columns>
+    <columns>
+        <field>FULL_DESCRIPTION</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>OWNER_ROLE</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>HR Compliance Team Queue,Client HR,Client HR Manager</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Category__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Client HR</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Activity.Sub_Category_1__c</column>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Consultation</value>
+        </criteriaItems>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Account.HR_Consultant__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ACCOUNT.NAME</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Client HR Consultation Workload</name>
+    <params>
+        <name>closed</name>
+        <value>all</value>
+    </params>
+    <params>
+        <name>type</name>
+        <value>te</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountActivity</reportType>
+    <scope>organization</scope>
+    <showDetails>false</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>DUE_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CURFY</interval>
+    </timeFrameFilter>
+</Report>

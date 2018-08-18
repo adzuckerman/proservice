@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Auto-response when new free ebook is requested online.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Leads: Web-to-Lead Ebook email response - To Lead</name>
+    <style>none</style>
+    <subject>{!Lead.Company}: Thank you for your interest</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,714 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <fields>
+        <fullName>Billing_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Address</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_City__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing City</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_State__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing State</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Street__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Street</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_ZIP__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing ZIP</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Client ID</label>
+        <precision>5</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Legal_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Legal Name</label>
+        <length>75</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Client Name</label>
+        <length>60</length>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client_Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Status of Overall Account (Active/Termed)</inlineHelpText>
+        <label>Client Status</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Client__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Client</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>NSFs</relationshipLabel>
+        <relationshipName>NSFs</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Collection_Complete__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the total amount was collected</inlineHelpText>
+        <label>Collection Complete</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Collections_Balance__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Amount sent to collections</inlineHelpText>
+        <label>Collections Balance</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Collections_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the file was sent to collections</inlineHelpText>
+        <label>Collections Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Collections_Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Collections Notes</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <length>32000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Contact_Phone__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Direct Line to Contact</inlineHelpText>
+        <label>Contact Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Contact 1 from main client page</inlineHelpText>
+        <label>Contact</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Credit_Check_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Credit Check Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Credit_Check_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the credit score was checked</inlineHelpText>
+        <label>Credit Check Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Credit_Check__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if credit was checked</inlineHelpText>
+        <label>Credit Check</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Credit_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Credit Score</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Current_Total_Due__c</fullName>
+        <externalId>false</externalId>
+        <formula>NSF_Amount__c  -  Total_Paid__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>NSF Amount less Total Paid</inlineHelpText>
+        <label>Current Total Due</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Default_Notice_Sent__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the default notice was sent to client.</inlineHelpText>
+        <label>Default Notice Sent</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Deposit amount currently on file.</inlineHelpText>
+        <label>Deposit Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Deposit_Billed__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Amount of deposit to be billed to the client.</inlineHelpText>
+        <label>Deposit Billed</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date we expect NSF to be cleared/paid in full</inlineHelpText>
+        <label>Due Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Finance_Chg_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>NSF_PayPeriod__c +5</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Finance Chg Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Follow_up_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Follow-up Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>NSF_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total $$ Amount of the NSF</inlineHelpText>
+        <label>NSF Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>NSF_PayPeriod__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Payroll period that NSF'd</inlineHelpText>
+        <label>NSF PayPeriod</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Notice_Date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date the NSF notice was rec'd from the bank.</inlineHelpText>
+        <label>Notice Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Occurrence__c</fullName>
+        <externalId>false</externalId>
+        <label>Occurrence w/in 12 months</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1st Occurrence</fullName>
+                    <default>false</default>
+                    <label>1st Occurrence</label>
+                </value>
+                <value>
+                    <fullName>2nd Occurrence</fullName>
+                    <default>false</default>
+                    <label>2nd Occurrence</label>
+                </value>
+                <value>
+                    <fullName>3rd Occurrence</fullName>
+                    <default>false</default>
+                    <label>3rd Occurrence</label>
+                </value>
+                <value>
+                    <fullName>Additional Occurrence</fullName>
+                    <default>false</default>
+                    <label>Additional Occurrence</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Paid_in_Full__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Expected date payment plan is to be paid in full.</inlineHelpText>
+        <label>Paid in Full</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Past_Due_Days__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText># of Days Past Due</inlineHelpText>
+        <label>Past Due Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Cycle__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>How often payment is required.</inlineHelpText>
+        <label>Payment Cycle</label>
+        <length>15</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payment_Plan_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Expected Payment per month/payperiod required</inlineHelpText>
+        <label>Payment Plan Amount</label>
+        <precision>12</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Payroll_Cycle__c</fullName>
+        <externalId>false</externalId>
+        <label>Payroll Cycle</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Payroll_Hold__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check if payroll hold has been placed.</inlineHelpText>
+        <label>Payroll Hold</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Payroll_released__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Checked to indicate that payroll is ok to release.</inlineHelpText>
+        <label>Ok to Release Payroll</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Phone__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>ACH Reprocessed</fullName>
+                    <default>false</default>
+                    <label>ACH Reprocessed</label>
+                </value>
+                <value>
+                    <fullName>Cashier's Check Rec'd</fullName>
+                    <default>false</default>
+                    <label>Cashier's Check Rec'd</label>
+                </value>
+                <value>
+                    <fullName>Payment Promised</fullName>
+                    <default>false</default>
+                    <label>Payment Promised</label>
+                </value>
+                <value>
+                    <fullName>Payment Plan</fullName>
+                    <default>false</default>
+                    <label>Payment Plan</label>
+                </value>
+                <value>
+                    <fullName>COD</fullName>
+                    <default>false</default>
+                    <label>COD</label>
+                </value>
+                <value>
+                    <fullName>Client Call - A/R</fullName>
+                    <default>false</default>
+                    <label>Client Call - A/R</label>
+                </value>
+                <value>
+                    <fullName>Client Call - AM</fullName>
+                    <default>false</default>
+                    <label>Client Call - AM</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Client Termed</fullName>
+                    <default>false</default>
+                    <label>Client Termed</label>
+                </value>
+                <value>
+                    <fullName>Internal Inquiries in Progress</fullName>
+                    <default>false</default>
+                    <label>Internal Inquiries in Progress</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Team__c</fullName>
+        <externalId>false</externalId>
+        <label>Team</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lokahi</fullName>
+                    <default>false</default>
+                    <label>Lokahi</label>
+                </value>
+                <value>
+                    <fullName>Pono</fullName>
+                    <default>false</default>
+                    <label>Pono</label>
+                </value>
+                <value>
+                    <fullName>Kokua</fullName>
+                    <default>false</default>
+                    <label>Kokua</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Total_Paid__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Total amount paid towards NSF</inlineHelpText>
+        <label>Total Paid</label>
+        <precision>8</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>X1st_Installment_Invoice__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date of 1st invoice to receive billed deposit</inlineHelpText>
+        <label>1st Installment Invoice</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Account NSF History</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>NSF</label>
+    <nameField>
+        <label>NSF Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>NSFs</pluralLabel>
+    <searchLayouts>
+        <searchResultsAdditionalFields>NSF_Amount__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>NSF_PayPeriod__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client__c</columns>
+        <columns>Client_Status__c</columns>
+        <columns>Notice_Date__c</columns>
+        <columns>Due_Date__c</columns>
+        <columns>NSF_Amount__c</columns>
+        <columns>Occurrence__c</columns>
+        <columns>Status__c</columns>
+        <columns>Payroll_Hold__c</columns>
+        <columns>Credit_Check__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Closed</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client_Name__c</columns>
+        <columns>Client_Status__c</columns>
+        <columns>NSF_Amount__c</columns>
+        <columns>Occurrence__c</columns>
+        <columns>Phone__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Client Termed,Closed</value>
+        </filters>
+        <label>All Closed</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Open</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client_Name__c</columns>
+        <columns>Client_Status__c</columns>
+        <columns>Team__c</columns>
+        <columns>NSF_Amount__c</columns>
+        <columns>Total_Paid__c</columns>
+        <columns>Current_Total_Due__c</columns>
+        <columns>Occurrence__c</columns>
+        <columns>Status__c</columns>
+        <columns>Follow_up_Date__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>notEqual</operation>
+            <value>Closed,Client Termed</value>
+        </filters>
+        <label>All Open</label>
+    </listViews>
+    <listViews>
+        <fullName>Today_s_NSF_s</fullName>
+        <columns>NAME</columns>
+        <columns>Client_ID__c</columns>
+        <columns>Client_Name__c</columns>
+        <columns>Client_Status__c</columns>
+        <columns>NSF_Amount__c</columns>
+        <columns>Occurrence__c</columns>
+        <columns>Due_Date__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today's NSF's</label>
+    </listViews>
+</CustomObject>
